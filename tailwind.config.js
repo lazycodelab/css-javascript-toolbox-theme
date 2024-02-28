@@ -7,8 +7,8 @@ module.exports = {
 			body: ['"Poppins", sans-serif'],
 	  },
 	  extend: {
-		  colors: {
-			'brand-blue': '#005DA4'
+		colors: {
+			'brand-blue': '#005DA4',
 		}
 	},
   },

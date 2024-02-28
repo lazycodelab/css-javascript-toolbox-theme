@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template Name: Home page
  * Post Type: post, page, event
@@ -22,5 +23,5 @@ get_header();
 </main>
 
 <?php
-get_sidebar();
+
 get_footer();
