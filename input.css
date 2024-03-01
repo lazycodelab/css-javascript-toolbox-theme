@@ -13,3 +13,13 @@
 	}
 }
 
+@layer utilities {
+	#nav-menu {
+		@apply flex items-center gap-5;
+	}
+
+	#nav-menu li a {
+		@apply text-black transition font-semibold text-base hover:text-black/75;
+	}
+}
+

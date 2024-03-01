@@ -80,31 +80,12 @@
 
 					<div class="md:flex md:items-center md:gap-12">
 						<nav aria-label="Global" class="hidden md:block">
-							<ul class="flex items-center gap-5">
-								<li>
-									<a class="text-black transition font-semibold text-base hover:text-black/75" href="#"> About </a>
-								</li>
-
-								<li>
-									<a class="text-black transition font-semibold text-base hover:text-black/75" href="#"> Careers </a>
-								</li>
-
-								<li>
-									<a class="text-black transition font-semibold text-base hover:text-black/75" href="#"> History </a>
-								</li>
-
-								<li>
-									<a class="text-black transition font-semibold text-base hover:text-black/75" href="#"> Services </a>
-								</li>
-
-								<li>
-									<a class="text-black transition font-semibold text-base hover:text-black/75" href="#"> Projects </a>
-								</li>
-
-								<li>
-									<a class="text-black transition font-semibold text-base hover:text-black/75" href="#"> Blog </a>
-								</li>
-							</ul>
+							<?php
+							wp_nav_menu(array(
+								'menu_class'           => 'menu',
+								'menu_id'              => 'nav-menu',
+							));
+							?>
 						</nav>
 
 						<div class="flex items-center gap-4">

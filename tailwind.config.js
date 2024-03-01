@@ -10,7 +10,10 @@ module.exports = {
 		colors: {
 			'brand-blue': '#005DA4',
 			'brand-light-blue': '#DEF1FF'
-		}
+		},
+		boxShadow: {
+			'neo-sm': '4px 4px'
+		},
 	},
   },
   plugins: [],
