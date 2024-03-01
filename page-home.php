@@ -17,7 +17,11 @@ get_header();
 
 	<?php
 	get_template_part('template-parts/sections/section', 'hero');
-
+	get_template_part('template-parts/sections/section', 'reasons');
+	get_template_part('template-parts/sections/section', 'testimonials');
+	get_template_part('template-parts/sections/section', 'pricing');
+	get_template_part('template-parts/sections/section', 'faq');
+	get_template_part('template-parts/sections/section', 'banner');
 	?>
 
 </main>
