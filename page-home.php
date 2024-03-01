@@ -17,6 +17,8 @@ get_header();
 
 	<?php
 	get_template_part('template-parts/sections/section', 'hero');
+	get_template_part('template-parts/sections/section', 'cards');
+	get_template_part('template-parts/sections/section', 'features');
 	get_template_part('template-parts/sections/section', 'reasons');
 	get_template_part('template-parts/sections/section', 'testimonials');
 	get_template_part('template-parts/sections/section', 'pricing');
