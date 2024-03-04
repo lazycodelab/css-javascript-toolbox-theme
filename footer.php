@@ -289,7 +289,7 @@
 		</div>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 <script type="module">
 	import marquee from './dist/vanilla-marquee.min.js';
 </script>
