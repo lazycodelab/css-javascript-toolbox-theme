@@ -13,7 +13,7 @@
 ?>
 
 <footer>
-	<div class="mx-auto container space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8 relative">
+	<div class="mx-auto container space-y-8 px-4 pb-16 sm:px-6 lg:space-y-16 lg:px-8 relative">
 		<div class="py-24">
 			<div class="bg-brand-light-blue rounded-lg p-24 relative">
 				<div class="grid grid-cols-1 gap-4 lg:grid-cols-12 lg:gap-8 items-center">
@@ -290,6 +290,10 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+<script type="module">
+	import marquee from './dist/vanilla-marquee.min.js';
+</script>
 <script src="<?= get_template_directory_uri() ?>/assets/js/script.js" defer></script>
 </body>
+
 </html>

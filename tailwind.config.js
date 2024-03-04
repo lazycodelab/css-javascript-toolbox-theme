@@ -9,7 +9,8 @@ module.exports = {
 	  extend: {
 		colors: {
 			'brand-blue': '#005DA4',
-			'brand-light-blue': '#DEF1FF'
+			'brand-light-blue': '#DEF1FF',
+			'brand-light-blue-2': '#EBF7FF',
 		},
 		boxShadow: {
 			'neo-sm': '4px 4px'

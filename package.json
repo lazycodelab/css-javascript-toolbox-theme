@@ -11,5 +11,8 @@
 	"scripts": {
 		"watch": "bun tailwindcss -i ./input.css -o ./style.css --watch",
 		"lint:js": "wp-scripts lint-js 'js/*.js'"
+	},
+	"dependencies": {
+		"react-fast-marquee": "^1.6.4"
 	}
 }

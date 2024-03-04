@@ -10,4 +10,17 @@ const testimomialSwiper = new Swiper(".testimomialSwiper", {
         prevEl: ".swiper-button-prev",
     },
 });
-    
+
+
+const marqueeTestimomialSwiper = new Swiper('.marqueeTestimomialSwiper', {
+    direction: 'vertical',
+    loop: true,
+    slidesPerView: 'auto',
+    freeMode: true,
+    speed: 20000,
+    loop: true,
+    autoplay: {
+        delay: 1,
+        disableOnInteraction: true,
+    },
+});

@@ -23,7 +23,7 @@ get_header();
 	get_template_part('template-parts/sections/section', 'testimonials');
 	get_template_part('template-parts/sections/section', 'pricing');
 	get_template_part('template-parts/sections/section', 'faq');
-	get_template_part('template-parts/sections/section', 'banner');
+	get_template_part('template-parts/sections/section', 'cta');
 	?>
 
 </main>
