@@ -637,7 +637,7 @@
                 <tr>
                     <td></td>
                     <td class="w-full overflow-hidden">
-                        <svg height="322" viewBox="0 0 434 322" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg width="100%" height="322" viewBox="0 0 434 322" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_348_14239)">
                                 <rect width="100%" height="322" fill="#005DA4" />
                                 <path d="M227 -5H204L212.5 64H222.5L227 -5Z" fill="#EBF7FF" fill-opacity="0.4" />
