@@ -29,8 +29,6 @@
 			<svg viewBox="0 0 417 417" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path d="M164 360.5C139.667 342.333 98.3002 296.3 127.5 257.5C164 209 285.5 301.5 289 194.5C292.5 87.5 165 184.5 178.5 54M416 208.5C416 323.099 323.099 416 208.5 416C93.9009 416 1 323.099 1 208.5C1 93.9009 93.9009 1 208.5 1C323.099 1 416 93.9009 416 208.5Z" stroke="#005DA4" />
 			</svg>
-
-
 			<div class="rounded-md shadow-md px-5 py-2 absolute bg-white border border-neutral-950 top-14 left-2">
 				<div class="flex flex-col items-center justify-center">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="0.5" stroke="currentColor" class="size-14">
@@ -41,7 +39,6 @@
 
 				</div>
 			</div>
-
 			<div class="rounded-md shadow-md px-5 py-2 absolute bg-white border border-neutral-950 bottom-10 right-8">
 				<div class="flex flex-col items-center justify-center space-y-3">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="0.5" stroke="currentColor" class="size-14">
