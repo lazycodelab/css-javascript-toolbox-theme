@@ -11,9 +11,9 @@
 ?>
 
 <section class="lg:px-24 relative h-screen">
-	<div class="lg:container lg:mx-auto grid grid-cols-2 lg:gap-x-12 items-center">
-		<div class="space-y-10">
-			<div class="space-y-5">
+	<div class="container mx-auto grid grid-cols-1 lg:grid-cols-12 lg:gap-x-12 items-center">
+		<div class="space-y-10 lg:col-span-8">
+			<div class="space-y-5 pt-24">
 				<h1 class="text-7xl font-display leading-tight">
 					The perfect WordPress plugin for adding code
 				</h1>
@@ -21,11 +21,11 @@
 					Modular. Versatile. Effortless
 				</h2>
 			</div>
-			<p class="mt-10 max-w-screen-sm text-lg leading-loose tracking-wide text-neutral-600">Supercharge Your WordPress Experience! Meet the ultimate code-adding plugin for effortless customization. From rookies to coding ninjas, unleash your website's full potential now.</p>
+			<p class="max-w-2xl font-medium text-lg leading-loose tracking-wide text-neutral-600">Start working with that can provide everything you need to generate awareness, drive traffic, connect. Efficiently transform granular value with client-focused.</p>
 
 			<?php get_template_part('template-parts/components/component', 'button', ['content' => 'Get CJT PLUS NOW', 'url' => '/']); ?>
 		</div>
-		<div class="relative">
+		<div class="relative lg:col-span-4">
 			<svg viewBox="0 0 417 417" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path d="M164 360.5C139.667 342.333 98.3002 296.3 127.5 257.5C164 209 285.5 301.5 289 194.5C292.5 87.5 165 184.5 178.5 54M416 208.5C416 323.099 323.099 416 208.5 416C93.9009 416 1 323.099 1 208.5C1 93.9009 93.9009 1 208.5 1C323.099 1 416 93.9009 416 208.5Z" stroke="#005DA4" />
 			</svg>

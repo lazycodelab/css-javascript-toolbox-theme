@@ -632,8 +632,8 @@ html {
   bottom: 2.5rem;
 }
 
-.bottom-14 {
-  bottom: 3.5rem;
+.bottom-20 {
+  bottom: 5rem;
 }
 
 .bottom-28 {
@@ -706,10 +706,6 @@ html {
 
 .top-full {
   top: 100%;
-}
-
-.bottom-20 {
-  bottom: 5rem;
 }
 
 .-z-10 {
@@ -900,6 +896,10 @@ html {
 
 .max-w-screen-sm {
   max-width: 640px;
+}
+
+.max-w-xl {
+  max-width: 36rem;
 }
 
 .flex-1 {
@@ -1332,6 +1332,10 @@ html {
   padding-bottom: 16rem;
 }
 
+.pb-96 {
+  padding-bottom: 24rem;
+}
+
 .pt-24 {
   padding-top: 6rem;
 }
@@ -1350,10 +1354,6 @@ html {
 
 .pt-60 {
   padding-top: 15rem;
-}
-
-.pb-96 {
-  padding-bottom: 24rem;
 }
 
 .text-center {
@@ -1826,6 +1826,14 @@ html {
 
   .lg\:col-span-3 {
     grid-column: span 3 / span 3;
+  }
+
+  .lg\:col-span-4 {
+    grid-column: span 4 / span 4;
+  }
+
+  .lg\:col-span-8 {
+    grid-column: span 8 / span 8;
   }
 
   .lg\:col-span-9 {
