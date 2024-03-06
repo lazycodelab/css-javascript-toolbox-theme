@@ -13,82 +13,12 @@
 <section class="bg-white relative">
     <!-- Left Gradient Effect -->
     <div class="absolute left-0 h-full">
-        <svg width="423" class="h-full" viewBox=" 0 0 423 398" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g filter="url(#filter0_f_384_3731)">
-                <circle cx="18" cy="13" r="161" fill="#ACDBFF" />
-            </g>
-            <g filter="url(#filter1_f_384_3731)">
-                <circle cx="65.5" cy="192.5" r="104.5" fill="#ADCCE5" />
-            </g>
-            <g filter="url(#filter2_f_384_3731)">
-                <circle cx="-38.5" cy="342.5" r="104.5" fill="#747FF0" />
-            </g>
-            <g filter="url(#filter3_f_384_3731)">
-                <circle cx="144" cy="343" r="144" fill="#FBA697" />
-            </g>
-            <defs>
-                <filter id="filter0_f_384_3731" x="-293" y="-298" width="622" height="622" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                    <feGaussianBlur stdDeviation="75" result="effect1_foregroundBlur_384_3731" />
-                </filter>
-                <filter id="filter1_f_384_3731" x="-136.36" y="-9.36024" width="403.72" height="403.72" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                    <feGaussianBlur stdDeviation="48.6801" result="effect1_foregroundBlur_384_3731" />
-                </filter>
-                <filter id="filter2_f_384_3731" x="-240.36" y="140.64" width="403.72" height="403.72" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                    <feGaussianBlur stdDeviation="48.6801" result="effect1_foregroundBlur_384_3731" />
-                </filter>
-                <filter id="filter3_f_384_3731" x="-134.161" y="64.8385" width="556.323" height="556.323" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                    <feGaussianBlur stdDeviation="67.0807" result="effect1_foregroundBlur_384_3731" />
-                </filter>
-            </defs>
-        </svg>
+        <img class="h-full" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/left-gradient-effect.svg" />
     </div>
 
     <!-- Right Gradient Effect -->
     <div class="absolute right-0 h-full">
-        <svg width="422" class="h-full" viewBox="0 0 422 398" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g filter="url(#filter0_f_384_3736)">
-                <circle cx="161" cy="161" r="161" transform="matrix(-1 0 0 1 527 -108)" fill="#ACDBFF" />
-            </g>
-            <g filter="url(#filter1_f_384_3736)">
-                <circle cx="104.5" cy="104.5" r="104.5" transform="matrix(-1 0 0 1 462 88)" fill="#ADCCE5" />
-            </g>
-            <g filter="url(#filter2_f_384_3736)">
-                <circle cx="104.5" cy="104.5" r="104.5" transform="matrix(-1 0 0 1 566 238)" fill="#747FF0" />
-            </g>
-            <g filter="url(#filter3_f_384_3736)">
-                <circle cx="144" cy="144" r="144" transform="matrix(-1 0 0 1 423 199)" fill="#FBA697" />
-            </g>
-            <defs>
-                <filter id="filter0_f_384_3736" x="55" y="-258" width="622" height="622" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                    <feGaussianBlur stdDeviation="75" result="effect1_foregroundBlur_384_3736" />
-                </filter>
-                <filter id="filter1_f_384_3736" x="155.64" y="-9.36024" width="403.72" height="403.72" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                    <feGaussianBlur stdDeviation="48.6801" result="effect1_foregroundBlur_384_3736" />
-                </filter>
-                <filter id="filter2_f_384_3736" x="259.64" y="140.64" width="403.72" height="403.72" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                    <feGaussianBlur stdDeviation="48.6801" result="effect1_foregroundBlur_384_3736" />
-                </filter>
-                <filter id="filter3_f_384_3736" x="0.838516" y="64.8385" width="556.323" height="556.323" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                    <feGaussianBlur stdDeviation="67.0807" result="effect1_foregroundBlur_384_3736" />
-                </filter>
-            </defs>
-        </svg>
+        <img class="h-full" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/right-gradient-effect.svg" />
     </div>
 
     <div class="mx-auto max-w-5xl text-center p-8 md:p-12 lg:px-16 lg:py-24 space-y-10 relative">
