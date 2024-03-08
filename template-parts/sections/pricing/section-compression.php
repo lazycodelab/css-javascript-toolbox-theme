@@ -139,7 +139,7 @@
                     </td>
                 </tr>
                 <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
-                    <td class="p-6">Header and Footer output hooks (Code block to header or footer of page)</td>
+                    <td class="p-6">Header and Footer output hooks(Code block to header or footer of page)</td>
                     <td class="p-6 bg-brand-blue text-white">
                         <div class="flex justify-center gap-2.5">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -153,7 +153,7 @@
                     </td>
                 </tr>
                 <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
-                    <td class="p-6">Additional output hooks (Code block to page sections)</td>
+                    <td class="p-6">Additional output hooks(Code block to page sections)</td>
                     <td class="p-6 bg-black text-white">
                         <div class="flex flex-col justify-center gap-2.5">
                             <div class="flex justify-center gap-2.5">
