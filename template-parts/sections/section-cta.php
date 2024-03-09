@@ -39,7 +39,7 @@
                 tempora nisi?
             </p>
         </div>
-        <a class="rounded-lg bg-black inline-flex px-6 text-lg py-3.5 font-medium text-white" href="/">
+        <a class="rounded-lg bg-black inline-flex px-6 py-3.5 md:text-lg text-base font-medium text-white" href="/">
             Explore Plugins Now
         </a>
     </div>
