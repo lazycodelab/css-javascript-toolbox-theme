@@ -10,43 +10,46 @@
 
 ?>
 <section class="relative bg-gradient-to-b from-white to-sky-50">
-    <div class="container mx-auto pb-96">
-        <div class="space-y-5 max-w-4xl mx-auto text-center my-24">
-            <h1 class="text-5xl text-neutral-900 font-display">
+    <div class="container mx-auto md:pb-96 pb-32">
+        <div class="space-y-5 max-w-4xl mx-auto text-center mt-24 md:px-0 px-5">
+            <h1 class="md:text-5xl text-2xl text-neutral-900 font-display">
                 Hello, how can we help?
             </h1>
-            <p class="font-medium text-xl text-neutral-600">If you would like to send the CJT PLUS team a message, please use the contact form below.</p>
+            <p class="font-medium md:text-xl text-base text-neutral-600">If you would like to send the CJT PLUS team a message, please use the contact form below.</p>
         </div>
-        <div class="py-24 relative"> 
-            <div class="bg-white rounded-lg shadow-md p-10 w-3/4 space-y-10">
+        <div class="xl:hidden flex justify-center">
+            <img class="w-64 h-64" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/contact.svg" />
+        </div>
+        <div class="md:py-24 pb-0 pt-10 relative">
+            <div class="bg-white rounded-lg shadow-md md:p-10 p-5 xl:w-3/4 w-full space-y-10">
                 <div class="space-y-5">
-                    <p class="text-xl font-medium">We are always happy to receive feedback for our plugins, whether it be a support question, a feature request, a bug fix, or just a compliment.</p>
-                    <p class="text-xl font-medium">
+                    <p class="md:text-xl text-base font-medium">We are always happy to receive feedback for our plugins, whether it be a support question, a feature request, a bug fix, or just a compliment.</p>
+                    <p class="md:text-xl text-base font-medium">
                         <span class="font-semibold">Please don't hesitate to contact us,</span> and we will do our very best to get back to you as soon as possible. Thank You.
                     </p>
                 </div>
-                <form class="space-y-10 w-2/3">
+                <form class="space-y-10 xl:w-2/3 w-full">
                     <div class="space-y-5">
                         <div class="space-y-2.5">
-                            <label class="font-bold text-base">Name</label>
+                            <label class="font-bold md:text-base text-sm">Name</label>
                             <input type="text" class="h-full w-full rounded-lg border-2 p-2.5 font-sans font-normal text-blue-gray-700 transition-all placeholder-shown:border focus:border-2 focus:border-gray-900 text-lg disabled:border-0 disabled:bg-blue-gray-50 placeholder:opacity-0" />
                         </div>
                         <div class="space-y-2.5">
-                            <label class="font-bold text-base">Email</label>
+                            <label class="font-bold md:text-base text-sm">Email</label>
                             <input type="email" class="h-full w-full rounded-lg border-2 p-2.5 font-sans font-normal text-blue-gray-700 transition-all placeholder-shown:border focus:border-2 focus:border-gray-900 text-lg disabled:border-0 disabled:bg-blue-gray-50 placeholder:opacity-0" />
                         </div>
                         <div class="space-y-2.5">
-                            <label class="font-bold text-base">Subject</label>
+                            <label class="font-bold md:text-base text-sm">Subject</label>
                             <input type="text" class="h-full w-full rounded-lg border-2 p-2.5 font-sans font-normal text-blue-gray-700 transition-all placeholder-shown:border focus:border-2 focus:border-gray-900 text-lg disabled:border-0 disabled:bg-blue-gray-50 placeholder:opacity-0" />
                         </div>
                         <div class="space-y-2.5">
-                            <label class="font-bold text-base">Message</label>
-                            <textarea rows="4" class="h-full w-full rounded-lg border-2 p-2.5 font-sans font-normal text-blue-gray-700 transition-all placeholder-shown:border focus:border-2 focus:border-gray-900 text-lg disabled:border-0 disabled:bg-blue-gray-50 placeholder:opacity-0" ></textarea>
+                            <label class="font-bold md:text-base text-sm">Message</label>
+                            <textarea rows="4" class="h-full w-full rounded-lg border-2 p-2.5 font-sans font-normal text-blue-gray-700 transition-all placeholder-shown:border focus:border-2 focus:border-gray-900 text-lg disabled:border-0 disabled:bg-blue-gray-50 placeholder:opacity-0"></textarea>
                         </div>
                         <button type="submit" class="py-3 px-7 bg-neutral-900 rounded-lg text-white">Submit</button>
                     </div>
                 </form>
-                <div class="absolute bottom-20 right-0">
+                <div class="absolute bottom-20 right-0 xl:block hidden">
                     <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/contact.svg" />
                 </div>
             </div>
@@ -66,32 +69,31 @@
     <div class="absolute left-0 top-0">
         <svg width="253" height="437" viewBox="0 0 253 437" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.5" filter="url(#filter0_f_626_20589)">
-            <circle cx="34.5" cy="218.5" r="164.5" fill="#34DAFF" fill-opacity="0.3"/>
+                <circle cx="34.5" cy="218.5" r="164.5" fill="#34DAFF" fill-opacity="0.3" />
             </g>
             <defs>
-            <filter id="filter0_f_626_20589" x="-183.846" y="0.153847" width="436.692" height="436.692" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-            <feGaussianBlur stdDeviation="26.9231" result="effect1_foregroundBlur_626_20589"/>
-            </filter>
-            </defs>
-        </svg>
-    </div>
-    
-    <!-- Right blob -->
-    <div class="absolute right-0 top-0">
-        <svg width="274" height="461" viewBox="0 0 274 461" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g opacity="0.3" filter="url(#filter0_f_626_20592)">
-            <circle cx="230.5" cy="230.5" r="164.5" fill="#FFEAAA"/>
-            </g>
-            <defs>
-            <filter id="filter0_f_626_20592" x="0.134132" y="0.134132" width="460.732" height="460.732" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-            <feGaussianBlur stdDeviation="32.9329" result="effect1_foregroundBlur_626_20592"/>
-            </filter>
+                <filter id="filter0_f_626_20589" x="-183.846" y="0.153847" width="436.692" height="436.692" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feGaussianBlur stdDeviation="26.9231" result="effect1_foregroundBlur_626_20589" />
+                </filter>
             </defs>
         </svg>
     </div>
 
+    <!-- Right blob -->
+    <div class="absolute right-0 top-0">
+        <svg width="274" height="461" viewBox="0 0 274 461" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g opacity="0.3" filter="url(#filter0_f_626_20592)">
+                <circle cx="230.5" cy="230.5" r="164.5" fill="#FFEAAA" />
+            </g>
+            <defs>
+                <filter id="filter0_f_626_20592" x="0.134132" y="0.134132" width="460.732" height="460.732" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feGaussianBlur stdDeviation="32.9329" result="effect1_foregroundBlur_626_20592" />
+                </filter>
+            </defs>
+        </svg>
+    </div>
 </section>

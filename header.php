@@ -51,7 +51,7 @@
 			</div>
 		</div>
 		<header class="bg-white">
-			<div class="mx-auto container py-5">
+			<div class="mx-auto container p-5">
 				<div class="flex items-center justify-between">
 					<div class="flex-1 md:flex md:items-center md:gap-12">
 						<a class="block" href="/">
