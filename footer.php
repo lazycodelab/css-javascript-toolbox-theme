@@ -13,24 +13,24 @@
 ?>
 
 <footer>
-	<div class="mx-auto container space-y-8 px-4 pb-16 sm:px-6 lg:space-y-16 lg:px-8 relative">
-		<div class="py-24">
-			<div class="bg-brand-light-blue rounded-lg p-24 relative">
+	<div class="mx-auto container space-y-8 px-5 pb-5 sm:px-6 lg:space-y-24 relative">
+		<div class="pt-24">
+			<div class="bg-brand-light-blue rounded-lg lg:p-24 p-10 relative">
 				<div class="grid grid-cols-1 gap-4 lg:grid-cols-12 lg:gap-8 items-center">
-					<div class="rounded-lg lg:col-span-9 space-y-10">
-						<h2 class="text-5xl font-semibold font-display">Subscribe to our newsletter</h2>
-						<div class="inline-flex w-4/6 gap-5">
+					<div class="rounded-lg lg:col-span-9 space-y-10 lg:text-start text-center">
+						<h2 class="lg:text-5xl text-3xl font-semibold font-display">Subscribe to our newsletter</h2>
+						<div class="inline-flex lg:flex-row flex-col lg:w-4/6 w-full gap-5">
 							<input type="text" class="py-3.5 px-6 text-black placeholder:text-black block w-full border-gray-200 border rounded-lg text-xl disabled:opacity-50 disabled:pointer-events-none" placeholder="Email address">
-							<button class="rounded-lg w-full bg-brand-blue px-6 text-lg py-3.5 font-medium text-white" type="submit">
+							<button class="rounded-lg w-full bg-brand-blue px-6 lg:text-lg text-base py-3.5 font-medium text-white" type="submit">
 								Subscribe Now
 							</button>
 						</div>
 					</div>
-					<div class="rounded-tl-full rounded-bl-full bg-brand-blue absolute top-0 right-0 h-full w-4/12"></div>
-					<div class="absolute bottom-0 right-96">
+					<div class="rounded-tl-full rounded-bl-full bg-brand-blue absolute top-0 right-0 h-full w-4/12 lg:block hidden"></div>
+					<div class="lg:absolute bottom-0 right-1/4 lg:block hidden">
 						<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/line-arrow.svg" />
 					</div>
-					<div class="lg:col-span-3 relative">
+					<div class="lg:col-span-3 relative lg:block hidden">
 						<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/newsletter.svg" />
 					</div>
 				</div>

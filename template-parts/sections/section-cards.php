@@ -10,7 +10,7 @@
 ?>
 
 <section>
-    <div class="mx-auto container pt-48 pb-14">
+    <div class="mx-auto container xl:pt-48 pt-10 pb-10 lg:pb-14 lg:px-0 px-5">
         <div class="space-y-10">
             <h2 class="font-bold font-display text-center">Trusted by the biggest brands in the galaxy</h2>
             <div class="grid grid-cols-2 gap-5 lg:grid-cols-6 lg:gap-10 place-items-center">

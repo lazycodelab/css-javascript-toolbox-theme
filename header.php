@@ -32,7 +32,7 @@
 			<?php esc_html_e('Skip to content', 'cjt'); ?>
 		</a>
 		<div class="bg-brand-blue px-5 lg:px-0 py-5 text-white">
-			<div class="flex justify-between container mx-auto">
+			<div class="flex lg:flex-row flex-col lg:text-start text-center gap-y-2 justify-between container mx-auto">
 				<p class="text-base font-medium">Get 20% Discounts! offer in 2 days</p>
 				<div class="divide-x-2 inline-flex items-center justify-center">
 					<a href="tel:+23561236456" class="text-base inline-flex items-center font-medium px-5 gap-2.5">
@@ -71,7 +71,7 @@
 
 						<div class="flex items-center gap-4">
 							<div class="sm:flex sm:gap-4">
-								<a class="rounded-md bg-brand-blue px-6 text-lg py-3.5 font-medium text-white" href="#">
+								<a class="rounded-md bg-brand-blue lg:px-6 px-3 lg:text-lg text-sm lg:py-3.5 py-2 font-medium text-white" href="#">
 									Get CJT PLUS
 								</a>
 							</div>

@@ -10,7 +10,7 @@
 
 ?>
 
-<section class="py-24 relative">
+<section class="md:py-24 py-10 relative">
     <div class="absolute top-0 left-0">
         <svg width="278" height="595" viewBox="0 0 278 595" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.5" filter="url(#filter0_f_316_12075)">
@@ -31,12 +31,12 @@
                 Frequently Asked Queries
             </h2>
 
-            <p class="hidden text-xl font-normal sm:block text-gray-600">
+            <p class="md:text-xl text-base font-normal sm:block text-gray-600">
                 Efficiently productivate reliable paradigms before ubiquitous models. Continually utilize frictionless expertise whereas tactical relationships. Still have questions? Contact us
             </p>
         </div>
 
-        <div class="space-y-5 max-w-2xl mx-auto divide-y-2 divide-neutral-600 select-none">
+        <div class="space-y-5 max-w-2xl px-5 mx-auto divide-y-2 divide-neutral-600 select-none">
             <?php for ($x = 0; $x <= 5; $x++) { ?>
                 <details class="group [&_summary::-webkit-details-marker]:hidden space-y-5 pt-5">
                     <summary class="flex cursor-pointer items-center justify-between gap-1.5">

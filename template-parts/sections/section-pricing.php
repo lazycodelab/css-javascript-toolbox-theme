@@ -10,20 +10,20 @@
 ?>
 
 
-<section class="py-24 bg-slate-50 relative">
+<section class="md:py-24 py-10 bg-slate-50 relative">
     <div class="mx-auto container text-center">
         <div class="space-y-5 max-w-3xl mx-auto">
             <h2 class="text-2xl font-bold md:text-5xl font-display">
                 Simple, transparent pricing
             </h2>
 
-            <p class="hidden text-xl font-medium sm:block text-gray-600">
+            <p class="md:text-xl text-base font-medium sm:block text-gray-600">
                 No contracts. No surprise fees.
             </p>
         </div>
 
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 sm:items-stretch md:grid-cols-4 md:gap-8 rounded-lg bg-white mt-44">
+        <div class="grid grid-cols-1 md:grid-cols-2 sm:items-stretch lg:grid-cols-4 md:gap-5 rounded-lg bg-white md:mt-44 mt-5 md:mx-0 mx-5 md:border-none border border-black md:divide-y-0 divide-y-2">
             <div class="p-10 divide-gray-200 space-y-5">
                 <div class="space-y-2.5 text-start">
                     <div class="space-y-5">
@@ -82,7 +82,7 @@
                     Explore Plugins Now
                 </button>
             </div>
-            <div class="p-10 divide-gray-200 rounded-3xl shadow-[0px_40px_30px_0px] shadow-brand-blue/25 relative -top-28 bg-brand-blue space-y-5">
+            <div class="p-10 divide-gray-200 md:rounded-3xl rounded-lg md:shadow-[0px_40px_30px_0px] shadow-[0px_10px_30px_0px] md:shadow-brand-blue/25 shadow-brand-blue/25 relative lg:-top-28 bg-brand-blue space-y-5">
                 <div class="flex justify-end">
                     <div class="bg-white rounded-full px-4 py-2 text-xs text-brand-blue font-semibold">
                         MOST POPULAR

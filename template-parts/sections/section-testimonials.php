@@ -61,7 +61,28 @@
                 We are incredibly humbled to have so many happy CJT PLUS customers, so we decided to let them speak for us. This is a small selection of the emails, reviews, and feedback we often receive.
             </p>
         </div>
-        <swiper-container class="pt-28 pb-64 select-none" loop="true" grab-cursor="true" centered-slides="true" slides-per-view="3" space-between="30" navigation="true">
+        <swiper-container class="pt-28 pb-64 select-none" loop="true" grab-cursor="true" centered-slides="true" space-between="30" 
+        breakpoints='
+				{
+					"320": {
+						"slidesPerView": 1,
+						"spaceBetween": 0
+					},
+					"570": {
+						"slidesPerView": 2,
+						"spaceBetween": 0
+					},
+					"768": {
+						"slidesPerView": 3,
+						"spaceBetween": 20
+					},
+					"1024": {
+						"slidesPerView": 3,
+						"spaceBetween": 20
+					}
+				}
+			'
+            navigation="true">
             <swiper-slide class="space-y-5">
                 <blockquote class="rounded bg-white p-10 shadow-xl sm:p-8 space-y-5">
                     <div class="flex justify-center items-center gap-4">
