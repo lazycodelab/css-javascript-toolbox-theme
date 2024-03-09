@@ -14,7 +14,7 @@
 
 <footer>
 	<div class="mx-auto container space-y-8 px-5 pb-5 sm:px-6 lg:space-y-24 relative">
-		<div class="pt-24">
+		<div class="md:pt-24 pt-10">
 			<div class="bg-brand-light-blue rounded-lg lg:p-24 p-10 relative">
 				<div class="grid grid-cols-1 gap-4 lg:grid-cols-12 lg:gap-8 items-center">
 					<div class="rounded-lg lg:col-span-9 space-y-10 lg:text-start text-center">
