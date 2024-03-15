@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Template Name: Pricing page
  * Post Type: post, page, event
@@ -15,11 +14,11 @@ get_header();
 
 <main id="app">
 
-    <?php
-    get_template_part('template-parts/sections/pricing/section', 'hero');
-    get_template_part('template-parts/sections/pricing/section', 'features');
-    get_template_part('template-parts/sections/pricing/section', 'compression');
-    ?>
+	<?php
+	get_template_part('template-parts/sections/pricing/section', 'hero');
+	get_template_part('template-parts/sections/pricing/section', 'features');
+	get_template_part('template-parts/sections/pricing/section', 'compression');
+	?>
 
 </main>
 
