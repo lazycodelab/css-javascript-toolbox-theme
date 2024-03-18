@@ -11,7 +11,7 @@
 ?>
 
 <section class="md:py-24 py-10 relative">
-    <div class="absolute top-0 left-0">
+    <div class="absolute top-0 left-0 -z-[1]">
         <svg width="278" height="595" viewBox="0 0 278 595" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.5" filter="url(#filter0_f_316_12075)">
                 <ellipse cx="-17.4556" cy="297.5" rx="222.544" ry="224.5" fill="#AFF7EC" fill-opacity="0.6" />
@@ -38,9 +38,9 @@
 
         <div class="space-y-5 max-w-2xl px-5 mx-auto divide-y-2 divide-neutral-600 select-none">
             <?php for ($x = 0; $x <= 5; $x++) { ?>
-                <details class="group [&_summary::-webkit-details-marker]:hidden space-y-5 pt-5">
+                <details class="group [&_summary::-webkit-details-marker]:hidden md:space-y-5 space-y-2.5 md:pt-5 pt-2.5">
                     <summary class="flex cursor-pointer items-center justify-between gap-1.5">
-                        <h2 class="text-lg font-medium text-gray-900">
+                        <h2 class="md:text-lg text-sm font-medium text-gray-900">
                             Where can I watch?
                         </h2>
 

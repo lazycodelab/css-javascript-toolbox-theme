@@ -21,14 +21,14 @@
         <img class="h-full" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/right-gradient-effect.svg" />
     </div>
 
-    <div class="mx-auto max-w-5xl text-center p-8 md:p-12 lg:px-16 lg:py-24 space-y-10 relative">
+    <div class="mx-auto max-w-5xl text-center py-10 px-5 md:p-12 lg:px-16 lg:py-24 relative">
         <div class="md:absolute md:block hidden left-0 top-5">
             <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/code.svg" />
         </div>
         <div class="md:absolute md:block hidden right-0 bottom-5">
             <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/code.svg" />
         </div>
-        <div class="space-y-5">
+        <div class="space-y-5 mb-10">
             <h2 class="text-2xl text-white font-bold md:text-5xl font-display">
                 Unlock Potential with Our Plugins!
             </h2>
