@@ -19,7 +19,7 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 @tailwind components;
 @tailwind utilities;
 
-.wp-block-heading {
+.entry-content .wp-block-heading h4, .entry-content .wp-block-heading h3, .entry-content .wp-block-heading {
 	font-size: 28px;
 	font-weight: 600;
 }
