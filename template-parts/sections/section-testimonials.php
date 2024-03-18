@@ -21,35 +21,37 @@
         </svg>
     </div>
     <style>
-        swiper-slide.swiper-slide-active {
-            transform: translateY(-50px);
-            transition-duration: 0.3s;
-            transition-property: transform;
+        @media only screen and (min-width: 600px) {
+            swiper-slide.swiper-slide-active {
+                transform: translateY(-50px);
+                transition-duration: 0.3s;
+                transition-property: transform;
+            }
         }
 
-        swiper-slide.swiper-slide-active blockquote {
-            background: #005DA4 !important;
-            color: white !important;
-            transition: all 0.2s linear;
-        }
+            swiper-slide.swiper-slide-active blockquote {
+                background: #005DA4 !important;
+                color: white !important;
+                transition: all 0.2s linear;
+            }
 
-        swiper-slide.swiper-slide-active blockquote p {
-            color: white !important;
-            transition: all 0.2s linear;
-        }
+            swiper-slide.swiper-slide-active blockquote p {
+                color: white !important;
+                transition: all 0.2s linear;
+            }
 
-        swiper-slide.swiper-slide-active blockquote svg path {
-            fill: white !important;
-        }
+            swiper-slide.swiper-slide-active blockquote svg path {
+                fill: white !important;
+            }
 
-        swiper-container .swiper .swiper-button-prev,
-        swiper-container .swiper .swiper-button-next {
-            background-color: #005DA4 !important;
-            padding: 20px !important;
-            border-radius: 8px !important;
-            color: white !important;
-            --swiper-navigation-size: 20px !important;
-        }
+            swiper-container .swiper .swiper-button-prev,
+            swiper-container .swiper .swiper-button-next {
+                background-color: #005DA4 !important;
+                padding: 20px !important;
+                border-radius: 8px !important;
+                color: white !important;
+                --swiper-navigation-size: 20px !important;
+            }
     </style>
     <div class="mx-auto container text-center mb-40">
         <div class="space-y-5 max-w-2xl mx-auto">
@@ -61,8 +63,7 @@
                 We are incredibly humbled to have so many happy CJT PLUS customers, so we decided to let them speak for us. This is a small selection of the emails, reviews, and feedback we often receive.
             </p>
         </div>
-        <swiper-container class="select-none" loop="true" grab-cursor="true" centered-slides="true" space-between="30" 
-        breakpoints='
+        <swiper-container class="select-none" loop="true" grab-cursor="true" centered-slides="true" space-between="30" breakpoints='
 				{
 					"320": {
 						"slidesPerView": 1,
@@ -70,7 +71,7 @@
 					},
 					"570": {
 						"slidesPerView": 2,
-						"spaceBetween": 0
+						"spaceBetween": 20
 					},
 					"768": {
 						"slidesPerView": 3,
@@ -81,8 +82,7 @@
 						"spaceBetween": 20
 					}
 				}
-			'
-            navigation="true">
+			' navigation="true">
             <div slot="container-start" class="p-10"></div>
             <swiper-slide class="space-y-5">
                 <blockquote class="rounded bg-white p-10 shadow-xl sm:p-8 space-y-5">

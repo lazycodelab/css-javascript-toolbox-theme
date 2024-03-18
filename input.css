@@ -19,6 +19,11 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 @tailwind components;
 @tailwind utilities;
 
+.wp-block-heading {
+	font-size: 28px;
+	font-weight: 600;
+}
+
 @layer base {
 	@font-face {
 		font-family: 'Grifter Bold';
@@ -28,6 +33,7 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 	html {
 		font-family: "Poppins", system-ui, sans-serif;
 	}
+
 }
 
 @layer utilities {
