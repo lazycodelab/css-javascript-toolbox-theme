@@ -42,7 +42,7 @@
 							</a>
 						</div>
 
-						<div class="md:flex md:items-center md:gap-12">
+						<div class="md:flex md:items-center lg:gap-12 gap-5">
 							<nav aria-label="Global" class="hidden md:block">
 								<?php
 								wp_nav_menu(array(
@@ -53,7 +53,7 @@
 							</nav>
 
 							<div class="flex items-center gap-4">
-								<div class="sm:flex sm:gap-4">
+								<div class="sm:gap-4 md:flex hidden">
 									<a class="rounded-md bg-brand-blue lg:px-6 px-3 lg:text-lg text-sm lg:py-3.5 py-2 font-medium text-white" href="#">
 										Get CJT PLUS
 									</a>

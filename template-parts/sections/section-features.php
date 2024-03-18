@@ -15,7 +15,7 @@
     </svg>
     <div class="bg-brand-light-blue/60">
         <div class="mx-auto container md:pb-24 pb-10 md:pt-0 pt-10">
-            <div class="space-y-5 max-w-4xl mx-auto text-center">
+            <div class="space-y-5 max-w-4xl mx-auto text-center md:px-0 px-5">
                 <h2 class="text-2xl max-w-2xl mx-auto font-bold md:text-5xl font-display">
                     Explore <span class="text-brand-blue">CJT PLUS</span> Premium Features
                 </h2>

@@ -628,8 +628,8 @@ html {
   position: relative;
 }
 
-.-bottom-20 {
-  bottom: -5rem;
+.-bottom-14 {
+  bottom: -3.5rem;
 }
 
 .-bottom-\[40\%\] {
@@ -837,6 +837,10 @@ html {
 
 .mb-40 {
   margin-bottom: 10rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .ml-auto {
@@ -1848,6 +1852,11 @@ html {
   color: rgb(0 0 0 / 0.75);
 }
 
+.entry-content h4, .entry-content h3, .wp-block-heading {
+  font-size: 28px;
+  font-weight: 600;
+}
+
 .cjt-input {
   width: 100%;
   height: 100%;
@@ -1961,10 +1970,6 @@ html {
     display: block;
   }
 
-  .sm\:flex {
-    display: flex;
-  }
-
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2018,6 +2023,10 @@ html {
   .md\:my-24 {
     margin-top: 6rem;
     margin-bottom: 6rem;
+  }
+
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
   }
 
   .md\:mb-24 {
@@ -2320,6 +2329,10 @@ html {
     gap: 2.5rem;
   }
 
+  .lg\:gap-12 {
+    gap: 3rem;
+  }
+
   .lg\:gap-8 {
     gap: 2rem;
   }
@@ -2327,6 +2340,12 @@ html {
   .lg\:gap-x-12 {
     -moz-column-gap: 3rem;
          column-gap: 3rem;
+  }
+
+  .lg\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
   }
 
   .lg\:space-y-24 > :not([hidden]) ~ :not([hidden]) {

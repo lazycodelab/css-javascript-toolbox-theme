@@ -17,7 +17,7 @@
 		<div class="md:pt-24 pt-10">
 			<div class="bg-brand-light-blue rounded-lg lg:p-24 md:p-10 p-5 relative">
 				<div class="grid grid-cols-1 gap-4 lg:grid-cols-12 lg:gap-8 items-center">
-					<div class="rounded-lg lg:col-span-9 space-y-10 lg:text-start text-center">
+					<div class="rounded-lg lg:col-span-9 lg:space-y-10 space-y-5 lg:text-start text-center">
 						<h2 class="lg:text-5xl text-xl font-semibold font-display">Subscribe to our newsletter</h2>
 						<div class="inline-flex lg:flex-row flex-col lg:w-4/6 w-full gap-5">
 							<input type="text" class="py-3.5 px-6 text-black placeholder:text-black block w-full border-gray-200 border rounded-lg md:text-xl text-base disabled:opacity-50 disabled:pointer-events-none" placeholder="Email address">

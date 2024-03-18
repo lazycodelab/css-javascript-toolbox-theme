@@ -26,7 +26,7 @@
 			<?php get_template_part('template-parts/components/component', 'button', ['content' => 'Get CJT PLUS NOW', 'url' => '/']); ?>
 		</div>
 		<div class="relative xl:col-span-4 xl:block hidden flex-col items-center lg:pt-0 pt-10 h-full">
-			<div class="w-full h-full px-10 py-5 lg:block hidden absolute inset">
+			<div class="w-full h-full px-10 py-5 lg:block hidden absolute inset top-1/2">
 				<svg viewBox="0 0 786 719" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<g opacity="0.3" filter="url(#filter0_f_821_6)">
 						<circle cx="589" cy="314" r="236" fill="#4CFFFF" fill-opacity="0.6" />
@@ -59,7 +59,7 @@
 					<path d="M92.5 76C92.5 76 76.8101 96.1786 69.5 106" stroke="#005DA4" stroke-linecap="round" />
 				</svg>
 			</div>
-			<div class="lg:absolute -right-10 -bottom-20 z-20 lg:block hidden">
+			<div class="lg:absolute -right-10 -bottom-14 z-20 lg:block hidden">
 				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/hero.svg" />
 			</div>
 			<div class="rounded-2xl shadow-lg lg:absolute backdrop-blur-sm bg-white/30 top-24 right-0 z-10">
