@@ -1,0 +1,1 @@
+<div class="absolute rounded-full <?= $args['class']; ?>"></div>

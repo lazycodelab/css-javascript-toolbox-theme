@@ -95,6 +95,6 @@
             </div>
         </div>
     </div>
-    <div class="absolute -left-40 top-[30%] rounded-full bg-cyan-200/40 blur-3xl size-[300px] z-[1]"></div>
-    <div class="absolute bottom-[10%] -right-52 rounded-full bg-orange-200/40 blur-3xl size-[300px]"></div>
+    <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-left-40 top-[30%] bg-cyan-200/40 blur-3xl size-[300px] z-[1]']); ?>
+    <?php get_template_part('template-parts/components/component', 'blob', ['class' => 'bottom-[10%] -right-52 bg-orange-200/40 blur-3xl size-[300px]']); ?>
 </section>
