@@ -21,4 +21,9 @@
             <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/testimonial.svg" />
         </div>
     </div>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 left-[15%] bottom-1/2']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-300/50 -rotate-6 right-[12%] top-[8%]']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-300/50 -rotate-6 right-[12%] bottom-[8%]']); ?>
+    <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-left-52 top-10 bg-cyan-400/30 blur-3xl size-[400px]']); ?>
+    <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-right-52 top-40 bg-amber-400/30 blur-3xl size-[400px]']); ?>
 </section>

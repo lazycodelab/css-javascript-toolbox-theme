@@ -904,6 +904,10 @@ html {
   right: 20%;
 }
 
+.bottom-\[8\%\] {
+  bottom: 8%;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -1624,6 +1628,18 @@ html {
 
 .bg-yellow-300\/40 {
   background-color: rgb(253 224 71 / 0.4);
+}
+
+.bg-amber-400\/40 {
+  background-color: rgb(251 191 36 / 0.4);
+}
+
+.bg-amber-400\/30 {
+  background-color: rgb(251 191 36 / 0.3);
+}
+
+.bg-lime-300\/50 {
+  background-color: rgb(190 242 100 / 0.5);
 }
 
 .bg-gradient-to-b {
