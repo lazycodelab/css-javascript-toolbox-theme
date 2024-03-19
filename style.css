@@ -1818,6 +1818,10 @@ html {
   padding-top: 2rem;
 }
 
+.ps-5 {
+  padding-inline-start: 1.25rem;
+}
+
 .text-center {
   text-align: center;
 }

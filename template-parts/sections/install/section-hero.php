@@ -9,7 +9,7 @@
  */
 ?>
 
-<section class="relative md:py-24 py-10">
+<section class="relative md:py-24 py-10 overflow-hidden">
     <div class="container mx-auto md:px-0 px-5">
         <div class="space-y-5 md:max-w-4xl mx-auto text-center md:mb-24 mb-10">
             <h1 class="md:text-6xl text-2xl font-display leading-tight">
