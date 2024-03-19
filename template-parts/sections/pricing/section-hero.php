@@ -69,7 +69,7 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 
 					</button>
 
-					<ul class="space-y-2.5 border-t border-t-neutral-50/10 pt-8">
+					<ul class="space-y-2.5 border-t <?= $plan['highlight'] ? 'border-t-neutral-50/10' : 'border-t-neutral-100'; ?> pt-8">
 						<?php foreach ($plan['features'] as $feature) : ?>
 							<li class="flex items-center gap-2.5 <?= $textClasses; ?>">
 								<svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5" role="presentation">
@@ -84,27 +84,11 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 		</div>
 	</div>
 
-	<!-- Blue blob start -->
-	<div class="absolute left-0 top-0">
-		<svg width="330" height="628" viewBox="0 0 330 628" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<g opacity="0.5" filter="url(#filter0_f_316_11644)">
-				<circle cx="16" cy="314" r="236" fill="#34DAFF" fill-opacity="0.3" />
-			</g>
-			<defs>
-				<filter id="filter0_f_316_11644" x="-297.25" y="0.749588" width="626.501" height="626.501" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-					<feFlood flood-opacity="0" result="BackgroundImageFix" />
-					<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-					<feGaussianBlur stdDeviation="38.6252" result="effect1_foregroundBlur_316_11644" />
-				</filter>
-			</defs>
-		</svg>
+	<div class="absolute -left-96 top-0 rounded-full bg-blue-300/20 blur-3xl size-[900px]">
 	</div>
-	<!-- Blue blob end -->
 
-	<!-- Blue blob start -->
-	<div class="absolute -right-72 top-40 rounded-full bg-amber-200/40 blur-xl size-[600px]">
+	<div class="absolute -right-72 top-40 rounded-full bg-amber-200/40 blur-3xl size-[600px]">
 	</div>
-	<!-- Blue blob end -->
 
 	<div class="size-5 rounded-md bg-blue-200/50 absolute rotate-6 left-1/2 top-20"></div>
 	<div class="size-5 rounded-md bg-amber-200/50 absolute -rotate-6 right-1/3 bottom-1/2"></div>
