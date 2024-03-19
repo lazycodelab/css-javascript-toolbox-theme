@@ -908,6 +908,42 @@ html {
   bottom: 8%;
 }
 
+.-left-56 {
+  left: -14rem;
+}
+
+.-top-40 {
+  top: -10rem;
+}
+
+.-left-72 {
+  left: -18rem;
+}
+
+.-right-64 {
+  right: -16rem;
+}
+
+.left-\[5\%\] {
+  left: 5%;
+}
+
+.right-\[40\%\] {
+  right: 40%;
+}
+
+.bottom-\[20\%\] {
+  bottom: 20%;
+}
+
+.right-\[50\%\] {
+  right: 50%;
+}
+
+.bottom-\[25\%\] {
+  bottom: 25%;
+}
+
 .-z-10 {
   z-index: -10;
 }

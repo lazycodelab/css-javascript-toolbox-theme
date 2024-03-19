@@ -31,27 +31,6 @@
                 <form class="space-y-10 xl:w-2/3 w-full">
                     <?php echo do_shortcode( '[contact-form-7 id="b2289c7" title="Contact form 1"]'); ?>
                 </form>
-                <!-- <form class="space-y-10 xl:w-2/3 w-full">
-                    <div class="space-y-5">
-                        <div class="space-y-2.5">
-                            <label class="font-bold md:text-base text-sm">Name</label>
-                            <input type="text" class="h-full w-full rounded-lg border-2 p-2.5 font-sans font-normal text-blue-gray-700 transition-all placeholder-shown:border focus:border-2 focus:border-gray-900 text-lg disabled:border-0 disabled:bg-blue-gray-50 placeholder:opacity-0" />
-                        </div>
-                        <div class="space-y-2.5">
-                            <label class="font-bold md:text-base text-sm">Email</label>
-                            <input type="email" class="h-full w-full rounded-lg border-2 p-2.5 font-sans font-normal text-blue-gray-700 transition-all placeholder-shown:border focus:border-2 focus:border-gray-900 text-lg disabled:border-0 disabled:bg-blue-gray-50 placeholder:opacity-0" />
-                        </div>
-                        <div class="space-y-2.5">
-                            <label class="font-bold md:text-base text-sm">Subject</label>
-                            <input type="text" class="h-full w-full rounded-lg border-2 p-2.5 font-sans font-normal text-blue-gray-700 transition-all placeholder-shown:border focus:border-2 focus:border-gray-900 text-lg disabled:border-0 disabled:bg-blue-gray-50 placeholder:opacity-0" />
-                        </div>
-                        <div class="space-y-2.5">
-                            <label class="font-bold md:text-base text-sm">Message</label>
-                            <textarea rows="4" class="h-full w-full rounded-lg border-2 p-2.5 font-sans font-normal text-blue-gray-700 transition-all placeholder-shown:border focus:border-2 focus:border-gray-900 text-lg disabled:border-0 disabled:bg-blue-gray-50 placeholder:opacity-0"></textarea>
-                        </div>
-                        <button type="submit" class="py-3 px-7 bg-neutral-900 rounded-lg text-white">Submit</button>
-                    </div>
-                </form> -->
                 <div class="absolute bottom-20 right-0 xl:block hidden">
                     <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/contact.svg" />
                 </div>
@@ -68,35 +47,9 @@
             <path fill="#005DA4" fill-opacity="1" d="M0,32L34.3,32C68.6,32,137,32,206,58.7C274.3,85,343,139,411,176C480,213,549,235,617,224C685.7,213,754,171,823,149.3C891.4,128,960,128,1029,144C1097.1,160,1166,192,1234,176C1302.9,160,1371,96,1406,64L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
         </svg>
     </div>
-    <!-- Left Blob -->
-    <div class="absolute left-0 top-0">
-        <svg width="253" height="437" viewBox="0 0 253 437" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g opacity="0.5" filter="url(#filter0_f_626_20589)">
-                <circle cx="34.5" cy="218.5" r="164.5" fill="#34DAFF" fill-opacity="0.3" />
-            </g>
-            <defs>
-                <filter id="filter0_f_626_20589" x="-183.846" y="0.153847" width="436.692" height="436.692" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                    <feGaussianBlur stdDeviation="26.9231" result="effect1_foregroundBlur_626_20589" />
-                </filter>
-            </defs>
-        </svg>
-    </div>
-
-    <!-- Right blob -->
-    <div class="absolute right-0 top-0">
-        <svg width="274" height="461" viewBox="0 0 274 461" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g opacity="0.3" filter="url(#filter0_f_626_20592)">
-                <circle cx="230.5" cy="230.5" r="164.5" fill="#FFEAAA" />
-            </g>
-            <defs>
-                <filter id="filter0_f_626_20592" x="0.134132" y="0.134132" width="460.732" height="460.732" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                    <feGaussianBlur stdDeviation="32.9329" result="effect1_foregroundBlur_626_20592" />
-                </filter>
-            </defs>
-        </svg>
-    </div>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 left-[5%] bottom-1/2']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-300/50 -rotate-6 right-[12%] top-[8%]']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-300/50 -rotate-6 right-[50%] bottom-[25%]']); ?>
+    <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-left-72 -top-28 bg-cyan-400/30 blur-3xl size-[400px]']); ?>
+    <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-right-64 top-40 bg-amber-400/30 blur-3xl size-[400px]']); ?>
 </section>
