@@ -10,8 +10,8 @@
 
 ?>
 
-<section class="py-24 relative">
-    <div class="mx-auto container md:space-y-10 space-y-5">
+<section class="md:py-24 py-10 relative">
+    <div class="mx-auto container md:space-y-10 space-y-14">
         <h2 class="text-2xl font-bold md:text-5xl font-display max-w-3xl mx-auto text-center">
             Top 6 Reasons Why Over 2 Million Users Love
             <span class="text-brand-blue">CJT PLUS</span>

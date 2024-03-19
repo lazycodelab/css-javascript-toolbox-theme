@@ -1,16 +1,17 @@
 /*
 Theme Name: CSS & JavaScript Toolbox
-Theme URI: https://css-javascript-toolbox.com/
-Author: CSS & JavaScript Team
-Author URI: https://css-javascript-toolbox.com/, https://lazycodelab.com
-Description: Custom tailored theme for CSS & JavaScript Toolbox.
+Theme URI: https://wordpress.org/themes/twentytwentyfour/
+Author: the WordPress team
+Author URI: https://wordpress.org
+Description: Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.
 Requires at least: 6.4
 Tested up to: 6.4
 Requires PHP: 7.0
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: cjt
+Text Domain: twentytwentyfour
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
 
 /*
@@ -467,7 +468,6 @@ video {
 
 html {
   font-family: "Poppins", system-ui, sans-serif;
-  overflow-x: hidden;
 }
 
 *, ::before, ::after {
@@ -628,8 +628,8 @@ html {
   position: relative;
 }
 
-.-bottom-20 {
-  bottom: -5rem;
+.-bottom-14 {
+  bottom: -3.5rem;
 }
 
 .-bottom-\[40\%\] {
@@ -648,8 +648,8 @@ html {
   right: -2.5rem;
 }
 
-.-right-20 {
-  right: -5rem;
+.-right-72 {
+  right: -18rem;
 }
 
 .-top-4 {
@@ -686,10 +686,6 @@ html {
 
 .bottom-5 {
   bottom: 1.25rem;
-}
-
-.bottom-6 {
-  bottom: 1.5rem;
 }
 
 .left-0 {
@@ -748,10 +744,6 @@ html {
   top: 25%;
 }
 
-.top-14 {
-  top: 3.5rem;
-}
-
 .top-2 {
   top: 0.5rem;
 }
@@ -768,6 +760,10 @@ html {
   top: 5rem;
 }
 
+.top-24 {
+  top: 6rem;
+}
+
 .top-40 {
   top: 10rem;
 }
@@ -776,16 +772,12 @@ html {
   top: 1.25rem;
 }
 
+.top-\[22\%\] {
+  top: 22%;
+}
+
 .top-full {
   top: 100%;
-}
-
-.-right-40 {
-  right: -10rem;
-}
-
-.-right-72 {
-  right: -18rem;
 }
 
 .-z-10 {
@@ -847,6 +839,10 @@ html {
   margin-bottom: 10rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .ml-auto {
   margin-left: auto;
 }
@@ -895,9 +891,9 @@ html {
   display: none;
 }
 
-.size-14 {
-  width: 3.5rem;
-  height: 3.5rem;
+.size-10 {
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .size-4 {
@@ -908,11 +904,6 @@ html {
 .size-5 {
   width: 1.25rem;
   height: 1.25rem;
-}
-
-.size-96 {
-  width: 24rem;
-  height: 24rem;
 }
 
 .size-\[600px\] {
@@ -1195,6 +1186,12 @@ html {
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
 }
 
+.space-y-14 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3.5rem * var(--tw-space-y-reverse));
+}
+
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1421,10 +1418,6 @@ html {
   fill: #fde68a;
 }
 
-.fill-current {
-  fill: currentColor;
-}
-
 .p-1 {
   padding: 0.25rem;
 }
@@ -1464,11 +1457,6 @@ html {
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-}
-
-.px-24 {
-  padding-left: 6rem;
-  padding-right: 6rem;
 }
 
 .px-3 {
@@ -1516,11 +1504,6 @@ html {
   padding-bottom: 0.5rem;
 }
 
-.py-2\.5 {
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
-}
-
 .py-24 {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -1550,6 +1533,10 @@ html {
   padding-bottom: 0px;
 }
 
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1570,12 +1557,16 @@ html {
   padding-bottom: 1.25rem;
 }
 
-.pb-64 {
-  padding-bottom: 16rem;
-}
-
 .pt-10 {
   padding-top: 2.5rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pt-2\.5 {
+  padding-top: 0.625rem;
 }
 
 .pt-24 {
@@ -1861,6 +1852,23 @@ html {
   color: rgb(0 0 0 / 0.75);
 }
 
+.entry-content h4, .entry-content h3, .wp-block-heading {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.cjt-input {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #E5E7EB;
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 10px 0 20px 0;
+}
+
 .placeholder\:text-black::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1962,10 +1970,6 @@ html {
     display: block;
   }
 
-  .sm\:flex {
-    display: flex;
-  }
-
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2021,6 +2025,10 @@ html {
     margin-bottom: 6rem;
   }
 
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
   .md\:mb-24 {
     margin-bottom: 6rem;
   }
@@ -2047,6 +2055,11 @@ html {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:size-16 {
+    width: 4rem;
+    height: 4rem;
   }
 
   .md\:w-full {
@@ -2138,6 +2151,26 @@ html {
     padding-right: 0px;
   }
 
+  .md\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .md\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .md\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .md\:py-2\.5 {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+  }
+
   .md\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -2147,12 +2180,28 @@ html {
     padding-bottom: 6rem;
   }
 
+  .md\:pb-40 {
+    padding-bottom: 10rem;
+  }
+
   .md\:pb-96 {
     padding-bottom: 24rem;
   }
 
+  .md\:pb-\[10rem\] {
+    padding-bottom: 10rem;
+  }
+
+  .md\:pt-0 {
+    padding-top: 0px;
+  }
+
   .md\:pt-24 {
     padding-top: 6rem;
+  }
+
+  .md\:pt-5 {
+    padding-top: 1.25rem;
   }
 
   .md\:text-3xl {
@@ -2223,14 +2272,6 @@ html {
     grid-column: span 3 / span 3;
   }
 
-  .lg\:col-span-4 {
-    grid-column: span 4 / span 4;
-  }
-
-  .lg\:col-span-8 {
-    grid-column: span 8 / span 8;
-  }
-
   .lg\:col-span-9 {
     grid-column: span 9 / span 9;
   }
@@ -2288,6 +2329,10 @@ html {
     gap: 2.5rem;
   }
 
+  .lg\:gap-12 {
+    gap: 3rem;
+  }
+
   .lg\:gap-8 {
     gap: 2rem;
   }
@@ -2295,6 +2340,12 @@ html {
   .lg\:gap-x-12 {
     -moz-column-gap: 3rem;
          column-gap: 3rem;
+  }
+
+  .lg\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
   }
 
   .lg\:space-y-24 > :not([hidden]) ~ :not([hidden]) {
@@ -2384,6 +2435,14 @@ html {
 }
 
 @media (min-width: 1280px) {
+  .xl\:col-span-4 {
+    grid-column: span 4 / span 4;
+  }
+
+  .xl\:col-span-8 {
+    grid-column: span 8 / span 8;
+  }
+
   .xl\:block {
     display: block;
   }

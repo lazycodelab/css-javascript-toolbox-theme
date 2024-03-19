@@ -19,6 +19,11 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 @tailwind components;
 @tailwind utilities;
 
+.entry-content h4, .entry-content h3, .wp-block-heading {
+	font-size: 28px;
+	font-weight: 600;
+}
+
 @layer base {
 	@font-face {
 		font-family: 'Grifter Bold';
@@ -29,6 +34,19 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 		font-family: "Poppins", system-ui, sans-serif;
 	}
 }
+
+.cjt-input {
+	width: 100%;
+	height: 100%;
+	background: white;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1rem;
+	border: 1px solid #E5E7EB;
+	font-size: 1rem;
+	font-weight: normal;
+	margin: 10px 0 20px 0;
+}
+
 
 @layer utilities {
 	#nav-menu {

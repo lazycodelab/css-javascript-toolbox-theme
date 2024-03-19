@@ -29,6 +29,9 @@
                     </p>
                 </div>
                 <form class="space-y-10 xl:w-2/3 w-full">
+                    <?php echo do_shortcode( '[contact-form-7 id="b2289c7" title="Contact form 1"]'); ?>
+                </form>
+                <!-- <form class="space-y-10 xl:w-2/3 w-full">
                     <div class="space-y-5">
                         <div class="space-y-2.5">
                             <label class="font-bold md:text-base text-sm">Name</label>
@@ -48,7 +51,7 @@
                         </div>
                         <button type="submit" class="py-3 px-7 bg-neutral-900 rounded-lg text-white">Submit</button>
                     </div>
-                </form>
+                </form> -->
                 <div class="absolute bottom-20 right-0 xl:block hidden">
                     <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/contact.svg" />
                 </div>

@@ -9,7 +9,7 @@
  */
 ?>
 
-<section class="pt-24 pb-40 bg-blue-50 relative">
+<section class="md:pt-24 md:pb-40 pb-1 pt-10 bg-blue-50 relative">
     <div class="absolute bottom-0 w-full right-0 z-10">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#3AAAFF" fill-opacity="0.35" d="M0,192L40,213.3C80,235,160,277,240,250.7C320,224,400,128,480,128C560,128,640,224,720,245.3C800,267,880,213,960,160C1040,107,1120,53,1200,32C1280,11,1360,21,1400,26.7L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
@@ -21,35 +21,37 @@
         </svg>
     </div>
     <style>
-        swiper-slide.swiper-slide-active {
-            transform: translateY(-50px);
-            transition-duration: 0.3s;
-            transition-property: transform;
+        @media only screen and (min-width: 600px) {
+            swiper-slide.swiper-slide-active {
+                transform: translateY(-50px);
+                transition-duration: 0.3s;
+                transition-property: transform;
+            }
         }
 
-        swiper-slide.swiper-slide-active blockquote {
-            background: #005DA4 !important;
-            color: white !important;
-            transition: all 0.2s linear;
-        }
+            swiper-slide.swiper-slide-active blockquote {
+                background: #005DA4 !important;
+                color: white !important;
+                transition: all 0.2s linear;
+            }
 
-        swiper-slide.swiper-slide-active blockquote p {
-            color: white !important;
-            transition: all 0.2s linear;
-        }
+            swiper-slide.swiper-slide-active blockquote p {
+                color: white !important;
+                transition: all 0.2s linear;
+            }
 
-        swiper-slide.swiper-slide-active blockquote svg path {
-            fill: white !important;
-        }
+            swiper-slide.swiper-slide-active blockquote svg path {
+                fill: white !important;
+            }
 
-        swiper-container .swiper .swiper-button-prev,
-        swiper-container .swiper .swiper-button-next {
-            background-color: #005DA4 !important;
-            padding: 20px !important;
-            border-radius: 8px !important;
-            color: white !important;
-            --swiper-navigation-size: 20px !important;
-        }
+            swiper-container .swiper .swiper-button-prev,
+            swiper-container .swiper .swiper-button-next {
+                background-color: #005DA4 !important;
+                padding: 20px !important;
+                border-radius: 8px !important;
+                color: white !important;
+                --swiper-navigation-size: 20px !important;
+            }
     </style>
     <div class="mx-auto container text-center mb-40">
         <div class="space-y-5 max-w-2xl mx-auto">
@@ -61,8 +63,7 @@
                 We are incredibly humbled to have so many happy CJT PLUS customers, so we decided to let them speak for us. This is a small selection of the emails, reviews, and feedback we often receive.
             </p>
         </div>
-        <swiper-container class="pt-28 pb-64 select-none" loop="true" grab-cursor="true" centered-slides="true" space-between="30" 
-        breakpoints='
+        <swiper-container class="select-none" loop="true" grab-cursor="true" centered-slides="true" space-between="30" breakpoints='
 				{
 					"320": {
 						"slidesPerView": 1,
@@ -70,7 +71,7 @@
 					},
 					"570": {
 						"slidesPerView": 2,
-						"spaceBetween": 0
+						"spaceBetween": 20
 					},
 					"768": {
 						"slidesPerView": 3,
@@ -81,8 +82,8 @@
 						"spaceBetween": 20
 					}
 				}
-			'
-            navigation="true">
+			' navigation="true">
+            <div slot="container-start" class="p-10"></div>
             <swiper-slide class="space-y-5">
                 <blockquote class="rounded bg-white p-10 shadow-xl sm:p-8 space-y-5">
                     <div class="flex justify-center items-center gap-4">
@@ -193,7 +194,7 @@
             </swiper-slide>
         </swiper-container>
     </div>
-    <div class="absolute top-0 left-0">
+    <div class="absolute top-0 left-0 lg:block hidden">
         <svg width="283" height="255" viewBox="0 0 283 255" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.5" filter="url(#filter0_f_316_11618)">
                 <ellipse cx="69.6609" cy="39.5" rx="160.661" ry="162.5" fill="#34DAFF" fill-opacity="0.29" />
@@ -207,7 +208,7 @@
             </defs>
         </svg>
     </div>
-    <div class="absolute bottom-28 left-0">
+    <div class="absolute bottom-28 left-0 lg:block hidden">
         <svg width="232" height="495" viewBox="0 0 232 495" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.5" filter="url(#filter0_f_316_11612)">
                 <ellipse cx="-14" cy="247.626" rx="185" ry="186.626" fill="#AFF7EC" fill-opacity="0.4" />
@@ -221,7 +222,7 @@
             </defs>
         </svg>
     </div>
-    <div class="absolute bottom-0 right-0">
+    <div class="absolute bottom-0 right-0 lg:block hidden">
         <svg width="273" height="431" viewBox="0 0 273 431" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.5" filter="url(#filter0_f_316_11630)">
                 <ellipse cx="213.661" cy="215.5" rx="160.661" ry="162.5" fill="#34DAFF" fill-opacity="0.2" />
