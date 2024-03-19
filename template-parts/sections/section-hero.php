@@ -26,28 +26,7 @@
 			<?php get_template_part('template-parts/components/component', 'button', ['content' => 'Get CJT PLUS NOW', 'url' => '/']); ?>
 		</div>
 		<div class="relative xl:col-span-4 xl:block hidden flex-col items-center lg:pt-0 pt-10 h-full">
-			<div class="w-full h-full px-10 py-5 lg:block hidden absolute inset top-1/2">
-				<svg viewBox="0 0 786 719" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<g opacity="0.3" filter="url(#filter0_f_821_6)">
-						<circle cx="589" cy="314" r="236" fill="#4CFFFF" fill-opacity="0.6" />
-					</g>
-					<g opacity="0.3" filter="url(#filter1_f_821_6)">
-						<circle cx="314" cy="405" r="236" fill="#97FFDA" fill-opacity="0.6" />
-					</g>
-					<defs>
-						<filter id="filter0_f_821_6" x="275.75" y="0.749588" width="626.501" height="626.501" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-							<feFlood flood-opacity="0" result="BackgroundImageFix" />
-							<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-							<feGaussianBlur stdDeviation="38.6252" result="effect1_foregroundBlur_821_6" />
-						</filter>
-						<filter id="filter1_f_821_6" x="0.749588" y="91.7496" width="626.501" height="626.501" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-							<feFlood flood-opacity="0" result="BackgroundImageFix" />
-							<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-							<feGaussianBlur stdDeviation="38.6252" result="effect1_foregroundBlur_821_6" />
-						</filter>
-					</defs>
-				</svg>
-			</div>
+			<?php get_template_part('template-parts/components/component', 'blob', ['class' => 'inset-0 bg-cyan-400/30 blur-3xl size-[400px]']); ?>
 
 			<div class="rounded-2xl shadow-lg px-10 py-5 lg:absolute backdrop-blur-sm bg-white/30 top-[22%] -left-4">
 				<svg class="lg:w-44 w-32" viewBox="0 0 188 107" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -59,7 +38,7 @@
 					<path d="M92.5 76C92.5 76 76.8101 96.1786 69.5 106" stroke="#005DA4" stroke-linecap="round" />
 				</svg>
 			</div>
-			<div class="lg:absolute -right-10 -bottom-14 z-20 lg:block hidden">
+			<div class="lg:absolute right-0 -bottom-14 z-20 lg:block hidden">
 				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/hero.svg" />
 			</div>
 			<div class="rounded-2xl shadow-lg lg:absolute backdrop-blur-sm bg-white/30 top-24 right-0 z-10">
@@ -117,42 +96,14 @@
 			</svg>
 		</div>
 	</div>
-	<!-- Blue blob start -->
-	<div class="absolute left-0 top-0 -z-[1]">
-		<svg width="330" height="628" viewBox="0 0 330 628" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<g opacity="0.5" filter="url(#filter0_f_316_11644)">
-				<circle cx="16" cy="314" r="236" fill="#34DAFF" fill-opacity="0.3" />
-			</g>
-			<defs>
-				<filter id="filter0_f_316_11644" x="-297.25" y="0.749588" width="626.501" height="626.501" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-					<feFlood flood-opacity="0" result="BackgroundImageFix" />
-					<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-					<feGaussianBlur stdDeviation="38.6252" result="effect1_foregroundBlur_316_11644" />
-				</filter>
-			</defs>
-		</svg>
-	</div>
-	<!-- Blue blob end -->
 
-	<div class="size-5 rounded-md bg-blue-200/50 absolute rotate-6 left-1/2 top-20 md:block hidden"></div>
-	<div class="size-5 rounded-md bg-amber-200/50 absolute -rotate-6 right-1/3 bottom-1/2 md:block hidden"></div>
-	<div class="size-5 rounded-md bg-lime-200/50 absolute rotate-3 left-1/3 top-1/3 -z-[1] md:block hidden"></div>
-	<div class="size-5 rounded-md bg-blue-200/50 absolute left-96 top-2/4 -z-[1] md:block hidden"></div>
 
-	<div class="absolute bottom-0 -z-[1]">
-		<svg viewBox="0 0 330 628" fill="none" class="fill-amber-200" xmlns="http://www.w3.org/2000/svg">
-			<g opacity="0.5" filter="url(#filter0_f_316_11644)">
-				<circle cx="16" cy="314" r="236" fill="currentColor" fill-opacity="0.3" />
-			</g>
-			<defs>
-				<filter id="filter0_f_316_11644" x="-297.25" y="0.749588" width="626.501" height="626.501" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-					<feFlood flood-opacity="0" result="BackgroundImageFix" />
-					<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-					<feGaussianBlur stdDeviation="38.6252" result="effect1_foregroundBlur_316_11644" />
-				</filter>
-			</defs>
-		</svg>
-	</div>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-200/50 absolute rotate-6 left-1/2 top-20']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 absolute -rotate-6 right-1/3 bottom-1/2']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 absolute rotate-3 left-1/3 top-1/3']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-200/50 absolute left-40 top-1/4']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 left-[40%] bottom-1/2']); ?>
+	<?php get_template_part('template-parts/components/component', 'blob', ['class' => '-left-52 top-10 bg-cyan-400/30 blur-3xl size-[400px]']); ?>
 	<!-- Youtube player start -->
 	<div class="absolute -bottom-[40%] z-10 left-1/2 transform -translate-x-1/2 -translate-y-1/2 xl:block hidden">
 		<div class="bg-white p-2.5 shadow-xl">

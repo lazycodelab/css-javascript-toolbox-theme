@@ -9,7 +9,7 @@
  */
 ?>
 
-<section class="md:pt-24 md:pb-40 pb-1 pt-10 bg-blue-50 relative">
+<section class="md:pt-24 md:pb-40 pb-1 pt-10 bg-blue-50 relative overflow-hidden">
     <div class="absolute bottom-0 w-full right-0 z-10">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#3AAAFF" fill-opacity="0.35" d="M0,192L40,213.3C80,235,160,277,240,250.7C320,224,400,128,480,128C560,128,640,224,720,245.3C800,267,880,213,960,160C1040,107,1120,53,1200,32C1280,11,1360,21,1400,26.7L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
@@ -24,8 +24,9 @@
         @media only screen and (min-width: 600px) {
             swiper-slide.swiper-slide-active {
                 transform: translateY(-50px);
-                transition-duration: 0.3s;
+                transition-duration: 0.5s;
                 transition-property: transform;
+                transition-property: linear;
             }
         }
 
@@ -53,7 +54,7 @@
                 --swiper-navigation-size: 20px !important;
             }
     </style>
-    <div class="mx-auto container text-center mb-40">
+    <div class="mx-auto container text-center mb-64">
         <div class="space-y-5 max-w-2xl mx-auto">
             <h2 class="text-2xl font-bold md:text-5xl font-display">
                 What Our Client Say About CJT PLUS
@@ -194,46 +195,10 @@
             </swiper-slide>
         </swiper-container>
     </div>
-    <div class="absolute top-0 left-0 lg:block hidden">
-        <svg width="283" height="255" viewBox="0 0 283 255" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g opacity="0.5" filter="url(#filter0_f_316_11618)">
-                <ellipse cx="69.6609" cy="39.5" rx="160.661" ry="162.5" fill="#34DAFF" fill-opacity="0.29" />
-            </g>
-            <defs>
-                <filter id="filter0_f_316_11618" x="-143.589" y="-175.589" width="426.5" height="430.179" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                    <feGaussianBlur stdDeviation="26.2947" result="effect1_foregroundBlur_316_11618" />
-                </filter>
-            </defs>
-        </svg>
-    </div>
-    <div class="absolute bottom-28 left-0 lg:block hidden">
-        <svg width="232" height="495" viewBox="0 0 232 495" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g opacity="0.5" filter="url(#filter0_f_316_11612)">
-                <ellipse cx="-14" cy="247.626" rx="185" ry="186.626" fill="#AFF7EC" fill-opacity="0.4" />
-            </g>
-            <defs>
-                <filter id="filter0_f_316_11612" x="-259.556" y="0.443523" width="491.113" height="494.364" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                    <feGaussianBlur stdDeviation="30.2782" result="effect1_foregroundBlur_316_11612" />
-                </filter>
-            </defs>
-        </svg>
-    </div>
-    <div class="absolute bottom-0 right-0 lg:block hidden">
-        <svg width="273" height="431" viewBox="0 0 273 431" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g opacity="0.5" filter="url(#filter0_f_316_11630)">
-                <ellipse cx="213.661" cy="215.5" rx="160.661" ry="162.5" fill="#34DAFF" fill-opacity="0.2" />
-            </g>
-            <defs>
-                <filter id="filter0_f_316_11630" x="0.410515" y="0.410515" width="426.5" height="430.179" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                    <feGaussianBlur stdDeviation="26.2947" result="effect1_foregroundBlur_316_11630" />
-                </filter>
-            </defs>
-        </svg>
-    </div>
+    
+	<?php get_template_part('template-parts/components/component', 'blob', ['class' => '-left-64 -top-40 bg-cyan-400/30 blur-3xl size-[400px]']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 absolute rotate-6 right-40 top-40']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 absolute rotate-3 left-1/3 bottom-[30%]']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-300/50 absolute rotate-3 left-40 top-1/4']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 left-[40%] bottom-1/2']); ?>
 </section>

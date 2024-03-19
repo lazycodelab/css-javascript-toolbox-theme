@@ -10,12 +10,16 @@
 
 ?>
 
-<section class="md:py-24 py-10 relative">
+<section class="md:py-24 py-10 relative overflow-hidden">
     <div class="mx-auto container md:space-y-10 space-y-14">
-        <h2 class="text-2xl font-bold md:text-5xl font-display max-w-3xl mx-auto text-center">
-            Top 6 Reasons Why Over 2 Million Users Love
-            <span class="text-brand-blue">CJT PLUS</span>
-        </h2>
+        <div class="relative">
+            <h2 class="text-2xl font-bold md:text-5xl font-display max-w-4xl mx-auto text-center">
+                Top 6 Reasons Why Over 2 Million Users Love
+                <span class="text-brand-blue">CJT PLUS</span>
+            </h2>
+	        <?php get_template_part('template-parts/components/component', 'blob', ['class' => 'top-0 left-[55%] bg-cyan-400/30 blur-3xl size-[200px]']); ?>
+            <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-top-10 left-[65%] bg-amber-400/40 blur-3xl size-[130px]']); ?>
+        </div>
         <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
             <div class="md:w-full h-full w-2/3 mx-auto relative">
                 <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-1.svg" />
@@ -163,4 +167,16 @@
             </div>
         </div>
     </div>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-300/50 rotate-6 top-10 left-1/2']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 -rotate-6 left-[20%] top-[40%]']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 rotate-3 right-[5%] bottom-[40%]']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 top-[25%] left-[40%]']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-300/50 rotate-6 bottom-10 right-1/2']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 -rotate-6 right-[60%] bottom-[20%]']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 rotate-3 left-[15%] top-[40%]']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 bottom-[25%] right-[40%]']); ?>
+    <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-left-64 bottom-[15%] bg-cyan-400/30 blur-3xl size-[400px]']); ?>
+    <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-right-64 bottom-20 bg-amber-300/30 blur-3xl size-[400px]']); ?>
+    <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-left-64 bottom-[55%] bg-cyan-400/30 blur-3xl size-[400px]']); ?>
+    <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-right-64 bottom-[50%] bg-amber-300/30 blur-3xl size-[400px]']); ?>
 </section>

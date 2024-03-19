@@ -25,50 +25,70 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 		</div>
 
 
-		<div class="grid grid-cols-1 md:grid-cols-2 sm:items-stretch lg:grid-cols-4 md:gap-5 rounded-lg bg-white md:mt-44 mt-5 md:mx-0 mx-5 md:border-none border border-black md:divide-y-0 divide-y-2">
-
+		<div class="grid grid-cols-1 sm:grid-cols-2 sm:items-stretch md:grid-cols-4 rounded-lg bg-white lg:mt-32">
 			<?php
-			$containerClasses = 'p-10 divide-gray-200 space-y-5';
 			foreach ($plans as $plan) :
+				$containerClasses = 'px-10 py-5 space-y-8';
+				$textClasses      = 'text-neutral-600';
+				$ctaClasses       = 'group rounded px-6 text-base inline-flex items-center font-semibold py-3 gap-x-1 shadow-md';
+
 				if ($plan["highlight"] === true) {
-					$containerClasses .= ' md:rounded-3xl rounded-lg md:shadow-[0px_40px_30px_0px] shadow-[0px_10px_30px_0px] md:shadow-brand-blue/25 shadow-brand-blue/25 relative lg:-top-28 bg-brand-blue';
+					$containerClasses .= ' md:rounded-3xl rounded-lg md:shadow-[0px_40px_30px_0px] shadow-[0px_10px_30px_0px] md:shadow-brand-blue/25 shadow-brand-blue/25 relative lg:-top-24 bg-brand-blue';
+					$textClasses      = 'text-white';
+					$ctaClasses .= ' text-brand-blue bg-white';
+				} else {
+					$ctaClasses .= ' bg-brand-blue text-white';
 				}
 				?>
 
 				<div class="<?php echo $containerClasses; ?>">
-					<div class="space-y-2.5 text-start">
-						<div class="space-y-5">
-							<h2>
-								<strong class="text-3xl font-medium text-gray-900 sm:text-4xl">$
-									<?php echo $plan['price']; ?>
-								</strong>
-								<!--<span class="text-sm font-medium text-gray-700">/month</span>-->
-							</h2>
-							<p class="text-3xl font-medium text-indigo-950">
-								<?php echo $plan['name']; ?>
+					<div class="space-y-2.5 text-center">
+						<div class="space-y-3">
+							<div class="space-y-8">
+								<?php if ($plan['highlight'] === true) : ?>
+									<p class="text-base inline font-bold tracking-wide uppercase bg-white text-brand-blue rounded-full px-8 py-1">
+										Most Popular
+									</p>
+								<?php endif; ?>
+
+								<h2 class="text-2xl font-medium <?php echo $textClasses; ?>">
+									<?php echo $plan['name']; ?>
+								</h2>
+							</div>
+
+							<p class="text-4xl relative <?php echo $textClasses; ?> sm:text-4xl lg:text-7xl font-display tracking-wide">
+								<?php echo '<sup class="text-2xl font-normal font-body -top-8">$</sup>' . $plan['price'] . '<sub class="text-neutral-400 text-xs font-normal font-body tracking-normal absolute bottom-1">/year</sub>'; ?>
 							</p>
 						</div>
-						<p class="text-neutral-600">CJT PLUS premium WordPress plugin</p>
+						<p class="<?php echo $textClasses; ?>">
+							<?php echo $plan['description']; ?>
+						</p>
 					</div>
 
+					<button class="<?= $ctaClasses; ?>">
+						Get Started
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4 group-hover:translate-x-0.5 duration-150">
+							<path fill-rule="evenodd" d="M2 8a.75.75 0 0 1 .75-.75h8.69L8.22 4.03a.75.75 0 0 1 1.06-1.06l4.5 4.5a.75.75 0 0 1 0 1.06l-4.5 4.5a.75.75 0 0 1-1.06-1.06l3.22-3.22H2.75A.75.75 0 0 1 2 8Z" clip-rule="evenodd" />
+						</svg>
 
-					<ul class="space-y-2.5">
+					</button>
+
+					<ul class="space-y-2.5 border-t <?= $plan['highlight'] ? 'border-t-neutral-50/10' : 'border-t-neutral-100'; ?> pt-8">
 						<?php foreach ($plan['features'] as $feature) : ?>
-							<li class="flex items-center gap-2.5">
-								<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20C15.5228 20 20 15.5228 20 10C19.9936 4.47982 15.5202 0.00642897 10 0Z" fill="#5243C2" fill-opacity="0.103693" />
-									<path d="M15.7741 6.83362L10.07 14.5745C9.93392 14.7549 9.73107 14.8732 9.50698 14.9027C9.28289 14.9321 9.05636 14.8703 8.8783 14.7311L4.80496 11.4745C4.44552 11.1868 4.38731 10.6622 4.67496 10.3028C4.96261 9.94334 5.48718 9.88514 5.84663 10.1728L9.2433 12.8903L14.4325 5.84778C14.6026 5.59244 14.8993 5.45127 15.2048 5.48032C15.5103 5.50936 15.7751 5.70393 15.8941 5.98676C16.013 6.2696 15.967 6.59494 15.7741 6.83362Z" fill="#005DA4" />
+							<li class="flex items-center gap-2.5 <?= $textClasses; ?>">
+								<svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5" role="presentation">
+									<path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
 								</svg>
-
-								<span class="text-gray-700">1 site install only</span>
+								<?= $feature; ?>
 							</li>
 						<?php endforeach; ?>
 					</ul>
-					<button class="rounded-lg inline-flex px-6 text-xl font-semibold py-3.5 text-brand-blue bg-brand-blue/10">
-						Explore Plugins Now
-					</button>
 				</div>
 			<?php endforeach; ?>
 		</div>
 	</div>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-300/50 rotate-6 left-[10%] top-20']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 -rotate-6 left-[5%] bottom-1/2']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 rotate-3 right-[5%] bottom-1/3']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 right-[20%] top-40']); ?>
 </section>

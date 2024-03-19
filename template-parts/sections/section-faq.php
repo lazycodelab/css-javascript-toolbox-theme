@@ -10,21 +10,7 @@
 
 ?>
 
-<section class="md:py-24 py-10 relative">
-    <div class="absolute top-0 left-0 -z-[1]">
-        <svg width="278" height="595" viewBox="0 0 278 595" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g opacity="0.5" filter="url(#filter0_f_316_12075)">
-                <ellipse cx="-17.4556" cy="297.5" rx="222.544" ry="224.5" fill="#AFF7EC" fill-opacity="0.6" />
-            </g>
-            <defs>
-                <filter id="filter0_f_316_12075" x="-312.846" y="0.15403" width="590.781" height="594.692" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                    <feGaussianBlur stdDeviation="36.423" result="effect1_foregroundBlur_316_12075" />
-                </filter>
-            </defs>
-        </svg>
-    </div>
+<section class="md:py-24 py-10 relative overflow-hidden">
     <div class="mx-auto container text-center space-y-10">
         <div class="space-y-5 max-w-2xl mx-auto">
             <h2 class="text-2xl font-bold md:text-5xl font-display">
@@ -58,4 +44,10 @@
             <?php } ?>
         </div>
     </div>
+    <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-left-64 -top-40 bg-cyan-400/30 blur-3xl size-[400px]']); ?>
+    <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-right-64 top-2/4 bg-amber-300/30 blur-3xl size-[400px]']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-300/50 rotate-6 left-[20%] bottom-20']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 -rotate-6 left-1/4 bottom-1/2']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 rotate-3 right-[20%] bottom-1/3']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 right-[20%] top-40']); ?>
 </section>
