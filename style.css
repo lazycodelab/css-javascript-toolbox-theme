@@ -1,17 +1,16 @@
 /*
 Theme Name: CSS & JavaScript Toolbox
-Theme URI: https://wordpress.org/themes/twentytwentyfour/
-Author: the WordPress team
-Author URI: https://wordpress.org
-Description: Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.
+Theme URI: https://css-javascript-toolbox.com/
+Author: CSS & JavaScript Team
+Author URI: https://css-javascript-toolbox.com/, https://lazycodelab.com
+Description: Custom tailored theme for CSS & JavaScript Toolbox.
 Requires at least: 6.4
 Tested up to: 6.4
 Requires PHP: 7.0
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: twentytwentyfour
-Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
+Text Domain: cjt
 */
 
 /*
@@ -468,6 +467,7 @@ video {
 
 html {
   font-family: "Poppins", system-ui, sans-serif;
+  overflow-x: hidden;
 }
 
 *, ::before, ::after {
@@ -642,6 +642,10 @@ html {
 
 .-left-4 {
   left: -1rem;
+}
+
+.-left-96 {
+  left: -24rem;
 }
 
 .-right-10 {
@@ -896,6 +900,11 @@ html {
   height: 2.5rem;
 }
 
+.size-14 {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
 .size-4 {
   width: 1rem;
   height: 1rem;
@@ -911,12 +920,21 @@ html {
   height: 600px;
 }
 
+.size-\[900px\] {
+  width: 900px;
+  height: 900px;
+}
+
 .h-14 {
   height: 3.5rem;
 }
 
 .h-28 {
   height: 7rem;
+}
+
+.h-3 {
+  height: 0.75rem;
 }
 
 .h-4\/5 {
@@ -933,10 +951,6 @@ html {
 
 .h-64 {
   height: 16rem;
-}
-
-.h-9 {
-  height: 2.25rem;
 }
 
 .h-full {
@@ -1154,14 +1168,14 @@ html {
        column-gap: 0.25rem;
 }
 
-.gap-x-10 {
-  -moz-column-gap: 2.5rem;
-       column-gap: 2.5rem;
-}
-
 .gap-x-2 {
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
+}
+
+.gap-x-5 {
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
 }
 
 .gap-y-2 {
@@ -1318,6 +1332,11 @@ html {
   border-color: rgb(23 23 23 / var(--tw-border-opacity));
 }
 
+.border-t-neutral-100 {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(245 245 245 / var(--tw-border-opacity));
+}
+
 .border-t-neutral-50\/10 {
   border-top-color: rgb(250 250 250 / 0.1);
 }
@@ -1337,6 +1356,10 @@ html {
 
 .bg-blue-200\/50 {
   background-color: rgb(191 219 254 / 0.5);
+}
+
+.bg-blue-300\/20 {
+  background-color: rgb(147 197 253 / 0.2);
 }
 
 .bg-blue-50 {
@@ -1381,6 +1404,16 @@ html {
   background-color: rgb(217 249 157 / 0.5);
 }
 
+.bg-neutral-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+}
+
+.bg-neutral-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 229 229 / var(--tw-bg-opacity));
+}
+
 .bg-neutral-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(23 23 23 / var(--tw-bg-opacity));
@@ -1416,6 +1449,14 @@ html {
 
 .fill-amber-200 {
   fill: #fde68a;
+}
+
+.fill-current {
+  fill: currentColor;
+}
+
+.stroke-brand-blue {
+  stroke: #005DA4;
 }
 
 .p-1 {
@@ -1786,8 +1827,8 @@ html {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-.blur-xl {
-  --tw-blur: blur(24px);
+.blur-3xl {
+  --tw-blur: blur(64px);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -1885,6 +1926,48 @@ html {
 
 .placeholder\:opacity-0::placeholder {
   opacity: 0;
+}
+
+.before\:absolute::before {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.before\:inset-x-0::before {
+  content: var(--tw-content);
+  left: 0px;
+  right: 0px;
+}
+
+.before\:top-5::before {
+  content: var(--tw-content);
+  top: 1.25rem;
+}
+
+.before\:-z-10::before {
+  content: var(--tw-content);
+  z-index: -10;
+}
+
+.before\:block::before {
+  content: var(--tw-content);
+  display: block;
+}
+
+.before\:h-3::before {
+  content: var(--tw-content);
+  height: 0.75rem;
+}
+
+.before\:w-full::before {
+  content: var(--tw-content);
+  width: 100%;
+}
+
+.before\:bg-neutral-200::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 229 229 / var(--tw-bg-opacity));
 }
 
 .odd\:bg-gray-200:nth-child(odd) {
