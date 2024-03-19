@@ -1,5 +1,5 @@
-<section class="relative bg-white md:py-24 py-10 md:px-0 px-5">
-    <div class="absolute right-0 bottom-0 lg:block hidden">
+<section class="relative bg-white md:py-24 py-10 md:px-0 px-5 overflow-hidden">
+    <div class="absolute right-1/4 bottom-0 lg:block hidden">
         <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/ftp.svg" />
     </div>
     <div class="container mx-auto space-y-10">
@@ -58,4 +58,10 @@
             </div>
         </div>
     </div>
+    <div class="size-5 rounded-md bg-blue-200/50 absolute rotate-6 left-1/4 top-20 md:block hidden"></div>
+	<div class="size-5 rounded-md bg-amber-200/50 absolute -rotate-6 left-[15%] bottom-1/2 md:block hidden"></div>
+	<div class="size-5 rounded-md bg-lime-200/50 absolute rotate-3 right-[15%] top-1/4 -z-[1] md:block hidden"></div>
+	<div class="size-5 rounded-md bg-blue-200/50 absolute right-1/4 top-2/4 -z-[1] md:block hidden"></div>
+    <div class="absolute -left-32 -top-28 rounded-full bg-orange-200/40 blur-3xl size-[300px]"></div>
+    <div class="absolute bottom-0 -right-56 rounded-full bg-cyan-400/40 blur-3xl size-[300px]"></div>
 </section>

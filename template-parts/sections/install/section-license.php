@@ -95,4 +95,6 @@
             </div>
         </div>
     </div>
+    <div class="absolute -left-40 top-[30%] rounded-full bg-cyan-200/40 blur-3xl size-[300px] z-[1]"></div>
+    <div class="absolute bottom-[10%] -right-52 rounded-full bg-orange-200/40 blur-3xl size-[300px]"></div>
 </section>

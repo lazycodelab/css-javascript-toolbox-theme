@@ -48,4 +48,8 @@
             </p>
         </div>
     </div>
+    <div class="size-5 rounded-md bg-amber-300/50 absolute rotate-6 left-[10%] top-2/4 md:block hidden"></div>
+    <div class="size-5 rounded-md bg-cyan-300/50 absolute rotate-6 right-[10%] top-[20%] md:block hidden"></div>
+    <div class="absolute -left-40 top-40 rounded-full bg-cyan-300/30 blur-3xl size-[300px]"></div>
+    <div class="absolute -right-28 bottom-[40%] rounded-full bg-amber-300/30 blur-3xl size-[300px]"></div>
 </section>

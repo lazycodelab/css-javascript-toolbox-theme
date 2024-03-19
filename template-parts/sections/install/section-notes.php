@@ -4,7 +4,11 @@
             <h2 class="text-2xl text-neutral-900 font-bold md:text-5xl font-display">
                 NOTES
             </h2>
-            <div class="border bg-white border-neutral-900 rounded-lg p-10 relative">
+            <div class="border bg-white border-neutral-900 rounded-lg p-10 relative overflow-hidden">
+                <div class="absolute -left-10 -top-10 rounded-full bg-yellow-300/40 blur-3xl size-[150px]"></div>
+                <div class="absolute -right-10 top-20 rounded-full bg-cyan-300/60 blur-3xl size-[120px]"></div>
+                <div class="size-5 rounded-md bg-green-300/50 absolute -rotate-6 left-[15%] bottom-1/2 md:block hidden"></div>
+                <div class="size-5 rounded-md bg-amber-300/50 absolute -rotate-6 right-[12%] top-[8%] md:block hidden"></div>
                 <ol class="list-disc space-y-5">
                     <li class="lg:text-xl text-base font-medium md:max-w-5xl text-center mx-auto text-neutral-600">
                         It's a good idea to make sure that the CSS & JavaScript Toolbox PLUS compressed zip file that you will upload via the WordPress Plugins page is titled: css-javascript-toolbox-plus.zip
@@ -42,4 +46,7 @@
             </p>
         </div>
     </div>
+    <div class="size-5 rounded-md bg-green-300/50 absolute rotate-6 left-[10%] top-3/4 md:block hidden"></div>
+    <div class="size-5 rounded-md bg-amber-300/50 absolute rotate-6 right-[10%] top-[40%] md:block hidden"></div>
+    <div class="absolute -left-52 bottom-40 rounded-full bg-orange-200/40 blur-3xl size-[300px]"></div>
 </section>
