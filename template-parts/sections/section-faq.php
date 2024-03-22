@@ -30,7 +30,7 @@
                             Where can I watch?
                         </h2>
 
-                        <span class="shrink-0 rounded-full bg-white p-1.5 text-brand-blue sm:p-3">
+                        <span class="shrink-0 rounded-full p-1.5 text-brand-blue sm:p-3">
                             <svg xmlns="http://www.w3.org/2000/svg" class="size-5 shrink-0 transition duration-300 group-open:-rotate-45" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" />
                             </svg>
@@ -44,8 +44,8 @@
             <?php } ?>
         </div>
     </div>
-    <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-left-64 -top-40 bg-cyan-400/30 blur-3xl size-[400px]']); ?>
-    <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-right-64 top-2/4 bg-amber-300/30 blur-3xl size-[400px]']); ?>
+    <?php get_template_part('template-parts/components/component', 'blob', ['class' => 'md:-left-64 -left-28 -top-40 bg-cyan-400/30 blur-3xl md:size-[400px] size-[200px] -z-[1]']); ?>
+    <?php get_template_part('template-parts/components/component', 'blob', ['class' => 'md:-right-64 -right-28 top-2/4 bg-amber-300/30 blur-3xl md:size-[400px] size-[200px] -z-[1]']); ?>
     <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-300/50 rotate-6 left-[20%] bottom-20']); ?>
 	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 -rotate-6 left-1/4 bottom-1/2']); ?>
 	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 rotate-3 right-[20%] bottom-1/3']); ?>

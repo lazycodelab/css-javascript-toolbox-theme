@@ -13,12 +13,12 @@
 <section class="bg-brand-blue relative">
     <!-- Left Gradient Effect -->
     <div class="absolute left-0 h-full">
-        <img class="h-full" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/left-gradient-effect.svg" />
+        <img class="h-full sm:w-full w-1/3" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/left-gradient-effect.svg" />
     </div>
 
     <!-- Right Gradient Effect -->
     <div class="absolute right-0 h-full">
-        <img class="h-full" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/right-gradient-effect.svg" />
+        <img class="h-full sm:w-full w-1/3 ml-auto" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/right-gradient-effect.svg" />
     </div>
 
     <div class="mx-auto max-w-5xl text-center py-10 px-5 md:p-12 lg:px-16 lg:py-24 relative">
@@ -33,7 +33,7 @@
                 Unlock Potential with Our Plugins!
             </h2>
 
-            <p class="md:text-xl text-base text-white">
+            <p class="md:text-xl text-sm text-white">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolor officia blanditiis
                 repellat in, vero, aperiam porro ipsum laboriosam consequuntur exercitationem incidunt
                 tempora nisi?

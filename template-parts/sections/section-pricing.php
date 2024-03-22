@@ -25,7 +25,7 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 		</div>
 
 
-		<div class="grid grid-cols-1 sm:grid-cols-2 sm:items-stretch md:grid-cols-4 rounded-lg bg-white lg:mt-32">
+		<div class="grid grid-cols-1 sm:grid-cols-2 sm:items-stretch lg:grid-cols-4 rounded-lg sm:bg-white lg:mt-32 mt-5 sm:gap-0 gap-5 sm:mx-0 mx-5">
 			<?php
 			foreach ($plans as $plan) :
 				$containerClasses = 'px-10 py-5 space-y-8';
@@ -33,13 +33,14 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 				$ctaClasses       = 'group rounded px-6 text-base inline-flex items-center font-semibold py-3 gap-x-1 shadow-md';
 
 				if ($plan["highlight"] === true) {
-					$containerClasses .= ' md:rounded-3xl rounded-lg md:shadow-[0px_40px_30px_0px] shadow-[0px_10px_30px_0px] md:shadow-brand-blue/25 shadow-brand-blue/25 relative lg:-top-24 bg-brand-blue';
+					$containerClasses .= ' lg:rounded-3xl rounded lg:shadow-[0px_40px_30px_0px] sm:shadow-[0px_10px_30px_0px] lg:shadow-brand-blue/25 sm:shadow-brand-blue/25 shadow-md relative lg:-top-24 bg-brand-blue';
 					$textClasses      = 'text-white';
 					$ctaClasses .= ' text-brand-blue bg-white';
 				} else {
+					$containerClasses .= ' bg-white sm:shadow-none shadow-md';
 					$ctaClasses .= ' bg-brand-blue text-white';
 				}
-				?>
+			?>
 
 				<div class="<?php echo $containerClasses; ?>">
 					<div class="space-y-2.5 text-center">
@@ -57,7 +58,7 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 							</div>
 
 							<p class="text-4xl relative <?php echo $textClasses; ?> sm:text-4xl lg:text-7xl font-display tracking-wide">
-								<?php echo '<sup class="text-2xl font-normal font-body -top-8">$</sup>' . $plan['price'] . '<sub class="text-neutral-400 text-xs font-normal font-body tracking-normal absolute bottom-1">/year</sub>'; ?>
+								<?php echo '<sup class="text-2xl font-normal font-body relative lg:-top-8 -top-4">$</sup>' . $plan['price'] . '<sub class="text-neutral-400 text-xs font-normal font-body tracking-normal absolute bottom-1">/year</sub>'; ?>
 							</p>
 						</div>
 						<p class="<?php echo $textClasses; ?>">

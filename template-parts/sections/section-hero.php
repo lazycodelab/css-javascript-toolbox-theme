@@ -12,18 +12,20 @@
 
 <section class="relative">
 	<div class="container mx-auto grid grid-cols-1 xl:grid-cols-12 lg:gap-x-12 items-center md:pb-[10rem] lg:pb-[30rem] pb-32 px-5">
-		<div class="space-y-10 xl:col-span-8">
+		<div class="lg:space-y-10 space-y-2.5 xl:col-span-8">
 			<div class="space-y-5 md:pt-24 pt-10">
-				<h1 class="lg:text-7xl text-4xl font-display">
-					The perfect WordPress plugin for adding code
+				<h1 class="lg:text-7xl text-4xl font-display lg:text-left text-center">
+					A perfect WordPress plugin for adding code snippets
 				</h1>
-				<h2 class="lg:text-3xl text-xl font-display leading-none">
+				<h2 class="lg:text-3xl text-xl font-display leading-none lg:block hidden">
 					Modular. Versatile. Effortless
 				</h2>
 			</div>
-			<p class="max-w-2xl font-medium lg:text-lg text-base text-neutral-600">Start working with that can provide everything you need to generate awareness, drive traffic, connect. Efficiently transform granular value with client-focused.</p>
+			<p class="max-w-2xl font-medium lg:text-start text-center lg:text-lg text-sm text-neutral-600">CSS & JavaScript Toolbox (CJT) makes it safe and easy to add custom code snippets to WordPress without the need for additional plugins.</p>
 
-			<?php get_template_part('template-parts/components/component', 'button', ['content' => 'Get CJT PLUS NOW', 'url' => '/']); ?>
+			<div class="lg:block hidden">
+				<?php get_template_part('template-parts/components/component', 'button', ['content' => 'Get CJT PLUS NOW', 'url' => '/']); ?>
+			</div>
 		</div>
 		<div class="relative xl:col-span-4 xl:block hidden flex-col items-center lg:pt-0 pt-10 h-full">
 			<?php get_template_part('template-parts/components/component', 'blob', ['class' => 'inset-0 bg-cyan-400/30 blur-3xl size-[400px]']); ?>
@@ -79,8 +81,57 @@
 				</div>
 			</div>
 		</div>
-		<div class="w-full h-full xl:hidden block">
-			<img class="w-full" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/hero-mobile.png" />
+		<div class="w-full h-full xl:hidden flex flex-col items-center mt-5 space-y-5">
+			<div class="grid grid-cols-3 place-items-center rounded bg-white shadow-md py-3 px-1.5">
+				<div class="w-full">
+					<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/10-years.png" class="w-3/4 mx-auto" />
+				</div>
+				<div class="border-l border-r border-neutral-100">
+					<div class="flex flex-col items-center justify-center space-y-1.5">
+						<svg width="30" height="30" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M35.5 13.75C35.5 9.60833 32.0017 6.25 27.6867 6.25C24.4617 6.25 21.6917 8.12667 20.5 10.805C19.3083 8.12667 16.5383 6.25 13.3117 6.25C9 6.25 5.5 9.60833 5.5 13.75C5.5 25.7833 20.5 33.75 20.5 33.75C20.5 33.75 35.5 25.7833 35.5 13.75Z" stroke="#005DA4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+						<p class="text-xl font-bold leading-none font-display">
+							4.9<small class="text-xs text-neutral-600 font-body">/5</small>
+						</p>
+						<div class="flex items-center gap-x-0.5 text-brand-blue">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-3">
+								<path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-3">
+								<path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-3">
+								<path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-3">
+								<path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-3">
+								<path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+							</svg>
+						</div>
+						<span class="text-xs text-center tracking-wide text-neutral-900">1000+ verified reviews</span>
+					</div>
+				</div>
+				<div class="">
+					<div class="flex flex-col items-center justify-center">
+						<svg width="30" height="30" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M40 32.5V55M40 55L30 45M40 55L50 45M22.5 65C18.9314 65.0039 15.4784 63.7354 12.7609 61.4223C10.0435 59.1092 8.2398 55.9031 7.67365 52.3797C7.1075 48.8564 7.81604 45.2466 9.67202 42.1986C11.528 39.1507 14.4098 36.8643 17.8 35.75C16.929 31.2872 17.8291 26.6607 20.3099 22.8501C22.7907 19.0394 26.6572 16.344 31.0907 15.3345C35.5242 14.325 40.1765 15.0808 44.0625 17.4417C47.9485 19.8027 50.763 23.5834 51.91 27.9833C53.6833 27.4066 55.5826 27.3372 57.3934 27.783C59.2041 28.2288 60.8541 29.172 62.157 30.5061C63.4599 31.8403 64.3638 33.5121 64.7667 35.3329C65.1695 37.1536 65.0552 39.0508 64.4366 40.81C67.1655 41.8523 69.4434 43.817 70.8752 46.3632C72.307 48.9093 72.8024 51.8764 72.2754 54.7496C71.7484 57.6228 70.2323 60.2209 67.9901 62.0932C65.7479 63.9655 62.9211 64.9939 60 65H22.5Z" stroke="#005DA4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+						<p class="text-xl font-bold font-display">10,000+</p>
+						<span class="text-xs tracking-wide">Downloads</span>
+					</div>
+				</div>
+			</div>
+			<?php get_template_part('template-parts/components/component', 'button', ['content' => 'Get CJT PLUS NOW', 'url' => '/']); ?>
+			<a href="https://youtu.be/vYAKePVgJqE?si=JQzZGE0zsG5MBmrq" class="flex items-center gap-2.5 text-sm text-brand-blue font-medium">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="size-6">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" fill="#0A0A0A" stroke="#0A0A0A" />
+					<path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 0 1 0 .656l-5.603 3.113a.375.375 0 0 1-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112Z" stroke="#FFFFFF" fill="#ffffff" />
+				</svg>
+				Watch Video
+			</a>
 		</div>
 	</div>
 
@@ -103,7 +154,7 @@
 	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 absolute rotate-3 left-1/3 top-1/3']); ?>
 	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-200/50 absolute left-40 top-1/4']); ?>
 	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 left-[40%] bottom-1/2']); ?>
-	<?php get_template_part('template-parts/components/component', 'blob', ['class' => '-left-52 top-10 bg-cyan-400/30 blur-3xl size-[400px]']); ?>
+	<?php get_template_part('template-parts/components/component', 'blob', ['class' => 'md:-left-52 -left-20 top-10 bg-cyan-400/30 blur-3xl md:size-[400px] size-[220px] -z-[1]']); ?>
 	<!-- Youtube player start -->
 	<div class="absolute -bottom-[40%] z-10 left-1/2 transform -translate-x-1/2 -translate-y-1/2 xl:block hidden">
 		<div class="bg-white p-2.5 shadow-xl">
