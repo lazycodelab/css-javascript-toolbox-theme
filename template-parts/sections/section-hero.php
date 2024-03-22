@@ -28,7 +28,7 @@
 			</div>
 		</div>
 		<div class="relative xl:col-span-4 xl:block hidden flex-col items-center lg:pt-0 pt-10 h-full">
-			<?php get_template_part('template-parts/components/component', 'blob', ['class' => 'inset-0 bg-cyan-400/30 blur-3xl size-[400px]']); ?>
+			<?php get_template_part('template-parts/components/component', 'blob', ['class' => 'inset-0 top-20 bg-cyan-400/30 blur-3xl size-[400px]']); ?>
 
 			<div class="rounded-2xl shadow-lg px-10 py-5 lg:absolute backdrop-blur-sm bg-white/30 top-[22%] -left-4">
 				<svg class="lg:w-44 w-32" viewBox="0 0 188 107" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -52,7 +52,7 @@
 					<span class="text-sm tracking-wide">Downloads</span>
 				</div>
 			</div>
-			<div class="rounded-2xl shadow-lg md:px-24 px-10 py-3 lg:absolute backdrop-blur-sm bg-white/30 bottom-20 -left-12">
+			<div class="rounded-2xl shadow-lg md:px-24 px-10 py-3 lg:absolute backdrop-blur-sm bg-white/30 bottom-36 -left-12">
 				<div class="flex flex-col items-center justify-center space-y-1.5">
 					<svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M35.5 13.75C35.5 9.60833 32.0017 6.25 27.6867 6.25C24.4617 6.25 21.6917 8.12667 20.5 10.805C19.3083 8.12667 16.5383 6.25 13.3117 6.25C9 6.25 5.5 9.60833 5.5 13.75C5.5 25.7833 20.5 33.75 20.5 33.75C20.5 33.75 35.5 25.7833 35.5 13.75Z" stroke="#005DA4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
