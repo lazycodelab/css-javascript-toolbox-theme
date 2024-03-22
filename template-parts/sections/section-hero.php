@@ -10,7 +10,7 @@
 
 ?>
 
-<section class="relative">
+<section class="relative overflow-hidden">
 	<div class="container mx-auto grid grid-cols-1 xl:grid-cols-12 lg:gap-x-12 items-center md:pb-[10rem] lg:pb-[30rem] pb-32 px-5">
 		<div class="lg:space-y-10 space-y-2.5 xl:col-span-8">
 			<div class="space-y-5 md:pt-24 pt-10">
@@ -154,7 +154,8 @@
 	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 absolute rotate-3 left-1/3 top-1/3']); ?>
 	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-200/50 absolute left-40 top-1/4']); ?>
 	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 left-[40%] bottom-1/2']); ?>
-	<?php get_template_part('template-parts/components/component', 'blob', ['class' => 'md:-left-52 -left-20 top-10 bg-cyan-400/30 blur-3xl md:size-[400px] size-[220px] -z-[1]']); ?>
+	<?php get_template_part('template-parts/components/component', 'blob', ['class' => 'md:-left-52 -left-20 top-10 bg-cyan-400/20 blur-2xl md:size-[350px] size-[220px] -z-[1]']); ?>
+	<?php get_template_part('template-parts/components/component', 'blob', ['class' => 'lg:hidden -right-20 bottom-[50%] bg-amber-300/20 blur-2xl md:size-[350px] size-[220px] -z-[1]']); ?>
 	<!-- Youtube player start -->
 	<div class="absolute -bottom-[40%] z-10 left-1/2 transform -translate-x-1/2 -translate-y-1/2 xl:block hidden">
 		<div class="bg-white p-2.5 shadow-xl">
