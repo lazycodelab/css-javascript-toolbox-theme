@@ -47,6 +47,17 @@ Text Domain: cjt
 	margin: 10px 0 20px 0;
 }
 
+.previewSliderThumbs swiper-slide,
+.previewSliderThumbs2 swiper-slide {
+	height: 100%;
+	opacity: 0.4;
+}
+
+.previewSliderThumbs .swiper-slide-thumb-active,
+.previewSliderThumbs2 .swiper-slide-thumb-active {
+	opacity: 1;
+}
+
 
 @layer utilities {
 	#nav-menu {

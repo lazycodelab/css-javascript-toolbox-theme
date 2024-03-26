@@ -13,7 +13,7 @@
     <div class="mx-auto container xl:pt-48 pt-10 pb-10 lg:pb-14 lg:px-0 px-5">
         <div class="space-y-10">
             <h2 class="font-bold font-display text-center lg:text-xl text-sm">Trusted by the biggest brands in the galaxy</h2>
-            <div class="grid-cols-2 gap-5 lg:grid-cols-6 lg:gap-10 place-items-center md:grid hidden">
+            <div class="grid-cols-2 gap-5 lg:grid-cols-4 lg:gap-10 place-items-center md:grid hidden">
                 <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/chase.svg" class="h-10" />
                 <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/bf.svg" class="h-10" />
                 <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/tc.svg" class="h-10" />
