@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template part for displaying page content in page.php
  *
@@ -12,16 +13,14 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 ?>
 
 
-<section class="py-24 relative">
+<section class="py-24 relative overflow-hidden">
 	<div class="mx-auto container text-center">
-		<div class="space-y-5">
+		<div class="md:space-y-5 space-y-2.5 md:px-0 px-5">
 			<?php get_template_part('template-parts/components/component', 'section-heading', ['content' => 'Unbelievably Easy WordPress Customization <br />At Unbeatable Price']); ?>
-
 			<?php get_template_part('template-parts/components/component', 'section-paragraph', ['content' => 'Join the thriving community of thousands of websites already benefiting from CJT\'s powerful features.']); ?>
 		</div>
 
-		<div class="grid grid-cols-1 sm:grid-cols-2 sm:items-stretch md:grid-cols-4 rounded-lg bg-white lg:mt-56">
-
+		<div class="grid grid-cols-1 sm:grid-cols-2 sm:items-stretch lg:grid-cols-4 rounded-lg sm:bg-white lg:mt-40 mt-5 sm:gap-0 gap-5 sm:mx-0 mx-5">
 			<?php
 			foreach ($plans as $plan) :
 				$containerClasses = 'px-10 py-5 space-y-8';
@@ -29,13 +28,14 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 				$ctaClasses       = 'group rounded px-6 text-base inline-flex items-center font-semibold py-3 gap-x-1 shadow-md';
 
 				if ($plan["highlight"] === true) {
-					$containerClasses .= ' md:rounded-3xl rounded-lg md:shadow-[0px_40px_30px_0px] shadow-[0px_10px_30px_0px] md:shadow-brand-blue/25 shadow-brand-blue/25 relative lg:-top-24 bg-brand-blue';
+					$containerClasses .= ' lg:rounded-3xl rounded lg:shadow-[0px_40px_30px_0px] sm:shadow-[0px_10px_30px_0px] lg:shadow-brand-blue/25 sm:shadow-brand-blue/25 shadow-md relative lg:-top-24 bg-brand-blue';
 					$textClasses      = 'text-white';
 					$ctaClasses .= ' text-brand-blue bg-white';
 				} else {
+					$containerClasses .= ' bg-white sm:shadow-none shadow-md';
 					$ctaClasses .= ' bg-brand-blue text-white';
 				}
-				?>
+			?>
 
 				<div class="<?php echo $containerClasses; ?>">
 					<div class="space-y-2.5 text-center">
@@ -53,7 +53,7 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 							</div>
 
 							<p class="text-4xl relative <?php echo $textClasses; ?> sm:text-4xl lg:text-7xl font-display tracking-wide">
-								<?php echo '<sup class="text-2xl font-normal font-body -top-8">$</sup>' . $plan['price'] . '<sub class="text-neutral-400 text-xs font-normal font-body tracking-normal absolute bottom-1">/year</sub>'; ?>
+								<?php echo '<sup class="text-2xl font-normal font-body relative lg:-top-8 -top-4">$</sup>' . $plan['price'] . '<sub class="text-neutral-400 text-xs font-normal font-body tracking-normal absolute bottom-1">/year</sub>'; ?>
 							</p>
 						</div>
 						<p class="<?php echo $textClasses; ?>">
@@ -84,14 +84,10 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 		</div>
 	</div>
 
-	<div class="absolute -left-96 top-0 rounded-full bg-blue-300/20 blur-3xl size-[900px]">
-	</div>
-
-	<div class="absolute -right-72 top-40 rounded-full bg-amber-200/40 blur-3xl size-[600px]">
-	</div>
-
-	<div class="size-5 rounded-md bg-blue-200/50 absolute rotate-6 left-1/2 top-20"></div>
-	<div class="size-5 rounded-md bg-amber-200/50 absolute -rotate-6 right-1/3 bottom-1/2"></div>
-	<div class="size-5 rounded-md bg-lime-200/50 absolute rotate-3 left-1/3 top-1/3 -z-[1]"></div>
-	<div class="size-5 rounded-md bg-blue-200/50 absolute left-96 top-2/4 -z-[1]"></div>
+	<?php get_template_part('template-parts/components/component', 'blob', ['class' => 'md:-left-40 -left-28 top-20 bg-cyan-300/30 blur-3xl md:size-[300px] size-[200px] -z-[1]']); ?>
+	<?php get_template_part('template-parts/components/component', 'blob', ['class' => 'md:-right-64 -right-28 top-1/4 bg-amber-200/30 blur-3xl md:size-[400px] size-[200px] -z-[1]']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-300/50 rotate-6 left-[15%] top-28']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 -rotate-6 left-[5%] bottom-1/2']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 rotate-3 right-[5%] bottom-1/3']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 right-[20%] top-40']); ?>
 </section>

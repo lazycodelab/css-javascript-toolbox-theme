@@ -1,7 +1,7 @@
 <section class="pb-24 relative">
 	<!--<div class="bg-neutral-200 absolute top-2 h-3 w-full -z-10"></div>-->
 	<div class="mx-auto container before:absolute before:block before:h-3 before:bg-neutral-200 before:w-full before:inset-x-0 before:-z-10 before:top-5">
-		<div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
+		<div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 md:px-0 px-5">
 			<div class="space-y-2.5">
 				<div class="flex flex-col items-center">
 					<div class="w-14 h-14 rounded bg-brand-blue"></div>
@@ -46,21 +46,23 @@
 				</div>
 			</div>
 		</div>
-		<div class="mt-24 bg-neutral-100 rounded-lg p-10 relative space-y-10">
-			<div class="absolute bottom-10 right-10">
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/guarantee.svg" />
-			</div>
-			<div class="space-y-2.5 text-center">
-				<h2 class="font-display text-5xl text-center">Our 100% No-Risk Money Back Guarantee!</h2>
-				<p class="text-base font-normal max-w-5xl mx-auto">We use a payment gateway called FastSpring that serves securely over HTTPS using a 256-bit encryption certificate provided by Symantec. They use dedicated servers that handle SSL requests to speed up the transaction processing. These servers are in full compliance with the PCI Data Security Standard, independently verified.</p>
-			</div>
-			<div class="space-y-5 text-center">
-				<p class="font-display text-base font-bold text-center">Payment Options</p>
-				<div class="flex justify-center gap-x-5">
-					<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/payment/visa.svg" />
-					<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/payment/paypal.svg" />
-					<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/payment/mastercard.svg" />
+		<div class="mt-24 bg-neutral-100 rounded-lg p-10 relative">
+			<div class="space-y-10">
+				<div class="md:space-y-2.5 space-y-5 text-center">
+					<h2 class="font-display md:text-5xl text-4xl text-center">Our 100% No-Risk Money Back Guarantee!</h2>
+					<p class="text-base font-normal max-w-5xl mx-auto">We use a payment gateway called FastSpring that serves securely over HTTPS using a 256-bit encryption certificate provided by Symantec. They use dedicated servers that handle SSL requests to speed up the transaction processing. These servers are in full compliance with the PCI Data Security Standard, independently verified.</p>
 				</div>
+				<div class="space-y-5 text-center">
+					<p class="font-display text-base font-bold text-center">Payment Options</p>
+					<div class="flex justify-center gap-x-5">
+						<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/payment/visa.svg" />
+						<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/payment/paypal.svg" />
+						<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/payment/mastercard.svg" />
+					</div>
+				</div>
+			</div>
+			<div class="absolute md:bottom-10 bottom-28 md:right-10 right-5">
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/guarantee.svg" class="md:w-full w-20" />
 			</div>
 		</div>
 	</div>
