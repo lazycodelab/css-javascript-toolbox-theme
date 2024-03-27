@@ -9,7 +9,7 @@
  */
 
 ?>
-<section class="relative">
+<section class="relative overflow-hidden">
     <div class="container mx-auto grid grid-cols-1 h-4/5 md:px-0 px-5">
         <div class="space-y-5 max-w-4xl mx-auto text-center md:my-24 my-10">
             <h1 class="md:text-6xl text-2xl font-display">
