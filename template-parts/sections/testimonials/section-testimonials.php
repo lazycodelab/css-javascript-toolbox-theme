@@ -1,7 +1,140 @@
 <section class="bg-brand-light-blue-2 relative overflow-hidden">
     <div class="mx-auto container">
         <div class="relative grid grid-cols-1 md:grid-cols-3 md:gap-6 gap-5 z-[0]">
-            <swiper-container class="swiper-testimonials w-full md:h-[1400px] h-[40rem] md:px-0 px-5" direction="vertical" slides-per-view="auto" space-between="24" autoplay-delay="0" speed="22000" loop="true">
+            <swiper-container class="swiper-testimonials w-full md:h-[1400px] h-[40rem] md:px-0 px-5" direction="vertical" slides-per-view="auto" centered-slides="true" space-between="24" autoplay-delay="1" speed="12000" loop="true" free-mode="true">
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
                 <swiper-slide class="h-auto">
                     <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
                         <div class="space-y-2.5">
@@ -136,7 +269,140 @@
                     </div>
                 </swiper-slide>
             </swiper-container>
-            <swiper-container class="swiper-testimonials w-full h-[1400px] md:block hidden" direction="vertical" slides-per-view="auto" space-between="24" autoplay-delay="0" speed="16000" loop="true">
+            <swiper-container class="swiper-testimonials w-full h-[1400px] md:block hidden" direction="vertical" slides-per-view="auto" centered-slides="true" space-between="24" autoplay-delay="1" speed="8000" loop="true" free-mode="true">
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
                 <swiper-slide class="h-auto">
                     <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
                         <div class="space-y-2.5">
@@ -271,7 +537,140 @@
                     </div>
                 </swiper-slide>
             </swiper-container>
-            <swiper-container class="swiper-testimonials w-full h-[1400px] md:block hidden" direction="vertical" slides-per-view="auto" space-between="24" autoplay-delay="0" speed="19000" loop="true">
+            <swiper-container class="swiper-testimonials w-full h-[1400px] md:block hidden" direction="vertical" slides-per-view="auto" centered-slides="true" space-between="24" autoplay-delay="1" speed="9000" loop="true" free-mode="true">
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide class="h-auto">
+                    <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
+                        <div class="space-y-2.5">
+                            <div class="flex justify-center items-center">
+                                <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
+                                </svg>
+                            </div>
+                            <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                                <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
+                                This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
+                            </p>
+                        </div>
+                        <div>
+                            <p class="text-xl font-semibold">Alessandro Benassi</p>
+                            <a class="text-base text-brand-blue font-normal underline" href="https://www.behance.net/ap_benassi">Alessandro Benassi on Behance</a>
+                        </div>
+                    </div>
+                </swiper-slide>
                 <swiper-slide class="h-auto">
                     <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
                         <div class="space-y-2.5">
