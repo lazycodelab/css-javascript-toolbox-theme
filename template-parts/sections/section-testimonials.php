@@ -55,8 +55,8 @@
             --swiper-navigation-size: 20px !important;
         }
     </style>
-    <div class="mx-auto container text-center md:mb-64 mb-40 relative">
-        <div class="space-y-5 max-w-2xl mx-auto md:px-0 px-5">
+    <div class="mx-auto container text-center md:mb-64 mb-28 relative">
+        <div class="md:space-y-5 space-y-2.5 max-w-2xl mx-auto md:px-0 px-5">
             <h2 class="text-2xl font-bold md:text-5xl font-display">
                 What Our Client <br />Say About CJT PLUS
             </h2>
@@ -93,14 +93,14 @@
                             <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold">I wish to give it 6 stars!</h3>
                     <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                        <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
                         This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
                     </p>
                 </blockquote>
                 <div class="flex flex-col justify-center space-y-1.5">
-                    <h2 class="font-semibold text-xl">Alessandro Benassi</h2>
-                    <p>Los Angeles, California</p>
+                    <h2 class="font-semibold md:text-xl text-sm">Alessandro Benassi</h2>
+                    <p class="md:text-base text-neutral-900 text-xs">Los Angeles, California</p>
                     <div class="inline-flex mx-auto">
                         <?php for ($x = 0; $x <= 4; $x++) { ?>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#005DA4" class=" size-5">
@@ -120,14 +120,14 @@
                             <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold">I wish to give it 6 stars!</h3>
                     <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                        <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
                         This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
                     </p>
                 </blockquote>
                 <div class="flex flex-col justify-center space-y-1.5">
-                    <h2 class="font-semibold text-xl">Alessandro Benassi</h2>
-                    <p>Los Angeles, California</p>
+                    <h2 class="font-semibold md:text-xl text-sm">Alessandro Benassi</h2>
+                    <p class="md:text-base text-neutral-900 text-xs">Los Angeles, California</p>
                     <div class="inline-flex mx-auto">
                         <?php for ($x = 0; $x <= 4; $x++) { ?>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#005DA4" class=" size-5">
@@ -147,14 +147,14 @@
                             <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold">I wish to give it 6 stars!</h3>
                     <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                        <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
                         This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
                     </p>
                 </blockquote>
                 <div class="flex flex-col justify-center space-y-1.5">
-                    <h2 class="font-semibold text-xl">Alessandro Benassi</h2>
-                    <p>Los Angeles, California</p>
+                    <h2 class="font-semibold md:text-xl text-sm">Alessandro Benassi</h2>
+                    <p class="md:text-base text-neutral-900 text-xs">Los Angeles, California</p>
                     <div class="inline-flex mx-auto">
                         <?php for ($x = 0; $x <= 4; $x++) { ?>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#005DA4" class=" size-5">
@@ -174,14 +174,14 @@
                             <path d="M9.666 34.6425C7.606 32.4545 6.5 30.0005 6.5 26.0225C6.5 19.0225 11.414 12.7485 18.56 9.64648L20.346 12.4025C13.676 16.0105 12.372 20.6925 11.852 23.6445C12.926 23.0885 14.332 22.8945 15.71 23.0225C19.318 23.3565 22.162 26.3185 22.162 30.0005C22.162 31.857 21.4245 33.6375 20.1117 34.9502C18.799 36.263 17.0185 37.0005 15.162 37.0005C13.016 37.0005 10.964 36.0205 9.666 34.6425ZM29.666 34.6425C27.606 32.4545 26.5 30.0005 26.5 26.0225C26.5 19.0225 31.414 12.7485 38.56 9.64648L40.346 12.4025C33.676 16.0105 32.372 20.6925 31.852 23.6445C32.926 23.0885 34.332 22.8945 35.71 23.0225C39.318 23.3565 42.162 26.3185 42.162 30.0005C42.162 31.857 41.4245 33.6375 40.1117 34.9502C38.799 36.263 37.0185 37.0005 35.162 37.0005C33.016 37.0005 30.964 36.0205 29.666 34.6425Z" fill="black" />
                         </svg>
                     </div>
-                    <h3 class="text-xl font-semibold">I wish to give it 6 stars!</h3>
                     <p class="text-neutral-600 md:text-base text-sm sm:max-w-full max-w-64 mx-auto">
+                        <span class="text-neutral-900 font-semibold">I wish to give it 6 stars!</span><br />
                         This is THE css/js plugin. No rivals, no competitors, this is definitely the best ever! Activate, deactivate, assign to different pages/taxonomies/etc, code highlight, and anything I need. Congratulations!! Thanks a lot!!
                     </p>
                 </blockquote>
                 <div class="flex flex-col justify-center space-y-1.5">
-                    <h2 class="font-semibold text-xl">Alessandro Benassi</h2>
-                    <p>Los Angeles, California</p>
+                    <h2 class="font-semibold md:text-xl text-sm">Alessandro Benassi</h2>
+                    <p class="md:text-base text-neutral-900 text-xs">Los Angeles, California</p>
                     <div class="inline-flex mx-auto">
                         <?php for ($x = 0; $x <= 4; $x++) { ?>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#005DA4" class=" size-5">

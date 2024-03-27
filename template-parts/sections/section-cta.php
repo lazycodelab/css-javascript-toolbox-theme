@@ -34,12 +34,10 @@
             </h2>
 
             <p class="md:text-xl text-sm text-white">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolor officia blanditiis
-                repellat in, vero, aperiam porro ipsum laboriosam consequuntur exercitationem incidunt
-                tempora nisi?
+                Enhance functionality, boost performance, and elevate user experience with our premium plugins. Discover a world of possibilities for your website today.
             </p>
         </div>
-        <a class="rounded-lg bg-black inline-flex px-6 py-3.5 md:text-lg text-base font-medium text-white" href="/">
+        <a class="rounded-lg bg-black inline-flex px-6 py-3.5 md:text-lg text-base font-medium text-white uppercase" href="/">
             Explore Plugins Now
         </a>
     </div>
