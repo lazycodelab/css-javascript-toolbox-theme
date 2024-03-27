@@ -1,7 +1,7 @@
-<section class="pb-40 bg-brand-light-blue-2 relative overflow-hidden">
+<section class="bg-brand-light-blue-2 relative overflow-hidden">
     <div class="mx-auto container">
-        <div class="relative grid grid-cols-2 md:grid-cols-3 md:gap-6 gap-5 z-[0]">
-            <swiper-container class="swiper-testimonials w-full h-[1400px]" direction="vertical" slides-per-view="auto" space-between="24" autoplay-delay="0" speed="22000" loop="true">
+        <div class="relative grid grid-cols-1 md:grid-cols-3 md:gap-6 gap-5 z-[0]">
+            <swiper-container class="swiper-testimonials w-full md:h-[1400px] h-[40rem] md:px-0 px-5" direction="vertical" slides-per-view="auto" space-between="24" autoplay-delay="0" speed="22000" loop="true">
                 <swiper-slide class="h-auto">
                     <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
                         <div class="space-y-2.5">
@@ -136,7 +136,7 @@
                     </div>
                 </swiper-slide>
             </swiper-container>
-            <swiper-container class="swiper-testimonials w-full h-[1400px]" direction="vertical" slides-per-view="auto" space-between="24" autoplay-delay="0" speed="16000" loop="true">
+            <swiper-container class="swiper-testimonials w-full h-[1400px] md:block hidden" direction="vertical" slides-per-view="auto" space-between="24" autoplay-delay="0" speed="16000" loop="true">
                 <swiper-slide class="h-auto">
                     <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
                         <div class="space-y-2.5">
@@ -271,7 +271,7 @@
                     </div>
                 </swiper-slide>
             </swiper-container>
-            <swiper-container class="swiper-testimonials w-full h-[1400px]" direction="vertical" slides-per-view="auto" space-between="24" autoplay-delay="0" speed="19000" loop="true">
+            <swiper-container class="swiper-testimonials w-full h-[1400px] md:block hidden" direction="vertical" slides-per-view="auto" space-between="24" autoplay-delay="0" speed="19000" loop="true">
                 <swiper-slide class="h-auto">
                     <div class="bg-white rounded-lg shadow-md hover:shadow-2xl transition-shadow p-10 space-y-10 text-center">
                         <div class="space-y-2.5">

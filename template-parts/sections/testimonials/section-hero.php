@@ -10,7 +10,7 @@
 
 ?>
 <section class="relative overflow-hidden">
-    <div class="container mx-auto grid grid-cols-1 h-4/5 md:px-0 px-5">
+    <div class="container mx-auto grid grid-cols-1 md:px-0 px-5">
         <div class="space-y-5 max-w-4xl mx-auto text-center md:my-24 my-10">
             <h1 class="md:text-6xl text-2xl font-display">
                 Testimonials
@@ -24,6 +24,6 @@
     <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 left-[15%] bottom-1/2']); ?>
     <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-300/50 -rotate-6 right-[12%] top-[8%]']); ?>
     <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-300/50 -rotate-6 right-[12%] bottom-[8%]']); ?>
-    <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-left-52 top-10 bg-cyan-400/30 blur-3xl size-[400px]']); ?>
-    <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-right-52 top-40 bg-amber-400/30 blur-3xl size-[400px]']); ?>
+    <?php get_template_part('template-parts/components/component', 'blob', ['class' => 'md:-left-52 -left-28 top-10 bg-cyan-400/30 blur-3xl md:size-[400px] size-[200px]']); ?>
+    <?php get_template_part('template-parts/components/component', 'blob', ['class' => 'md:-right-52 -right-28 top-40 bg-amber-400/30 blur-3xl md:size-[400px] size-[200px]']); ?>
 </section>
