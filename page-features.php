@@ -16,6 +16,8 @@ get_header();
 
     <?php
         get_template_part('template-parts/sections/features/section', 'hero');
+        get_template_part('template-parts/sections/features/section', 'features');
+        get_template_part('template-parts/sections/features/section', 'seo');
     ?>
 
 </main>
