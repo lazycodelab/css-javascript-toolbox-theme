@@ -88,8 +88,8 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 			<?php endforeach; ?>
 		</div>
 	</div>
-	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-300/50 rotate-6 left-[10%] top-20']); ?>
-	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 -rotate-6 left-[5%] bottom-1/2']); ?>
-	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 rotate-3 right-[5%] bottom-1/3']); ?>
-	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 right-[20%] top-40']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-300/50 rotate-6 left-[10%] top-20 animate-small-blob']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 -rotate-6 left-[5%] bottom-1/2 animate-small-blob-2']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 rotate-3 right-[5%] bottom-1/3 animate-small-blob-3']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 right-[20%] top-40 animate-small-blob-4']); ?>
 </section>

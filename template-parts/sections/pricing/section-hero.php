@@ -86,8 +86,8 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 
 	<?php get_template_part('template-parts/components/component', 'blob', ['class' => 'md:-left-40 -left-28 top-20 bg-cyan-300/30 blur-3xl md:size-[300px] size-[200px] -z-[1]']); ?>
 	<?php get_template_part('template-parts/components/component', 'blob', ['class' => 'md:-right-64 -right-28 top-1/4 bg-amber-200/30 blur-3xl md:size-[400px] size-[200px] -z-[1]']); ?>
-	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-300/50 rotate-6 left-[15%] top-28']); ?>
-	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 -rotate-6 left-[5%] bottom-1/2']); ?>
-	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 rotate-3 right-[5%] bottom-1/3']); ?>
-	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 right-[20%] top-40']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-300/50 rotate-6 left-[15%] top-28 animate-small-blob']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 -rotate-6 left-[5%] bottom-1/2 animate-small-blob-3']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 rotate-3 right-[5%] bottom-1/3 animate-small-blob-4']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 right-[20%] top-40 animate-small-blob-5']); ?>
 </section>

@@ -84,8 +84,8 @@
 			</div>
 		</div>
 	</div>
-	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-300/50 absolute rotate-6 left-[8%] bottom-20']); ?>
-	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 absolute -rotate-6 right-[8%] top-[40%]']); ?>
-	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 absolute rotate-3 right-40 bottom-[10%]']); ?>
-	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 absolute left-40 top-1/4']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-300/50 absolute rotate-6 left-[8%] bottom-20 animate-small-blob']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 absolute -rotate-6 right-[8%] top-[40%] animate-small-blob-2']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 absolute rotate-3 right-40 bottom-[10%] animate-small-blob-3']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 absolute left-40 top-1/4 animate-small-blob-4']); ?>
 </section>

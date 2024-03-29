@@ -28,17 +28,17 @@
             </p>
             <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-right-96 top-0 bg-cyan-400/30 blur-3xl -z-[1] size-[500px]']); ?>
             <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-left-80 bottom-0 bg-orange-200/40 blur-3xl -z-[1] size-[400px]']); ?>
-            <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 -rotate-6 left-[20%] top-3/4']); ?>
-            <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 rotate-3 right-[12%] top-1/4 -z-[1]']); ?>
+            <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 -rotate-6 left-[20%] top-3/4 animate-small-blob']); ?>
+            <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 rotate-3 right-[12%] top-1/4 -z-[1] animate-small-blob-3']); ?>
         </div>
         <p class="md:text-xl text-base font-medium text-center mx-auto text-neutral-600 mt-5">
             <span class="text-neutral-900 font-medium">Once the core CSS & JavaScript Toolbox is installed and activated,</span> you can then install and activate the <span class="text-brand-blue">premium CSS & JavaScript Toolbox PLUS</span> as you normally would via either the WordPress Plugins Page or Manually via FTP directly to the Plugins folder on your server.
         </p>
     </div>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-200/50 rotate-6 left-1/4 top-20']); ?>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 -rotate-6 left-[15%] bottom-1/2']); ?>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 rotate-3 right-[15%] top-1/4']); ?>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-200/50 right-1/4 top-2/4']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-200/50 rotate-6 left-1/4 top-20 animate-small-blob-5']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 -rotate-6 left-[15%] bottom-1/2 animate-small-blob-4']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 rotate-3 right-[15%] top-1/4 animate-small-blob-2']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-200/50 right-1/4 top-2/4 animate-small-blob']); ?>
     <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-left-80 top-0 bg-cyan-400/30 blur-3xl -z-[1] size-[400px]']); ?>
     <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-right-72 top-40 bg-orange-200/40 blur-3xl size-[400px]']); ?>
 </section>

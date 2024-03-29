@@ -15,8 +15,8 @@
             Features
         </h1>
     </div>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-200/50 rotate-6 left-1/4 top-20']); ?>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 rotate-3 right-[15%] top-1/4']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-200/50 rotate-6 left-1/4 top-20 animate-small-blob']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 rotate-3 right-[15%] top-1/4 animate-small-blob-5']); ?>
     <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-left-80 top-10 bg-cyan-400/30 blur-3xl -z-[1] size-[400px]']); ?>
     <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-right-72 top-40 bg-orange-200/40 blur-3xl size-[400px]']); ?>
 </section>

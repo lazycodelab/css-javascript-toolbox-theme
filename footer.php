@@ -20,10 +20,8 @@
 					<div class="rounded-lg lg:col-span-9 lg:space-y-10 space-y-5 lg:text-start text-center">
 						<h2 class="lg:text-5xl text-xl font-semibold font-display">Subscribe to our newsletter</h2>
 						<div class="inline-flex lg:flex-row flex-col lg:w-4/6 w-full gap-5">
-							<input type="text" class="py-3.5 px-6 text-black placeholder:text-black block w-full border-gray-200 border rounded-lg md:text-xl text-base disabled:opacity-50 disabled:pointer-events-none" placeholder="Email address">
-							<button class="rounded-lg w-full bg-brand-blue px-6 lg:text-lg text-sm py-3.5 font-medium text-white" type="submit">
-								Subscribe Now
-							</button>
+							<input type="text" class="py-3.5 px-6 text-black placeholder:text-black block w-full border-gray-200 border rounded md:text-base text-sm disabled:opacity-50 disabled:pointer-events-none md:w-2/3" placeholder="Email address">
+							<button class="rounded-lg w-full bg-brand-blue px-6 lg:text-base text-sm py-3.5 font-medium text-white md:w-1/3" type="submit">Subscribe Now</button>
 						</div>
 					</div>
 					<div class="rounded-tl-full rounded-bl-full bg-brand-blue absolute top-0 right-0 h-full w-4/12 lg:block hidden"></div>

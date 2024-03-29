@@ -47,9 +47,9 @@
             <path fill="#005DA4" fill-opacity="1" d="M0,32L34.3,32C68.6,32,137,32,206,58.7C274.3,85,343,139,411,176C480,213,549,235,617,224C685.7,213,754,171,823,149.3C891.4,128,960,128,1029,144C1097.1,160,1166,192,1234,176C1302.9,160,1371,96,1406,64L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
         </svg>
     </div>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 left-[5%] bottom-1/2']); ?>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-300/50 -rotate-6 right-[12%] top-[8%]']); ?>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-300/50 -rotate-6 right-[50%] bottom-[25%]']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 left-[5%] bottom-1/2 animate-small-blob']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-300/50 -rotate-6 right-[12%] top-[8%] animate-small-blob-2']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-300/50 -rotate-6 right-[50%] bottom-[25%] animate-small-blob-5']); ?>
     <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-left-72 -top-28 bg-cyan-400/30 blur-3xl size-[400px]']); ?>
     <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-right-64 top-40 bg-amber-400/30 blur-3xl size-[400px]']); ?>
 </section>

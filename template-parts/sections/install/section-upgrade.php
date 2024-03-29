@@ -48,8 +48,8 @@
             </p>
         </div>
     </div>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-300/50 rotate-6 left-[10%] top-2/4']); ?>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-cyan-300/50 rotate-6 right-[10%] top-[20%]']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-300/50 rotate-6 left-[10%] top-2/4 animate-small-blob']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-cyan-300/50 rotate-6 right-[10%] top-[20%] animate-small-blob-3']); ?>
     <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-left-40 top-40 bg-cyan-300/30 blur-3xl size-[300px]']); ?>
     <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-right-28 bottom-[40%] bg-amber-300/30 blur-3xl size-[300px]']); ?>
 </section>

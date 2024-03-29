@@ -79,10 +79,10 @@
             </div>
         </div>
     </div>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-200/50 rotate-6 left-1/4 top-20']); ?>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 -rotate-6 left-[15%] bottom-1/2']); ?>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 rotate-3 right-[15%] top-1/4']); ?>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-200/50 right-1/4 top-2/4']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-200/50 rotate-6 left-1/4 top-20 animate-small-blob']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 -rotate-6 left-[15%] bottom-1/2 animate-small-blob-2']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 rotate-3 right-[15%] top-1/4 animate-small-blob-3']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-200/50 right-1/4 top-2/4 animate-small-blob-4']); ?>
     <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-left-52 top-10 bg-orange-200/40 blur-3xl size-[300px]']); ?>
     <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-top-32 -right-10 bg-red-300/40 blur-3xl size-[300px]']); ?>
     <?php get_template_part('template-parts/components/component', 'blob', ['class' => '-bottom-40 right-10 bg-cyan-400/40 blur-3xl size-[300px]']); ?>

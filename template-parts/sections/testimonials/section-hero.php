@@ -21,9 +21,9 @@
             <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/testimonial.svg" />
         </div>
     </div>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 left-[15%] bottom-1/2']); ?>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-300/50 -rotate-6 right-[12%] top-[8%]']); ?>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-300/50 -rotate-6 right-[12%] bottom-[8%]']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 left-[15%] bottom-1/2 animate-small-blob']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-300/50 -rotate-6 right-[12%] top-[8%] animate-small-blob-5']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-300/50 -rotate-6 right-[12%] bottom-[8%] animate-small-blob-3']); ?>
     <?php get_template_part('template-parts/components/component', 'blob', ['class' => 'md:-left-52 -left-28 top-10 bg-cyan-400/30 blur-3xl md:size-[400px] size-[200px]']); ?>
     <?php get_template_part('template-parts/components/component', 'blob', ['class' => 'md:-right-52 -right-28 top-40 bg-amber-400/30 blur-3xl md:size-[400px] size-[200px]']); ?>
 </section>

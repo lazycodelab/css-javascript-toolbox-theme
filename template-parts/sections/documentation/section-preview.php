@@ -76,9 +76,9 @@
             </swiper-slide>
         </swiper-container>
     </div>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 rotate-8 left-[15%] top-1/4']); ?>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-300/50 -rotate-20 right-[10%] top-[20%]']); ?>
-    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-cyan-400/20 rotate-6 left-[6%] bottom-[15%]']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 rotate-8 left-[15%] top-1/4 animate-small-blob']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-300/50 -rotate-20 right-[10%] top-[20%] animate-small-blob-3']); ?>
+    <?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-cyan-400/20 rotate-6 left-[6%] bottom-[15%] animate-small-blob-5']); ?>
     <?php get_template_part('template-parts/components/component', 'blob', ['class' => 'md:-left-20 -left-28 bottom-[30%] bg-amber-300/20 blur-2xl size-[200px]']); ?>
     <?php get_template_part('template-parts/components/component', 'blob', ['class' => 'md:-right-20 -right-28 top-[10%] bg-amber-300/20 blur-2xl size-[200px]']); ?>
     
