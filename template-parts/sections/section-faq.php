@@ -17,7 +17,7 @@
                 Frequently Asked Queries
             </h2>
 
-            <p class="md:text-xl text-sm font-normal sm:block text-gray-600">
+            <p class="md:text-xl text-sm font-normal sm:block text-neutral-500">
                 Efficiently productivate reliable paradigms before ubiquitous models. Continually utilize frictionless expertise whereas tactical relationships. Still have questions? Contact us
             </p>
         </div>

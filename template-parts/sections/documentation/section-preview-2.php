@@ -5,7 +5,7 @@
                 Create as many Code Blocks as you need
             </h2>
 
-            <p class="md:text-xl text-base font-medium text-gray-600">
+            <p class="md:text-xl text-base font-medium text-neutral-500">
                 CJT PLUS has been tested using over 100 code blocks and 1000’s of assignments (e.g. Posts/Pages/Categories/etc).
             </p>
         </div>

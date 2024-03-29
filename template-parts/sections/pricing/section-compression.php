@@ -25,7 +25,7 @@
                 CJT Plus vs CJT Free
             </h2>
 
-            <p class="hidden text-base font-medium sm:block text-gray-600">
+            <p class="hidden text-base font-medium sm:block text-neutral-500">
                 Check out what you get in CJT PLUS compared to <a class="text-brand-blue font-normal underline" href="https://wordpress.org/plugins/css-javascript-toolbox/">CJT Free version on WordPress.org</a>
             </p>
         </div>
@@ -45,12 +45,12 @@
                 </tr>
             </thead>
             <tbody>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Supported languages</td>
                     <td class="p-6 bg-black text-white">CSS, HTML, JavaScript, PHP, plain text</td>
                     <td class="p-6">CSS, HTML, JavaScript, PHP, plain text</td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Optimised for devices</td>
                     <td class="p-6 bg-brand-blue text-white">
                         <div class="flex justify-center gap-2.5">
@@ -69,7 +69,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Create as many code blocks as needed (Tested with over 100 of code blocks)</td>
                     <td class="p-6 bg-black text-white">
                         <div class="flex justify-center gap-2.5">
@@ -88,7 +88,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Code block maximum data size</td>
                     <td class="p-6 bg-brand-blue text-white">
                         LONGTEXT (up to 4GB of data)
@@ -97,7 +97,7 @@
                         LONGTEXT (up to 4GB of data)
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Code block On/Off switch</td>
                     <td class="p-6 bg-black text-white">
                         <div class="flex justify-center gap-2.5">
@@ -138,7 +138,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Header and Footer output hooks(Code block to header or footer of page)</td>
                     <td class="p-6 bg-brand-blue text-white">
                         <div class="flex justify-center gap-2.5">
@@ -152,7 +152,7 @@
                         Header only
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Additional output hooks(Code block to page sections)</td>
                     <td class="p-6 bg-black text-white">
                         <div class="flex flex-col justify-center gap-2.5">
@@ -174,7 +174,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Assignment inverter function (i.e. run code everywhere but …)</td>
                     <td class="p-6 bg-brand-blue text-white">
                         Posts, Pages, Categories, Tags, Custom Posts
@@ -188,7 +188,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Assignment smart pagination/scrolling</td>
                     <td class="p-6 bg-black text-white">
                         <div class="flex justify-center gap-2.5">
@@ -207,7 +207,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Code block shortcode support</td>
                     <td class="p-6 bg-brand-blue text-white">
                         <div class="flex justify-center gap-2.5">
@@ -226,7 +226,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Code block shortcode embed button <br> (CJT embed button in Page/Post editor)</td>
                     <td class="p-6 bg-black text-white">
                         <div class="flex justify-center gap-2.5">
@@ -245,7 +245,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Code block to Gutenburg blocks</td>
                     <td class="p-6 bg-brand-blue text-white">
                         <div class="flex justify-center gap-2.5">
@@ -264,7 +264,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Metabox code block for Page/Post edit pages</td>
                     <td class="p-6 bg-black text-white">
                         <div class="flex justify-center gap-2.5">
@@ -283,7 +283,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Code block to widget controller</td>
                     <td class="p-6 bg-brand-blue text-white">
                         <div class="flex justify-center gap-2.5">
@@ -302,7 +302,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Templates Manager <br> (for storing all your code templates)</td>
                     <td class="p-6 bg-black text-white">
                         <div class="flex justify-center gap-2.5">
@@ -321,7 +321,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Embed/Link Templates to code blocks <br /> (stored templates / WordPress bundled scripts)</td>
                     <td class="p-6 bg-brand-blue text-white">
                         <div class="flex justify-center gap-2.5">
@@ -340,7 +340,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Templates from external scripts <br /> (e.g. from a CDN such as jQuery)</td>
                     <td class="p-6 bg-black text-white">
                         <div class="flex justify-center gap-2.5">
@@ -359,7 +359,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Code Auto Completion (CAC)</td>
                     <td class="p-6 bg-brand-blue text-white">
                         <div class="flex justify-center gap-2.5">
@@ -378,7 +378,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Full-screen editing mode</td>
                     <td class="p-6 bg-black text-white">
                         <div class="flex justify-center gap-2.5">
@@ -397,7 +397,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Code beautify function</td>
                     <td class="p-6 bg-brand-blue text-white">
                         <div class="flex justify-center gap-2.5">
@@ -416,7 +416,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Code minify function</td>
                     <td class="p-6 bg-black text-white">
                         <div class="flex justify-center gap-2.5">
@@ -435,7 +435,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Code block editor themes</td>
                     <td class="p-6 bg-brand-blue text-white">
                         32 editor themes
@@ -444,7 +444,7 @@
                         1 default theme
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Code files support</td>
                     <td class="p-6 bg-black text-white">
                         <div class="flex justify-center gap-2.5">
@@ -463,7 +463,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Code block batch functions</td>
                     <td class="p-6 bg-brand-blue text-white">
                         Activate All, Deactivate All, Revert State,<br />Footer All, Header All, and Delete All
@@ -477,7 +477,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Code block backups and revisions</td>
                     <td class="p-6 bg-black text-white">
                         <div class="flex justify-center gap-2.5">
@@ -496,7 +496,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Code block information panel</td>
                     <td class="p-6 bg-brand-blue text-white">
                         <div class="flex justify-center gap-2.5">
@@ -515,7 +515,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Code block information panel</td>
                     <td class="p-6 bg-black text-white">
                         <div class="flex justify-center gap-2.5">
@@ -534,7 +534,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Prioritise code block run order via drag'n drop</td>
                     <td class="p-6 bg-brand-blue text-white">
                         <div class="flex justify-center gap-2.5">
@@ -553,7 +553,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Close All code block function</td>
                     <td class="p-6 bg-black text-white">
                         <div class="flex justify-center gap-2.5">
@@ -572,7 +572,7 @@
                         </div>
                     </td>
                 </tr>
-                <tr class="even:bg-white odd:bg-gray-200 text-gray-600 font-medium">
+                <tr class="even:bg-white odd:bg-gray-200 text-neutral-500 font-medium">
                     <td class="p-6">Privilege setting for metabox code blocks</td>
                     <td class="p-6 bg-brand-blue text-white">
                         <div class="flex justify-center gap-2.5">

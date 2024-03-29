@@ -19,7 +19,7 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 				Simple, transparent pricing
 			</h2>
 
-			<p class="md:text-xl text-base font-medium sm:block text-gray-600">
+			<p class="md:text-xl text-base font-medium sm:block text-neutral-500">
 				No contracts. No surprise fees.
 			</p>
 		</div>
@@ -40,7 +40,7 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 					$containerClasses .= ' bg-white sm:shadow-none shadow-md';
 					$ctaClasses .= ' bg-brand-blue text-white';
 				}
-			?>
+				?>
 
 				<div class="<?php echo $containerClasses; ?>">
 					<div class="space-y-2.5 text-center">

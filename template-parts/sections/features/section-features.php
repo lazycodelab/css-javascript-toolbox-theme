@@ -50,7 +50,7 @@
                         Global Code Blocks
                     </h2>
                 </div>
-                <p class="md:text-xl text-base sm:block text-gray-600 mx-auto max-w-5xl">
+                <p class="md:text-xl text-base sm:block text-neutral-500 mx-auto max-w-5xl">
                     OptinMonster's powerful drag & drop builder allows you to create visually stunning optin forms
                     that are optimized for the highest conversion rates.
                 </p>
@@ -97,7 +97,7 @@
                         Shortcodes & Metabox Code
                     </h2>
                 </div>
-                <p class="md:text-xl text-base sm:block text-gray-600 mx-auto max-w-5xl">
+                <p class="md:text-xl text-base sm:block text-neutral-500 mx-auto max-w-5xl">
                     Choose the perfect campaign type to display the most attention-grabbing offers to your visitors
                     for maximum engagement.
                 </p>
@@ -144,7 +144,7 @@
                         Code Files
                     </h2>
                 </div>
-                <p class="md:text-xl text-base sm:block text-gray-600 mx-auto max-w-5xl">
+                <p class="md:text-xl text-base sm:block text-neutral-500 mx-auto max-w-5xl">
                     Detect your visitors' behavior and use smart triggers to always display the right campaign to the
                     right person at the right time.
                 </p>
@@ -191,7 +191,7 @@
                         Code Blocks Tools
                     </h2>
                 </div>
-                <p class="md:text-xl text-base sm:block text-gray-600 mx-auto max-w-5xl">
+                <p class="md:text-xl text-base sm:block text-neutral-500 mx-auto max-w-5xl">
                     Use precision targeting to create campaigns that generate more leads, attract more subscribers,
                     and make more sales.
                 </p>
@@ -238,7 +238,7 @@
                         Editor Tools
                     </h2>
                 </div>
-                <p class="md:text-xl text-base sm:block text-gray-600 mx-auto max-w-5xl">
+                <p class="md:text-xl text-base sm:block text-neutral-500 mx-auto max-w-5xl">
                     Create campaigns that react and adapt in real time so you can easily personalize, segment, and
                     target for incredible conversions.
                 </p>
@@ -285,7 +285,7 @@
                         Templates & Packages
                     </h2>
                 </div>
-                <p class="md:text-xl text-base sm:block text-gray-600 mx-auto max-w-5xl">
+                <p class="md:text-xl text-base sm:block text-neutral-500 mx-auto max-w-5xl">
                     Get the stats that matter and the tools you need to take action and improve your lead-generation
                     strategy.
                 </p>

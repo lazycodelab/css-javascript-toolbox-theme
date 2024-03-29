@@ -29,21 +29,25 @@ $datas = include get_template_directory() . '/data/seo-features-data.php';
                 All in One SEO Features
             </h2>
 
-            <p class="md:text-xl text-sm font-medium text-gray-600">
+            <p class="md:text-xl text-sm font-medium text-neutral-500">
                 Create campaigns that react and adapt in real time so you can easily personalize, segment, & target for incredible conversions.
             </p>
         </div>
         <div class="grid md:grid-cols-3 grid-cols-1 md:gap-y-10 md:gap-x-10 gap-5 md:px-0 px-5">
             <?php
             foreach ($datas as $data) :
-            ?>
+                ?>
                 <div class="flex gap-2.5">
                     <div class="size-12">
                         <?= $data['svg']; ?>
                     </div>
                     <div class="text-start space-y-1">
-                        <p class="md:text-xl text-base font-medium text-neutral-900"><?= $data['name']; ?></p>
-                        <p class="md:text-base text-sm text-neutral-600"><?= $data['description']; ?></p>
+                        <p class="md:text-xl text-base font-medium text-neutral-900">
+                            <?= $data['name']; ?>
+                        </p>
+                        <p class="md:text-base text-sm text-neutral-600">
+                            <?= $data['description']; ?>
+                        </p>
                     </div>
                 </div>
             <?php endforeach; ?>
