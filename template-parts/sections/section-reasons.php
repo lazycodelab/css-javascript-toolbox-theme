@@ -28,20 +28,20 @@
                 </div>
             </div>
             <div class="flex flex-col items-center justify-center md:space-y-5 space-y-2.5">
-                <h2 class="font-display font-bold md:text-3xl text-xl">Benefits of CJT plus Work faster with powerful Plugin.</h2>
-                <div class="inline-flex items-start gap-2.5">
-                    <div class="pt-1.5">
+                <h2 class="font-display font-bold md:text-4xl tracking-[2px] text-xl">Benefits of CJT plus Work faster with powerful Plugin.</h2>
+                <div class="inline-flex items-start justify-center gap-2.5">
+                    <div>
                         <?php get_template_part('template-parts/components/component', 'check-mark'); ?>
                     </div>
-                    <span class="md:text-xl text-base text-neutral-500 font-normal">
+                    <span class="md:text-base text-sm text-neutral-500 font-normal">
                         Combined with a handful of model sentence structures looks reasonable.
                     </span>
                 </div>
-                <div class="inline-flex items-start gap-2.5">
-                    <div class="pt-1.5">
+                <div class="inline-flex items-start justify-center gap-2.5">
+                    <div>
                         <?php get_template_part('template-parts/components/component', 'check-mark'); ?>
                     </div>
-                    <span class="md:text-xl text-base text-neutral-500 font-normal">
+                    <span class="md:text-base text-sm text-neutral-500 font-normal">
                         Combined with a handful of model sentence structures looks reasonable.
                     </span>
                 </div>
@@ -49,20 +49,20 @@
         </div>
         <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
             <div class="flex flex-col items-center justify-center md:space-y-5 space-y-2.5">
-                <h2 class="font-display font-bold md:text-3xl text-xl">Benefits of CJT plus Work faster with powerful Plugin.</h2>
-                <div class="inline-flex items-start gap-2.5">
-                    <div class="pt-1.5">
+                <h2 class="font-display font-bold md:text-4xl tracking-[2px] text-xl">Benefits of CJT plus Work faster with powerful Plugin.</h2>
+                <div class="inline-flex items-start justify-center gap-2.5">
+                    <div>
                         <?php get_template_part('template-parts/components/component', 'check-mark'); ?>
                     </div>
-                    <span class="md:text-xl text-base text-neutral-500 font-normal">
+                    <span class="md:text-base text-sm text-neutral-500 font-normal">
                         Combined with a handful of model sentence structures looks reasonable.
                     </span>
                 </div>
-                <div class="inline-flex items-start gap-2.5">
-                    <div class="pt-1.5">
+                <div class="inline-flex items-start justify-center gap-2.5">
+                    <div>
                         <?php get_template_part('template-parts/components/component', 'check-mark'); ?>
                     </div>
-                    <span class="md:text-xl text-base text-neutral-500 font-normal">
+                    <span class="md:text-base text-sm text-neutral-500 font-normal">
                         Combined with a handful of model sentence structures looks reasonable.
                     </span>
                 </div>
@@ -83,20 +83,20 @@
                 </div>
             </div>
             <div class="flex flex-col items-center justify-center md:space-y-5 space-y-2.5">
-                <h2 class="font-display font-bold md:text-3xl text-xl">Benefits of CJT plus Work faster with powerful Plugin.</h2>
-                <div class="inline-flex items-start gap-2.5">
-                    <div class="pt-1.5">
+                <h2 class="font-display font-bold md:text-4xl tracking-[2px] text-xl">Benefits of CJT plus Work faster with powerful Plugin.</h2>
+                <div class="inline-flex items-start justify-center gap-2.5">
+                    <div>
                         <?php get_template_part('template-parts/components/component', 'check-mark'); ?>
                     </div>
-                    <span class="md:text-xl text-base text-neutral-500 font-normal">
+                    <span class="md:text-base text-sm text-neutral-500 font-normal">
                         Combined with a handful of model sentence structures looks reasonable.
                     </span>
                 </div>
-                <div class="inline-flex items-start gap-2.5">
-                    <div class="pt-1.5">
+                <div class="inline-flex items-start justify-center gap-2.5">
+                    <div>
                         <?php get_template_part('template-parts/components/component', 'check-mark'); ?>
                     </div>
-                    <span class="md:text-xl text-base text-neutral-500 font-normal">
+                    <span class="md:text-base text-sm text-neutral-500 font-normal">
                         Combined with a handful of model sentence structures looks reasonable.
                     </span>
                 </div>
@@ -104,20 +104,20 @@
         </div>
         <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
             <div class="flex flex-col items-center justify-center md:space-y-5 space-y-2.5">
-                <h2 class="font-display font-bold md:text-3xl text-xl">Benefits of CJT plus Work faster with powerful Plugin.</h2>
-                <div class="inline-flex items-start gap-2.5">
-                    <div class="pt-1.5">
+                <h2 class="font-display font-bold md:text-4xl tracking-[2px] text-xl">Benefits of CJT plus Work faster with powerful Plugin.</h2>
+                <div class="inline-flex items-start justify-center gap-2.5">
+                    <div>
                         <?php get_template_part('template-parts/components/component', 'check-mark'); ?>
                     </div>
-                    <span class="md:text-xl text-base text-neutral-500 font-normal">
+                    <span class="md:text-base text-sm text-neutral-500 font-normal">
                         Combined with a handful of model sentence structures looks reasonable.
                     </span>
                 </div>
-                <div class="inline-flex items-start gap-2.5">
-                    <div class="pt-1.5">
+                <div class="inline-flex items-start justify-center gap-2.5">
+                    <div>
                         <?php get_template_part('template-parts/components/component', 'check-mark'); ?>
                     </div>
-                    <span class="md:text-xl text-base text-neutral-500 font-normal">
+                    <span class="md:text-base text-sm text-neutral-500 font-normal">
                         Combined with a handful of model sentence structures looks reasonable.
                     </span>
                 </div>
@@ -137,20 +137,20 @@
                 </div>
             </div>
             <div class="flex flex-col items-center justify-center md:space-y-5 space-y-2.5">
-                <h2 class="font-display font-bold md:text-3xl text-xl">Benefits of CJT plus Work faster with powerful Plugin.</h2>
-                <div class="inline-flex items-start gap-2.5">
-                    <div class="pt-1.5">
+                <h2 class="font-display font-bold md:text-4xl tracking-[2px] text-xl">Benefits of CJT plus Work faster with powerful Plugin.</h2>
+                <div class="inline-flex items-start justify-center gap-2.5">
+                    <div>
                         <?php get_template_part('template-parts/components/component', 'check-mark'); ?>
                     </div>
-                    <span class="md:text-xl text-base text-neutral-500 font-normal">
+                    <span class="md:text-base text-sm text-neutral-500 font-normal">
                         Combined with a handful of model sentence structures looks reasonable.
                     </span>
                 </div>
-                <div class="inline-flex items-start gap-2.5">
-                    <div class="pt-1.5">
+                <div class="inline-flex items-start justify-center gap-2.5">
+                    <div>
                         <?php get_template_part('template-parts/components/component', 'check-mark'); ?>
                     </div>
-                    <span class="md:text-xl text-base text-neutral-500 font-normal">
+                    <span class="md:text-base text-sm text-neutral-500 font-normal">
                         Combined with a handful of model sentence structures looks reasonable.
                     </span>
                 </div>

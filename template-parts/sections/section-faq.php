@@ -8,6 +8,7 @@
  * @package cjt
  */
 
+$faqData = include get_template_directory() . '/data/faq-data.php';
 ?>
 
 <section class="md:py-24 py-10 relative overflow-hidden">
@@ -23,11 +24,13 @@
         </div>
 
         <div class="md:space-y-3 space-y-2.5 max-w-2xl mx-auto divide-y-2 divide-neutral-600 select-none">
-            <?php for ($x = 0; $x <= 5; $x++) { ?>
+            <?php
+            foreach ($faqData as $data) :
+            ?>
                 <details class="group [&_summary::-webkit-details-marker]:hidden md:space-y-5 space-y-2.5 md:pt-3 pt-2.5">
                     <summary class="flex cursor-pointer items-center justify-between gap-1.5">
                         <h2 class="md:text-lg text-sm font-medium text-gray-900">
-                            Where can I watch?
+                            <?= $data['question']; ?>
                         </h2>
 
                         <span class="shrink-0 rounded-full p-1.5 text-brand-blue sm:p-3">
@@ -38,10 +41,10 @@
                     </summary>
 
                     <p class="text-start text-base leading-relaxed text-neutral-600">
-                        Nibh quisque suscipit fermentum netus nulla cras porttitor euismod nulla. Orci, dictumst nec aliquet id ullamcorper venenatis.
+                        <?= $data['answer']; ?>
                     </p>
                 </details>
-            <?php } ?>
+            <?php endforeach; ?>
         </div>
     </div>
     <?php get_template_part('template-parts/components/component', 'blob', ['class' => 'md:-left-64 -left-28 -top-40 bg-cyan-400/30 blur-3xl md:size-[400px] size-[200px] -z-[1]']); ?>
