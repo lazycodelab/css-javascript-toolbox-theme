@@ -2,7 +2,7 @@
     <div class="absolute left-5 bottom-[35%] lg:block hidden lg:w-56">
         <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/rocket-man.svg" />
     </div>
-    <div class="container mx-auto lg:space-y-24 space-y-10">
+    <div class="max-w-7xl mx-auto lg:space-y-24 space-y-10">
         <div class="space-y-5 max-w-4xl mx-auto text-center">
             <h1 class="md:text-5xl text-2xl font-display text-neutral-900 leading-tight">
                 Documentation for <span class="text-brand-blue font-bold">CJT PLUS</span>

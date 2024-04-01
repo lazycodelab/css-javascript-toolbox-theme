@@ -13,7 +13,7 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 
 
 <section class="md:py-24 py-10 bg-slate-50 relative">
-	<div class="mx-auto container text-center">
+	<div class="mx-auto max-w-7xl text-center">
 		<div class="space-y-5 max-w-3xl mx-auto">
 			<h2 class="text-2xl font-bold md:text-5xl font-display">
 				Simple, transparent pricing

@@ -55,7 +55,7 @@
             --swiper-navigation-size: 20px !important;
         }
     </style>
-    <div class="mx-auto container text-center md:mb-64 mb-28 relative">
+    <div class="mx-auto max-w-7xl text-center md:mb-64 mb-28 relative">
         <div class="md:space-y-5 space-y-2.5 max-w-2xl mx-auto md:px-0 px-5">
             <h2 class="text-2xl font-bold md:text-5xl font-display">
                 What Our Client <br />Say About CJT PLUS

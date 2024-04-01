@@ -39,7 +39,7 @@
             </div>
         </div>
     </div>
-    <div class="container mx-auto md:py-24 py-10 md:space-y-24 space-y-10">
+    <div class="max-w-7xl mx-auto md:py-24 py-10 md:space-y-24 space-y-10">
         <div class="space-y-10">
             <div class="md:space-y-5 space-y-2.5 mx-auto text-center px-5">
                 <div class="space-y-2.5">

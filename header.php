@@ -34,7 +34,7 @@
 
 			<?php get_template_part('template-parts/components/component', 'announcement-bar'); ?>
 			<header class="bg-white">
-				<div class="mx-auto container md:p-5 py-2.5 px-5">
+				<div class="mx-auto max-w-7xl md:p-5 py-2.5 px-5">
 					<div class="flex items-center justify-between">
 						<div class="flex-1 md:flex md:items-center md:gap-12">
 							<a class="md:block hidden" href="/">
@@ -57,7 +57,7 @@
 
 							<div class="flex items-center gap-4">
 								<div class="sm:gap-4 md:flex hidden">
-									<a class="rounded-md bg-brand-blue lg:px-6 px-3 lg:text-lg text-sm lg:py-3.5 py-2 font-medium text-white" href="#">
+									<a class="rounded-md bg-brand-blue lg:px-6 px-3 lg:text-lg text-sm lg:py-3 py-2 font-medium text-white" href="#">
 										Get CJT PLUS
 									</a>
 								</div>

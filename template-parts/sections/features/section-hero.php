@@ -10,7 +10,7 @@
 ?>
 
 <section class="relative md:py-24 py-10 overflow-hidden">
-    <div class="container mx-auto md:px-0 px-5">
+    <div class="max-w-7xl mx-auto md:px-0 px-5">
         <h1 class="md:text-5xl text-2xl font-display leading-tight text-center">
             Features
         </h1>

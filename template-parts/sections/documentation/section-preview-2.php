@@ -1,5 +1,5 @@
 <section class="relative bg-brand-light-blue md:pt-24 pt-10 md:pb-96 pb-16 py-5 overflow-hidden z-10">
-    <div class="container mx-auto md:space-y-20 space-y-10 mb-20">
+    <div class="max-w-7xl mx-auto md:space-y-20 space-y-10 mb-20">
         <div class="space-y-5 max-w-4xl mx-auto text-center md:px-0 px-5">
             <h2 class="text-2xl max-w-3xl mx-auto font-bold md:text-5xl font-display">
                 Create as many Code Blocks as you need

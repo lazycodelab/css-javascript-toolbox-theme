@@ -10,7 +10,7 @@
 
 ?>
 <section class="relative bg-gradient-to-b from-white to-sky-50">
-    <div class="container mx-auto md:pb-96 pb-32">
+    <div class="max-w-7xl mx-auto md:pb-96 pb-32">
         <div class="space-y-5 max-w-4xl mx-auto text-center mt-24 md:px-0 px-5">
             <h1 class="md:text-5xl text-2xl text-neutral-900 font-display">
                 Hello, how can we help?

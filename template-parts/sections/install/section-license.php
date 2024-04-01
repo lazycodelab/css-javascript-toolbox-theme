@@ -12,7 +12,7 @@
     <div class="absolute left-0 top-2/3 xl:block hidden">
         <img class="w-80" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/key.svg" />
     </div>
-    <div class="mx-auto container text-center md:mb-40 mb-32 md:mt-20 lg:mt-60 mt-14 space-y-10 relative md:px-0 px-5">
+    <div class="mx-auto max-w-7xl text-center md:mb-40 mb-32 md:mt-20 lg:mt-60 mt-14 space-y-10 relative md:px-0 px-5">
         <div class="space-y-5 max-w-5xl mx-auto">
             <h2 class="text-2xl text-neutral-900 font-bold md:text-5xl font-display">
                 Add Your License Key

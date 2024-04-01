@@ -1,5 +1,5 @@
 <section class="relative bg-brand-light-blue md:py-24 pt-24 pb-10">
-    <div class="mx-auto container">
+    <div class="mx-auto max-w-7xl">
         <div class="text-center md:space-y-10 space-y-5 absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 container md:px-0 px-5">
             <h2 class="text-2xl text-neutral-900 font-bold md:text-5xl font-display">
                 NOTES

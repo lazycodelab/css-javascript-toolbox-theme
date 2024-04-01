@@ -9,7 +9,7 @@
  */
 ?>
 
-<section class="relative mx-auto container xl:pt-72 pt-10 pb-10 lg:pb-14">
+<section class="relative mx-auto max-w-7xl xl:pt-72 pt-10 pb-10 lg:pb-14">
 	<div class="space-y-5">
 		<h3 class="font-bold font-display text-center text-neutral-700 lg:text-xl text-sm lg:px-0 px-5">Trusted by the best</h3>
 		<div class="grid-cols-2 gap-5 lg:grid-cols-5 lg:gap-10 place-items-center md:grid hidden">

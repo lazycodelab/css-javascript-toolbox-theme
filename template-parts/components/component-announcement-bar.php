@@ -1,5 +1,5 @@
 <div class="bg-brand-blue lg:px-0 py-3 text-white">
-	<div class="flex md:text-start text-center gap-2 md:justify-between justify-center container mx-auto">
+	<div class="flex md:text-start text-center gap-2 md:justify-between justify-center max-w-7xl mx-auto">
 		<p class="md:text-base text-xs font-medium ps-5">Get 20% Discounts! offer in 2 days</p>
 		<div class="divide-x-2 md:flex hidden items-center justify-center">
 			<a href="tel:+23561236456" class="md:text-base text-xs inline-flex items-center font-medium md:px-5 px-2 gap-2.5">

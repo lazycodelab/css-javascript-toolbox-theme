@@ -1,5 +1,5 @@
 <section class="relative bg-white md:py-10 py-5 md:px-0 px-5 overflow-hidden">
-    <div class="container mx-auto space-y-10">
+    <div class="max-w-7xl mx-auto space-y-10">
         <swiper-container class="mySwiper" thumbs-swiper=".previewSliderThumbs" space-between="0" slides-per-view="1">
             <swiper-slide class="space-y-10">
                 <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/documentation/swiper-1.png" class="mx-auto" />

@@ -13,7 +13,7 @@
 ?>
 
 <footer>
-	<div class="mx-auto container space-y-8 px-5 pb-5 sm:px-6 lg:space-y-24 relative">
+	<div class="mx-auto max-w-7xl space-y-8 px-5 pb-5 sm:px-6 lg:space-y-24 relative">
 		<div class="md:pt-24 pt-10">
 			<div class="bg-brand-light-blue rounded-lg lg:p-24 md:p-10 p-5 relative">
 				<div class="grid grid-cols-1 gap-4 lg:grid-cols-12 lg:gap-8 items-center">

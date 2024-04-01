@@ -1088,6 +1088,22 @@ html {
   top: 100%;
 }
 
+.-bottom-20 {
+  bottom: -5rem;
+}
+
+.-left-14 {
+  left: -3.5rem;
+}
+
+.-right-5 {
+  right: -1.25rem;
+}
+
+.-right-8 {
+  right: -2rem;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -1190,6 +1206,18 @@ html {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-0\.5 {
+  margin-top: 0.125rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
 }
 
 .block {
@@ -1458,6 +1486,10 @@ html {
 
 .max-w-72 {
   max-width: 18rem;
+}
+
+.max-w-7xl {
+  max-width: 80rem;
 }
 
 .flex-1 {
@@ -2106,6 +2138,18 @@ html {
   background-color: rgb(253 224 71 / 0.4);
 }
 
+.bg-white\/40 {
+  background-color: rgb(255 255 255 / 0.4);
+}
+
+.bg-white\/50 {
+  background-color: rgb(255 255 255 / 0.5);
+}
+
+.bg-white\/60 {
+  background-color: rgb(255 255 255 / 0.6);
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -2334,6 +2378,14 @@ html {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pt-1\.5 {
+  padding-top: 0.375rem;
 }
 
 .text-center {
@@ -3207,6 +3259,11 @@ html {
     padding-bottom: 1.25rem;
   }
 
+  .md\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
   .md\:pb-24 {
     padding-bottom: 6rem;
   }
@@ -3562,6 +3619,11 @@ html {
 
   .xl\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .xl\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .xl\:pt-72 {

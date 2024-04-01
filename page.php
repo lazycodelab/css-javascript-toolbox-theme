@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-<main id="primary" class="mx-auto container px-5 md:mt-20 mt-10">
+<main id="primary" class="mx-auto max-w-7xl px-5 md:mt-20 mt-10">
 
 	<?php
 	while (have_posts()) :

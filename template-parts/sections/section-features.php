@@ -13,7 +13,7 @@
 		<path fill="#DEF1FF" fill-opacity="0.6" d="M0,96L40,106.7C80,117,160,139,240,160C320,181,400,203,480,176C560,149,640,75,720,58.7C800,43,880,85,960,133.3C1040,181,1120,235,1200,250.7C1280,267,1360,245,1400,234.7L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
 	</svg>
 	<div class="bg-brand-light-blue/60">
-		<div class="mx-auto container md:pb-24 md:pt-0 py-10">
+		<div class="mx-auto max-w-7xl md:pb-24 md:pt-0 py-10">
 			<div class="space-y-5 max-w-4xl mx-auto text-center md:px-0 px-5">
 				<h2 class="text-2xl max-w-3xl mx-auto font-bold md:text-5xl font-display">
 					Explore <span class="text-brand-blue">CJT PLUS</span> <br /> Premium Features

@@ -1,5 +1,5 @@
 <section class="bg-brand-light-blue-2 relative overflow-hidden">
-    <div class="mx-auto container">
+    <div class="mx-auto max-w-7xl">
         <div class="relative grid grid-cols-1 md:grid-cols-3 md:gap-6 gap-5 z-[0]">
             <swiper-container class="swiper-testimonials w-full md:h-[1400px] h-[40rem] md:px-0 px-5" direction="vertical" slides-per-view="auto" centered-slides="true" space-between="24" autoplay-delay="1" speed="12000" loop="true" free-mode="true">
                 <swiper-slide class="h-auto">

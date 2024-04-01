@@ -14,7 +14,7 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 
 
 <section class="py-24 relative overflow-hidden">
-	<div class="mx-auto container text-center">
+	<div class="mx-auto max-w-7xl text-center">
 		<div class="md:space-y-5 space-y-2.5 md:px-0 px-5">
 			<?php get_template_part('template-parts/components/component', 'section-heading', ['content' => 'Unbelievably Easy WordPress Customization <br />At Unbeatable Price']); ?>
 			<?php get_template_part('template-parts/components/component', 'section-paragraph', ['content' => 'Join the thriving community of thousands of websites already benefiting from CJT\'s powerful features.']); ?>

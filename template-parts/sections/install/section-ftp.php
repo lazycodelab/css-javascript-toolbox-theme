@@ -2,7 +2,7 @@
     <div class="absolute right-1/4 bottom-0 lg:block hidden">
         <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/ftp.svg" />
     </div>
-    <div class="container mx-auto space-y-10">
+    <div class="max-w-7xl mx-auto space-y-10">
         <h1 class="md:text-5xl text-2xl text-center font-display text-neutral-900">
             Manually via <span class="text-brand-blue">FTP</span>
         </h1>

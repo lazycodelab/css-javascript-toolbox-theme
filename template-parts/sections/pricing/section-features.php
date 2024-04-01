@@ -1,6 +1,6 @@
 <section class="pb-24 relative">
 	<!--<div class="bg-neutral-200 absolute top-2 h-3 w-full -z-10"></div>-->
-	<div class="mx-auto container before:absolute before:block before:h-3 before:bg-neutral-200 before:w-full before:inset-x-0 before:-z-10 before:top-5">
+	<div class="mx-auto max-w-7xl before:absolute before:block before:h-3 before:bg-neutral-200 before:w-full before:inset-x-0 before:-z-10 before:top-5">
 		<div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 md:px-0 px-5">
 			<div class="space-y-2.5">
 				<div class="flex flex-col items-center">
