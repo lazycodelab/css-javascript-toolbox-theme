@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: Features details page
+ * Template Name: FD - Batch Operations page
  * Template part for displaying page content in page.php
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
