@@ -2242,6 +2242,10 @@ html {
   stroke: #dc2626;
 }
 
+.stroke-green-600 {
+  stroke: #16a34a;
+}
+
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -2638,6 +2642,11 @@ html {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -2853,6 +2862,22 @@ html {
 .odd\:bg-gray-200:nth-child(odd) {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.odd\:bg-gray-200\/25:nth-child(odd) {
+  background-color: rgb(229 231 235 / 0.25);
+}
+
+.odd\:bg-gray-200\/30:nth-child(odd) {
+  background-color: rgb(229 231 235 / 0.3);
+}
+
+.odd\:bg-gray-200\/40:nth-child(odd) {
+  background-color: rgb(229 231 235 / 0.4);
+}
+
+.odd\:bg-gray-200\/60:nth-child(odd) {
+  background-color: rgb(229 231 235 / 0.6);
 }
 
 .even\:bg-white:nth-child(even) {
