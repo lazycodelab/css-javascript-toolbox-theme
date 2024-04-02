@@ -14,19 +14,19 @@
 		<h3 class="font-bold font-display text-center text-neutral-700 lg:text-xl text-sm lg:px-0 px-5">Trusted by the best</h3>
 		<div class="grid-cols-5 gap-5 lg:gap-10 place-items-center md:grid hidden lg:max-w-3xl mx-auto">
 			<div class="size-32 flex justify-center items-center">
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/uom.svg" class="max-w-24 object-contain hover:brightness-50 duration-150" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/uom.svg" class="max-w-28 object-contain hover:brightness-50 duration-150" />
 			</div>
 			<div class="size-32 flex justify-center items-center">
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/bf.svg" class="max-w-12 object-contain hover:invert duration-150" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/mit.svg" class="max-w-28 object-contain hover:invert duration-150" />
 			</div>
 			<div class="size-32 flex justify-center items-center">
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/tc.svg" class="max-w-12 object-contain hover:invert duration-150" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/umc.svg" class="max-w-28 object-contain hover:invert duration-150" />
 			</div>
 			<div class="size-32 flex justify-center items-center">
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/arxiv.svg" class="max-w-14 object-contain hover:invert duration-150" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/nps.svg" class="max-w-28 object-contain hover:invert duration-150" />
 			</div>
 			<div class="size-32 flex justify-center items-center">
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/aral.svg" class="max-w-16 object-contain hover:invert duration-150" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/gsu.svg" class="max-w-28 object-contain hover:invert duration-150" />
 			</div>
 		</div>
 		<div class="relative flex overflow-x-hidden md:hidden">

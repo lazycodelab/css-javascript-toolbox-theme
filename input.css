@@ -59,6 +59,40 @@ Text Domain: cjt
 }
 
 
+.menu-item-has-children {
+	display: inline-block;
+	position: relative;
+}
+
+.menu-item-has-children:has(> a) {
+	font-weight: 600;
+	padding: 0.5rem 1rem;
+	border-radius: 0.25rem;
+	display: inline-flex;
+	align-items: center;
+}
+
+.menu-item-has-children::after {
+	position: absolute;
+	right: 0;
+	content: '>';
+	transform: rotate(90deg);
+	margin-left: 0.5rem;
+}
+
+.menu-item-has-children ul.sub-menu {
+	position: absolute;
+	left: 0px;
+    top: 41px;
+	display: none;
+	color: #374151;
+	padding-top: 0.25rem;
+}
+
+.menu-item-has-children:hover ul.sub-menu {
+	display: block;
+}
+
 @layer utilities {
 	#nav-menu {
 		@apply flex items-center gap-5;
