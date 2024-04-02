@@ -25,7 +25,7 @@
 					quae quo ad iste ipsum officiis deleniti asperiores sit.
 				</p>
 			</div>
-			<div class="relative grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-10 gap-5">
+			<div class="relative grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
 				<div class="md:p-6 p-5 md:space-y-10 space-y-5 bg-white rounded shadow-md">
 					<div class="md:space-y-5 space-y-2.5">
 						<svg viewBox="0 0 60 60" class="size-20 p-2.5 bg-orange-300 rounded" fill="none" xmlns="http://www.w3.org/2000/svg">
