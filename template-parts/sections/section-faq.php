@@ -13,23 +13,23 @@ $faqData = include get_template_directory() . '/data/faq-data.php';
 
 <section class="md:py-24 py-10 relative overflow-hidden">
     <div class="mx-auto max-w-7xl text-center space-y-10 md:px-0 px-5">
-        <div class="md:space-y-5 space-y-2.5 max-w-2xl mx-auto">
+        <div class="md:space-y-5 space-y-2.5 max-w-3xl mx-auto">
             <h2 class="text-2xl font-bold md:text-5xl font-display">
                 Frequently Asked Queries
             </h2>
 
-            <p class="md:text-xl text-sm font-normal sm:block text-neutral-500">
+            <p class="md:text-base text-sm font-normal sm:block text-neutral-500">
                 Efficiently productivate reliable paradigms before ubiquitous models. Continually utilize frictionless expertise whereas tactical relationships. Still have questions? Contact us
             </p>
         </div>
 
-        <div class="md:space-y-3 space-y-2.5 max-w-2xl mx-auto divide-y-2 divide-neutral-600 select-none">
+        <div class="md:space-y-3 space-y-2.5 max-w-2xl mx-auto divide-y-2 divide-neutral-200 select-none">
             <?php
             foreach ($faqData as $data) :
             ?>
-                <details class="group [&_summary::-webkit-details-marker]:hidden md:space-y-5 space-y-2.5 md:pt-3 pt-2.5">
+                <details class="group [&_summary::-webkit-details-marker]:hidden space-y-2.5 md:pt-3 pt-2.5">
                     <summary class="flex cursor-pointer items-center justify-between gap-1.5">
-                        <h2 class="md:text-lg text-sm font-medium text-gray-900">
+                        <h2 class="md:text-base text-sm font-semibold text-gray-900">
                             <?= $data['question']; ?>
                         </h2>
 
@@ -40,7 +40,7 @@ $faqData = include get_template_directory() . '/data/faq-data.php';
                         </span>
                     </summary>
 
-                    <p class="text-start text-base leading-relaxed text-neutral-600">
+                    <p class="text-start text-base leading-relaxed text-neutral-500">
                         <?= $data['answer']; ?>
                     </p>
                 </details>

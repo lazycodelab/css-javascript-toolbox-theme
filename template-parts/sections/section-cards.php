@@ -12,29 +12,29 @@
 <section class="relative mx-auto max-w-7xl xl:pt-72 pt-10 pb-10 lg:pb-14">
 	<div class="space-y-5">
 		<h3 class="font-bold font-display text-center text-neutral-700 lg:text-xl text-sm lg:px-0 px-5">Trusted by the best</h3>
-		<div class="grid-cols-6 gap-5 lg:gap-10 place-items-center md:grid hidden lg:max-w-3xl mx-auto">
+		<div class="grid-cols-6 gap-10 place-items-center md:grid hidden lg:max-w-4xl mx-auto">
 			<div class="size-32 flex justify-center items-center">
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/uom.svg" class="min-w-16 object-contain hover:invert duration-150" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/uom.png" class="min-w-16 object-contain hover:grayscale-0 grayscale duration-150" />
 			</div>
 			<div class="size-32 flex justify-center items-center">
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/mit.svg" class="min-w-16 object-contain hover:invert duration-150" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/mit.svg" class="min-w-16 object-contain hover:grayscale-0 grayscale duration-150" />
 			</div>
 			<div class="size-32 flex justify-center items-center">
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/umc.svg" class="min-w-16 object-contain hover:invert duration-150" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/umc.svg" class="min-w-16 object-contain hover:grayscale-0 grayscale duration-150" />
 			</div>
 			<div class="size-32 flex justify-center items-center">
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/nps.svg" class="min-w-16 object-contain hover:invert duration-150" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/nps.svg" class="min-w-16 object-contain hover:grayscale-0 grayscale duration-150" />
 			</div>
 			<div class="size-32 flex justify-center items-center">
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/gsu.svg" class="min-w-16 object-contain hover:invert duration-150" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/gsu.svg" class="min-w-16 object-contain hover:grayscale-0 grayscale duration-150" />
 			</div>
 			<div class="size-32 flex justify-center items-center">
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/rock_uni.svg" class="min-w-16 object-contain hover:invert duration-150" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/rock_uni.svg" class="min-w-16 object-contain hover:grayscale-0 grayscale duration-150" />
 			</div>
 		</div>
 		<div class="relative flex overflow-x-hidden md:hidden">
 			<div class="animate-marquee whitespace-nowrap flex gap-10">
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/uom.svg" class="size-16 object-contain hover:invert duration-150" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/uom.png" class="size-16 object-contain hover:invert duration-150" />
 				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/mit.svg" class="size-16 object-contain hover:brightness-50 duration-150" />
 				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/umc.svg" class="size-16 object-contain hover:invert duration-150" />
 				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/nps.svg" class="size-16 object-contain hover:invert duration-150" />
@@ -44,7 +44,7 @@
 				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/umc.svg" class="size-16 object-contain hover:brightness-50 duration-150" />
 				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/nps.svg" class="size-16 object-contain hover:invert duration-150" />
 				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/gsu.svg" class="size-16 object-contain hover:invert duration-150" />
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/uom.svg" class="size-16 object-contain hover:invert duration-150" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/uom.png" class="size-16 object-contain hover:invert duration-150" />
 				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/rock_uni.svg" class="size-16 object-contain hover:invert duration-150" />
 			</div>
 		</div>
