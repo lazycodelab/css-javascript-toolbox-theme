@@ -29,28 +29,30 @@
                 Check out what you get in CJT PLUS compared to <a class="text-brand-blue font-normal underline" href="https://wordpress.org/plugins/css-javascript-toolbox/">CJT Free version on WordPress.org</a>
             </p>
         </div>
-        <div class="md:py-24 py-10">
-            <table class="table-fixed w-full">
+        <div class="py-10">
+            <table class="table-fixed w-full border border-neutral-500 rounded">
                 <thead>
-                    <tr>
-                        <th></th>
-                        <th class="bg-white">
+                    <tr class="border-b border-neutral-500 divide-x divide-neutral-500">
+                        <th class="p-4 bg-white">
+                            <h2 class="font-display md:text-3xl text-neutral-900 text-sm">Features</h2>
+                        </th>
+                        <th class="bg-brand-blue/10">
                             <img class="mx-auto" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/logo.svg" />
                         </th>
-                        <th class="p-4">
+                        <th class="p-4 bg-white">
                             <h2 class="font-display md:text-3xl text-neutral-900 text-sm">CJT Free on WordPress.org</h2>
                         </th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                <tbody class="bg-white">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Supported languages</td>
-                        <td class="p-6 text-brand-blue">CSS, HTML, JavaScript, PHP, plain text</td>
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">CSS, HTML, JavaScript, PHP, plain text</td>
                         <td class="p-6">CSS, HTML, JavaScript, PHP, plain text</td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Optimised for devices</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -63,9 +65,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Create as many code blocks as needed (Tested with over 100 of code blocks)</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -78,46 +80,47 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Code block maximum data size</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             LONGTEXT (up to 4GB of data)
                         </td>
                         <td class="p-6">
                             LONGTEXT (up to 4GB of data)
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Code block On/Off switch</td>
-                        <td class="p-6">
+                        <td class="p-6 bg-brand-blue/10">
                             <div class="flex justify-center items-center gap-2.5 text-brand-blue">
-                                <?php get_template_part('template-parts/components/component', 'on-icon'); ?>
-                                Yes. On and Off
-                                <?php get_template_part('template-parts/components/component', 'off-icon'); ?>
+                                <?php get_template_part('template-parts/components/component', 'check'); ?> (Yes. On and Off)
                             </div>
                         </td>
                         <td class="p-6">
-                            <div class="flex justify-center items-center">
-                                Always on
-                                <?php get_template_part('template-parts/components/component', 'on-icon'); ?>
+                            <div class="flex justify-center items-center gap-1">
+                                <?php get_template_part('template-parts/components/component', 'uncheck'); ?>
+                                Always On
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Header and Footer output hooks(Code block to header or footer of page)</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes. Header and Footer
                             </div>
                         </td>
                         <td class="p-6">
-                            Header only
+                            <div class="flex items-center justify-center gap-1">
+                                <?php get_template_part('template-parts/components/component', 'uncheck'); ?>
+                                Header only
+                            </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Additional output hooks(Code block to page sections)</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex flex-col justify-center gap-2.5">
                                 <div class="flex justify-center items-center gap-1">
                                     <?php get_template_part('template-parts/components/component', 'check'); ?>
@@ -133,9 +136,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Assignment inverter function (i.e. run code everywhere but …)</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             Posts, Pages, Categories, Tags, Custom Posts
                         </td>
                         <td class="p-6">
@@ -145,9 +148,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Assignment smart pagination/scrolling</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -160,9 +163,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Code block shortcode support</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -175,9 +178,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Code block shortcode embed button <br> (CJT embed button in Page/Post editor)</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -190,9 +193,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Code block to Gutenburg blocks</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -205,9 +208,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Metabox code block for Page/Post edit pages</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -220,9 +223,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Code block to widget controller</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -235,9 +238,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Templates Manager <br> (for storing all your code templates)</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -250,9 +253,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Embed/Link Templates to code blocks <br /> (stored templates / WordPress bundled scripts)</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -265,9 +268,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Templates from external scripts <br /> (e.g. from a CDN such as jQuery)</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -280,9 +283,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Code Auto Completion (CAC)</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -295,9 +298,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Full-screen editing mode</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -310,9 +313,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Code beautify function</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -325,9 +328,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Code minify function</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -340,18 +343,18 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Code block editor themes</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             32 editor themes
                         </td>
                         <td class="p-6">
                             1 default theme
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Code files support</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -364,9 +367,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Code block batch functions</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             Activate All, Deactivate All, Revert State,<br />Footer All, Header All, and Delete All
                         </td>
                         <td class="p-6">
@@ -376,9 +379,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Code block backups and revisions</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -391,9 +394,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Code block information panel</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -406,9 +409,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Code block information panel</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -421,9 +424,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Prioritise code block run order via drag'n drop</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -436,9 +439,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Close All code block function</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -451,9 +454,9 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="even:bg-white odd:bg-neutral-100 text-neutral-500 font-medium">
+                    <tr class="text-neutral-500 font-medium divide-x divide-neutral-500">
                         <td class="p-6">Privilege setting for metabox code blocks</td>
-                        <td class="p-6 text-brand-blue">
+                        <td class="p-6 text-brand-blue bg-brand-blue/10">
                             <div class="flex items-center justify-center gap-1">
                                 <?php get_template_part('template-parts/components/component', 'check'); ?>
                                 Yes
@@ -469,5 +472,6 @@
                 </tbody>
             </table>
         </div>
+        <?php get_template_part('template-parts/components/component', 'button', ['content' => 'Get CJT PLUS NOW', 'url' => '/']); ?>
     </div>
 </section>
