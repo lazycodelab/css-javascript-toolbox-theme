@@ -12,13 +12,13 @@
 <section class="relative mx-auto max-w-7xl xl:pt-72 pt-10 pb-10 lg:pb-14">
 	<div class="space-y-5">
 		<h3 class="font-bold font-display text-center text-neutral-700 lg:text-xl text-sm lg:px-0 px-5">Trusted by the best</h3>
-		<div class="grid-cols-6 gap-10 place-items-center md:grid hidden lg:max-w-4xl mx-auto">
-			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/uom.webp" class="w-32 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150" />
-			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/mit.webp" class="w-32 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150" />
-			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/umc.webp" class="w-32 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150" />
-			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/nps.webp" class="w-32 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150" />
-			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/gsu.webp" class="w-32 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150" />
-			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/rock_uni.webp" class="w-32 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150" />
+		<div class="grid-cols-6 gap-10 place-items-center md:grid hidden mx-auto">
+			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/uom.webp" class="w-40 h-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150" />
+			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/mit.webp" class="w-40 h-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150" />
+			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/umc.webp" class="w-40 h-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150" />
+			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/nps.webp" class="w-40 h-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150 py-5" />
+			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/gsu.webp" class="w-40 h-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150 py-5" />
+			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/rock_uni.webp" class="w-40 h-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150 py-5" />
 		</div>
 		<div class="relative flex overflow-x-hidden md:hidden">
 			<div class="animate-marquee whitespace-nowrap flex gap-10">
