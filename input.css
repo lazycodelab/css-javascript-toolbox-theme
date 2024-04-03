@@ -58,39 +58,100 @@ Text Domain: cjt
 	opacity: 1;
 }
 
-
-.menu-item-has-children {
-	display: inline-block;
-	position: relative;
+/* Dropdown CSS */
+li ul {
+	display: none;
 }
 
-.menu-item-has-children:has(> a) {
-	font-weight: 600;
-	padding: 0.5rem 1rem;
-	border-radius: 0.25rem;
-	display: inline-flex;
-	align-items: center;
+ul li:hover  > ul {
+	display: block;
+	background-color: #005DA4;
+	border-radius: 4px;
+	color: white;
+}
+
+li ul {
+    position: absolute;
+    width: 166px;
+	z-index: 99;
+	margin-top: 10px;
+}
+
+li li ul {
+    position: absolute;
+    margin-left: 155px;
+    margin-top: -20px;
+	z-index: 99;
+}
+
+li li {
+    display: block;
+}
+
+.sub-menu li:not(:first-child) {
+	margin-top: 10px;
+}
+.sub-menu li {
+	width: 100%;
+	padding: 0 12px;
+}
+
+.sub-menu li a {
+	padding: 0 !important;
+	text-transform: unset !important;
+}
+
+.sub-menu {
+	padding: 10px 0px;
+}
+
+.sub-menu li a {
+	color: #ffffff !important;
+	font-size: 12px !important;
+	line-height: 1.5rem !important;
+	font-weight: normal !important;
 }
 
 .menu-item-has-children::after {
 	position: absolute;
-	right: 0;
-	content: '>';
-	transform: rotate(90deg);
-	margin-left: 0.5rem;
+    display: inline-table;
+    right: 0;
+    content: '>';
+    width: 10px;
+    height: 10px;
+    transform: rotate(90deg);
+    margin-bottom: 0.5rem;
 }
 
-.menu-item-has-children ul.sub-menu {
+.menu-item-has-children:hover::after {
+    color: #005DA4;
+}
+
+.menu-item-has-children ul li.menu-item-has-children::after {
 	position: absolute;
-	left: 0px;
-    top: 41px;
-	display: none;
-	color: #374151;
-	padding-top: 0.25rem;
+    display: contents;
+    content: '>';
+    width: 10px;
+    height: 10px;
+	right: unset;
+    transform: rotate(90deg);
+    margin-bottom: 0.5rem;
 }
 
-.menu-item-has-children:hover ul.sub-menu {
-	display: block;
+.menu-item-has-children ul li.menu-item-has-children:hover::after {
+	color: #ffffff !important;
+}
+
+.menu-item-has-children {
+	display: inline-block;
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 20px 15px;
+}
+
+.menu-item-has-children:hover a:not(.menu-item-has-children li a) {
+	color: #005DA4 !important;
 }
 
 @layer utilities {
@@ -99,7 +160,7 @@ Text Domain: cjt
 	}
 
 	#nav-menu li a {
-		@apply text-black transition font-semibold text-base hover:text-black/75;
+		@apply text-black transition font-semibold text-base hover:text-black/75 py-5 uppercase;
 	}
 }
 
