@@ -1221,6 +1221,14 @@ html {
   display: none;
 }
 
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
+.aspect-\[2\/3\] {
+  aspect-ratio: 2/3;
+}
+
 .size-10 {
   width: 2.5rem;
   height: 2.5rem;
@@ -1447,12 +1455,20 @@ html {
   width: 100%;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
 .min-w-16 {
   min-width: 4rem;
 }
 
 .min-w-32 {
   min-width: 8rem;
+}
+
+.min-w-28 {
+  min-width: 7rem;
 }
 
 .max-w-2xl {
