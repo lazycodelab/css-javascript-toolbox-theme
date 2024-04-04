@@ -195,7 +195,7 @@
 
 					<form class="md:space-y-5 space-y-2.5">
 						<input type="text" class="py-3.5 px-6 text-black placeholder:text-black block w-full border-gray-200 border rounded-lg text-sm disabled:opacity-50 disabled:pointer-events-none" placeholder="Email address">
-						<button class="rounded-lg bg-brand-blue px-6 md:text-lg text-sm py-3.5 font-medium text-white" type="submit">
+						<button class="rounded-lg bg-brand-blue px-6 md:text-base text-sm py-3.5 font-medium text-white w-full" type="submit">
 							Subscribe Now
 						</button>
 					</form>
