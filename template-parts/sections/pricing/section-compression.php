@@ -472,6 +472,8 @@
                 </tbody>
             </table>
         </div>
-        <?php get_template_part('template-parts/components/component', 'button', ['content' => 'Get CJT PLUS NOW', 'url' => '/']); ?>
+        <div class="text-center">
+            <?php get_template_part('template-parts/components/component', 'button', ['content' => 'Get CJT PLUS NOW', 'url' => '/']); ?>
+        </div>
     </div>
 </section>
