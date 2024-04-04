@@ -24,7 +24,7 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 			<?php
 			foreach ($plans as $plan) :
 				$containerClasses = 'px-8 py-5 space-y-8';
-				$textClasses      = 'text-neutral-500';
+				$textClasses      = 'text-neutral-700';
 				$ctaClasses       = 'group rounded px-6 text-base inline-flex items-center font-semibold py-3 gap-x-1 shadow-md';
 
 				if ($plan["highlight"] === true) {
