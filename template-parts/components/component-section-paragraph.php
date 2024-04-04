@@ -2,6 +2,6 @@
 $content = $args['content'];
 ?>
 
-<p class="lg:text-xl text-lg md:max-w-screen-sm md:mx-auto">
+<p class="lg:text-base text-sm md:max-w-screen-sm md:mx-auto">
 	<?php echo $content; ?>
 </p>
