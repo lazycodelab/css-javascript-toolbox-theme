@@ -19,13 +19,13 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 				Simple, transparent pricing
 			</h2>
 
-			<p class="md:text-xl text-base font-medium sm:block text-neutral-500">
+			<p class="md:text-base text-sm font-medium sm:block text-neutral-500">
 				No contracts. No surprise fees.
 			</p>
 		</div>
 
 
-		<div class="grid grid-cols-1 sm:grid-cols-2 sm:items-stretch lg:grid-cols-4 rounded-lg sm:bg-white lg:mt-32 mt-5 sm:gap-0 gap-5 sm:mx-0 mx-5">
+		<div class="grid grid-cols-1 sm:grid-cols-2 sm:items-stretch lg:grid-cols-4 rounded-lg sm:bg-white lg:mt-36 mt-5 sm:gap-0 gap-5 sm:mx-0 mx-5">
 			<?php
 			foreach ($plans as $plan) :
 				$containerClasses = 'px-8 py-5 space-y-8';

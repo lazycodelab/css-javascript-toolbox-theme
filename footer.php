@@ -19,7 +19,7 @@
 				<div class="grid grid-cols-1 gap-4 lg:grid-cols-12 lg:gap-8 items-center">
 					<div class="rounded-lg lg:col-span-9 lg:space-y-10 space-y-5 lg:text-start text-center">
 						<h2 class="lg:text-5xl text-xl font-semibold font-display">Subscribe to our newsletter</h2>
-						<div class="inline-flex lg:flex-row flex-col lg:w-4/6 w-full gap-5">
+						<div class="inline-flex lg:flex-row flex-col lg:w-5/6 w-full gap-5">
 							<input type="text" class="py-3.5 px-6 text-black placeholder:text-black block w-full border-gray-200 border rounded md:text-base text-sm disabled:opacity-50 disabled:pointer-events-none md:w-2/3" placeholder="Email address">
 							<button class="rounded-lg w-full bg-brand-blue px-6 lg:text-base text-sm py-3.5 font-medium text-white md:w-1/3" type="submit">Subscribe Now</button>
 						</div>

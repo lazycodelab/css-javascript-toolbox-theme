@@ -56,12 +56,12 @@
         }
     </style>
     <div class="mx-auto max-w-7xl text-center md:mb-64 mb-28 relative">
-        <div class="md:space-y-5 space-y-2.5 max-w-2xl mx-auto md:px-0 px-5">
+        <div class="md:space-y-5 space-y-2.5 max-w-4xl mx-auto md:px-0 px-5">
             <h2 class="text-2xl font-bold md:text-5xl font-display">
                 What Our Client <br />Say About CJT PLUS
             </h2>
 
-            <p class="md:text-xl text-sm font-medium text-neutral-600">
+            <p class="md:text-base text-sm font-medium text-neutral-600">
                 We are incredibly humbled to have so many happy CJT PLUS customers, so we decided to let them speak for us. This is a small selection of the emails, reviews, and feedback we often receive.
             </p>
         </div>
@@ -85,7 +85,7 @@
 					}
 				}
 			' navigation="true" navigation-prev-el="button[data-slider-nav-prev]" navigation-next-el="button[data-slider-nav-next]">
-            <div slot="container-start" class="md:p-10 pt-5"></div>
+            <div slot="container-start" class="md:p-16 pt-5"></div>
             <swiper-slide class="space-y-5">
                 <blockquote class="rounded bg-white md:p-10 md:shadow-xl p-5 space-y-5">
                     <div class="flex justify-center items-center gap-4">
