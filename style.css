@@ -2278,6 +2278,10 @@ html {
   padding: 0.625rem;
 }
 
+.p-3 {
+  padding: 0.75rem;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -2286,16 +2290,8 @@ html {
   padding: 1.25rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
 .p-8 {
   padding: 2rem;
-}
-
-.p-3 {
-  padding: 0.75rem;
 }
 
 .px-1 {
@@ -2417,6 +2413,10 @@ html {
   padding-bottom: 6rem;
 }
 
+.pb-28 {
+  padding-bottom: 7rem;
+}
+
 .pb-32 {
   padding-bottom: 8rem;
 }
@@ -2467,10 +2467,6 @@ html {
 
 .pt-8 {
   padding-top: 2rem;
-}
-
-.pb-28 {
-  padding-bottom: 7rem;
 }
 
 .text-center {
@@ -2804,6 +2800,7 @@ li ul {
   position: absolute;
   width: 166px;
   z-index: 99;
+  left: -20px;
   margin-top: 10px;
 }
 
@@ -2878,7 +2875,7 @@ li li {
   position: relative;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 20px 15px;
+  padding: 20px 15px 20px 0px;
 }
 
 .menu-item-has-children:hover a:not(.menu-item-has-children li a) {
@@ -3405,6 +3402,10 @@ li li {
     padding: 3rem;
   }
 
+  .md\:p-16 {
+    padding: 4rem;
+  }
+
   .md\:p-2 {
     padding: 0.5rem;
   }
@@ -3427,14 +3428,6 @@ li li {
 
   .md\:p-6 {
     padding: 1.5rem;
-  }
-
-  .md\:p-20 {
-    padding: 5rem;
-  }
-
-  .md\:p-16 {
-    padding: 4rem;
   }
 
   .md\:px-0 {
@@ -3482,14 +3475,14 @@ li li {
     padding-bottom: 6rem;
   }
 
-  .md\:py-5 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-  }
-
   .md\:py-40 {
     padding-top: 10rem;
     padding-bottom: 10rem;
+  }
+
+  .md\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
   }
 
   .md\:pb-24 {
@@ -3530,10 +3523,6 @@ li li {
 
   .md\:pt-60 {
     padding-top: 15rem;
-  }
-
-  .md\:pt-20 {
-    padding-top: 5rem;
   }
 
   .md\:text-start {
@@ -3630,8 +3619,8 @@ li li {
     margin-top: 6rem;
   }
 
-  .lg\:mt-32 {
-    margin-top: 8rem;
+  .lg\:mt-36 {
+    margin-top: 9rem;
   }
 
   .lg\:mt-40 {
@@ -3640,10 +3629,6 @@ li li {
 
   .lg\:mt-60 {
     margin-top: 15rem;
-  }
-
-  .lg\:mt-36 {
-    margin-top: 9rem;
   }
 
   .lg\:block {
@@ -3662,16 +3647,12 @@ li li {
     display: none;
   }
 
-  .lg\:w-4\/6 {
-    width: 66.666667%;
+  .lg\:w-5\/6 {
+    width: 83.333333%;
   }
 
   .lg\:w-56 {
     width: 14rem;
-  }
-
-  .lg\:w-5\/6 {
-    width: 83.333333%;
   }
 
   .lg\:grid-cols-12 {
@@ -3726,10 +3707,6 @@ li li {
 
   .lg\:p-24 {
     padding: 6rem;
-  }
-
-  .lg\:p-20 {
-    padding: 5rem;
   }
 
   .lg\:px-0 {
