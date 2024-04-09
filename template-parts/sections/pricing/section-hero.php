@@ -23,7 +23,7 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 		<div class="grid grid-cols-1 sm:grid-cols-2 sm:items-stretch lg:grid-cols-4 rounded-lg sm:bg-white lg:mt-40 mt-5 sm:gap-0 gap-5 sm:mx-0 mx-5">
 			<?php
 			foreach ($plans as $plan) :
-				$containerClasses = 'px-8 py-5 space-y-8';
+				$containerClasses = 'px-5 py-5 space-y-8';
 				$headingClasses      = 'text-neutral-700';
 				$textClasses      = 'text-neutral-500';
 				$ctaClasses       = 'group rounded px-6 text-base inline-flex items-center font-semibold py-3 gap-x-1 shadow-md';
