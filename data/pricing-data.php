@@ -6,6 +6,10 @@ return [
 		"price"       => 199,
 		"highlight"   => false,
 		"features"    => [
+			"Unlimited website installations",
+			"Lifetime of automatic updates",
+			"Lifetime of forum access",
+			"1 year of support",
 			"Lifetime automatic updates",
 			"Unlimited Sites Install",
 			"Unlimited Code Blocks",
@@ -20,6 +24,10 @@ return [
 		"price"       => 89,
 		"highlight"   => true,
 		"features"    => [
+			"100 website installations",
+			"2 years of automatic updates",
+			"1 year of forum access",
+			"1 year of support",
 			"2 years automatic updates",
 			"Use on 100 Sites",
 			"Unlimited Code Blocks",
@@ -34,6 +42,10 @@ return [
 		"price"       => 55,
 		"highlight"   => false,
 		"features"    => [
+			"3 website installations only",
+			"1 year of automatic updates",
+			"1 year of support",
+			"1 year of forum access",
 			"1 year automatic updates",
 			"Use on 3 Sites",
 			"Unlimited Code Blocks",
@@ -48,6 +60,10 @@ return [
 		"price"       => 19,
 		"highlight"   => false,
 		"features"    => [
+			"1 website installation only",
+			"1 year of automatic updates",
+			"1 year of support",
+			"1 year of forum access",
 			"1 year automatic updates",
 			"Use on 1 Site",
 			"Unlimited Code Blocks",

@@ -2800,7 +2800,6 @@ li ul {
   position: absolute;
   width: 166px;
   z-index: 99;
-  left: -20px;
   margin-top: 10px;
 }
 
@@ -2875,7 +2874,7 @@ li li {
   position: relative;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 20px 15px 20px 0px;
+  padding: 20px 15px;
 }
 
 .menu-item-has-children:hover a:not(.menu-item-has-children li a) {
