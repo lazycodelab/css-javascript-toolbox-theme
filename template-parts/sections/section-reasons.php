@@ -13,9 +13,9 @@
 <section class="md:py-24 py-10 relative overflow-hidden">
     <div class="mx-auto max-w-7xl md:space-y-10 space-y-14 xl:px-0 px-5">
         <div class="relative">
-            <h2 class="text-2xl font-bold md:text-5xl font-display md:max-w-4xl max-w-72 mx-auto text-center">
-                Top 6 Reasons Why Over 2 Million Users Love
-                <span class="text-brand-blue">CJT PLUS</span>
+            <h2 class="text-2xl font-bold md:text-5xl font-display md:max-w-6xl max-w-72 mx-auto text-center">
+                Reasons Why CJT Plus Has Garnered the Love
+                <span class="text-brand-blue">& Support of Over 500,000 Users</span>
             </h2>
             <?php get_template_part('template-parts/components/component', 'blob', ['class' => 'top-0 md:left-[55%] left-20 bg-cyan-400/30 md:blur-3xl blur-xl md:size-[200px] size-[120px] -z-[1]']); ?>
             <?php get_template_part('template-parts/components/component', 'blob', ['class' => 'md:-top-10 top-8 md:left-[65%] left-52 bg-amber-400/40 md:blur-3xl blur-2xl md:size-[130px] size-[80px] -z-[1]']); ?>

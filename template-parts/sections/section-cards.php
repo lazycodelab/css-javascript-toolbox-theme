@@ -60,7 +60,7 @@
 				<h3 class="text-xl font-semibold text-gray-900 md:text-3xl">Boost Presence</h3>
 			</div>
 			<p class="text-neutral-500">
-				Refresh and enhance your website's capabilities to stand out and attract more visitors.
+				Supercharge your online presence with our cutting-edge solutions. We'll elevate your brand and make you stand out in the digital landscape.
 			</p>
 		</div>
 		<div class="grid md:justify-start justify-center md:text-start text-center items-center lg:space-y-5 space-y-2.5">
@@ -73,7 +73,7 @@
 				<h3 class="text-xl font-semibold text-gray-900 md:text-3xl">Power-Up</h3>
 			</div>
 			<p class="text-neutral-500">
-				Integrate powerful code snippets, scripts, and widgets to supercharge your website's performance.
+				Empower your website with transformative code snippets and scripts. Our powerful tools elevate functionality, enhance performance, and drive success.
 			</p>
 		</div>
 		<div class="grid md:justify-start justify-center md:text-start text-center items-center lg:space-y-5 space-y-2.5">
@@ -87,7 +87,7 @@
 				<h3 class="text-xl font-semibold text-gray-900 md:text-3xl">Elevate Aesthetics</h3>
 			</div>
 			<p class="text-neutral-500">
-				Upgrade your website's appearance with eye-catching enhancements that leave a lasting impression.
+				Unlock your website's full potential with visually striking upgrades. Transform it into a captivating masterpiece that inspires your audience.
 			</p>
 		</div>
 		<div class="grid md:justify-start justify-center md:text-start text-center items-center lg:space-y-5 space-y-2.5">
@@ -100,7 +100,7 @@
 				<h3 class="text-xl font-semibold text-gray-900 md:text-3xl">Safe Integration</h3>
 			</div>
 			<p class="text-neutral-500">
-				Safely incorporate PHP functionality to expand your website's features without risking its stability
+				Ensure secure integration with our seamless integration solutions. Safeguard your website's performance while integrating new features effortlessly.
 			</p>
 		</div>
 	</div>

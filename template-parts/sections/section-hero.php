@@ -15,13 +15,13 @@
 		<div class="lg:space-y-10 space-y-2.5 xl:col-span-6">
 			<div class="space-y-5 md:pt-24 pt-10">
 				<h1 class="lg:text-6xl text-4xl font-display lg:text-left text-center">
-					A perfect WordPress plugin for adding code snippets
+					CSS & JavaScript ToolBox Plus: The Perfect WordPress Code Snippet Plugin for Effortless Code Integration
 				</h1>
 				<h2 class="lg:text-3xl text-xl font-display leading-none lg:block hidden">
-					Easy. Powerful. Modular.
+					Configurable | Versatile | Streamlined
 				</h2>
 			</div>
-			<p class="max-w-2xl font-medium lg:text-start text-center lg:text-lg text-sm text-neutral-600">CSS & JavaScript Toolbox makes it safe and easy to add custom code snippets to WordPress without the need for additional plugins.</p>
+			<p class="max-w-2xl font-medium lg:text-start text-center lg:text-lg text-sm text-neutral-600">Transform your WordPress site effortlessly with the CSS & JavaScript Toolbox (CJT) - your go-to solution for seamlessly adding custom code snippets without the clutter of extra plugins. Unlock boundless possibilities while ensuring safety and simplicity for your website's enhancement!</p>
 
 			<div class="xl:block hidden">
 				<?php get_template_part('template-parts/components/component', 'button', ['content' => 'Get CJT PLUS NOW', 'url' => '/']); ?>

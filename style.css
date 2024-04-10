@@ -3290,6 +3290,10 @@ li li {
     max-width: 640px;
   }
 
+  .md\:max-w-6xl {
+    max-width: 72rem;
+  }
+
   .md\:scale-100 {
     --tw-scale-x: 1;
     --tw-scale-y: 1;
