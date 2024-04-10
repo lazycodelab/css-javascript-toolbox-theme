@@ -4,6 +4,7 @@ return [
 		"name"        => "Lifetime",
 		"description" => "Perfect solution for agencies and savvy entrepreneurs",
 		"price"       => 199,
+		"payment_link" => "https://sites.fastspring.com/cjtoolbox/product/css-javascript-toolbox-plus-lifetime?action=adds",
 		"highlight"   => false,
 		"features"    => [
 			"Unlimited website installations",
@@ -20,6 +21,7 @@ return [
 		"name"        => "Ultimate",
 		"description" => "Grow your sales and engagement with ease",
 		"price"       => 89,
+		"payment_link" => "https://sites.fastspring.com/cjtoolbox/product/css-javascript-toolbox-plus-ultimate?action=adds",
 		"highlight"   => true,
 		"features"    => [
 			"100 website installations",
@@ -36,6 +38,7 @@ return [
 		"name"        => "Boost",
 		"description" => "Great for maximizing your business potential",
 		"price"       => 55,
+		"payment_link" => "https://sites.fastspring.com/cjtoolbox/product/css-javascript-toolbox-plus-boost?action=adds",
 		"highlight"   => false,
 		"features"    => [
 			"3 website installations only",
@@ -52,6 +55,7 @@ return [
 		"name"        => "Basic",
 		"description" => "The optimal path to achieving your customization goals",
 		"price"       => 19,
+		"payment_link" => "https://sites.fastspring.com/cjtoolbox/product/css-javascript-toolbox-plus-basic?action=adds",
 		"highlight"   => false,
 		"features"    => [
 			"1 website installation only",
@@ -65,4 +69,3 @@ return [
 		]
 	],
 ];
-
