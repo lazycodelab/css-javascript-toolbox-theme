@@ -15,13 +15,13 @@
 		<div class="lg:space-y-10 space-y-2.5 xl:col-span-6">
 			<div class="space-y-5 md:pt-24 pt-10">
 				<h1 class="lg:text-6xl text-4xl font-display lg:text-left text-center">
-					CSS & JavaScript ToolBox Plus: The Perfect WordPress Code Snippet Plugin for Effortless Code Integration
+					The Perfect WordPress Code Snippet Plugin for Effortless Code Integration
 				</h1>
 				<h2 class="lg:text-3xl text-xl font-display leading-none lg:block hidden">
-					Configurable | Versatile | Streamlined
+					Configurable. Versatile. Streamlined
 				</h2>
 			</div>
-			<p class="max-w-2xl font-medium lg:text-start text-center lg:text-lg text-sm text-neutral-600">Transform your WordPress site effortlessly with the CSS & JavaScript Toolbox (CJT) - your go-to solution for seamlessly adding custom code snippets without the clutter of extra plugins. Unlock boundless possibilities while ensuring safety and simplicity for your website's enhancement!</p>
+			<p class="max-w-2xl font-medium lg:text-start text-center lg:text-lg text-sm text-neutral-600">Transform your WordPress site effortlessly with the CSS & JavaScript Toolbox (CJT) – your go-to solution for seamlessly adding custom code snippets without the clutter of extra plugins. Unlock boundless possibilities while ensuring safety and simplicity for your website's enhancement!</p>
 
 			<div class="xl:block hidden">
 				<?php get_template_part('template-parts/components/component', 'button', ['content' => 'Get CJT PLUS NOW', 'url' => '/']); ?>
@@ -149,11 +149,11 @@
 	</div>
 
 
-	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-200/50 absolute rotate-6 left-1/2 top-20 animate-small-blob']); ?>
-	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 absolute -rotate-6 right-1/3 bottom-1/2 animate-small-blob-2']); ?>
-	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 absolute rotate-3 left-1/3 top-1/3 animate-small-blob-3']); ?>
-	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-200/50 absolute left-40 top-1/4 animate-small-blob-4']); ?>
-	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -rotate-6 left-[40%] bottom-1/2 animate-small-blob-5']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-200/50 -z-[1] rotate-6 left-1/2 top-20 animate-small-blob']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 -z-[1] -rotate-6 right-1/3 bottom-1/2 animate-small-blob-2']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 -z-[1] rotate-3 right-[15%] top-[10%] animate-small-blob-3']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-200/50 -z-[1] left-40 top-1/4 animate-small-blob-4']); ?>
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 -z-[1] -rotate-6 left-[40%] bottom-[40%] animate-small-blob-5']); ?>
 	<?php get_template_part('template-parts/components/component', 'blob', ['class' => 'md:-left-52 -left-28 top-10 bg-cyan-400/20 blur-2xl md:size-[350px] size-[220px] -z-[1]']); ?>
 	<?php get_template_part('template-parts/components/component', 'blob', ['class' => 'lg:hidden -right-28 bottom-[50%] bg-amber-300/20 blur-2xl md:size-[350px] size-[220px] -z-[1]']); ?>
 </section>

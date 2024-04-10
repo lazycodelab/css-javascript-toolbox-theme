@@ -17,7 +17,7 @@
 		<div class="mx-auto max-w-7xl md:pb-24 md:pt-0 py-10 md:space-y-10 space-y-5">
 			<div class="space-y-5 max-w-4xl mx-auto text-center md:px-0 px-5">
 				<h2 class="text-2xl max-w-3xl mx-auto font-bold md:text-5xl font-display">
-					Explore <span class="text-brand-blue">CJT PLUS</span> <br /> Premium Features
+					Discover Premium Features <br /> of <span class="text-brand-blue">CJT PLUS</span>
 				</h2>
 
 				<p class="md:text-base text-sm font-medium text-neutral-500">
