@@ -47,6 +47,14 @@ Text Domain: cjt
 	margin: 10px 0 20px 0;
 }
 
+.cjt-submit-btn {
+	background-color: #171717;
+	border-radius: 18px;
+	color: #ffffff;
+	padding: 24px 12px;
+	cursor: pointer;
+}
+
 .previewSliderThumbs swiper-slide,
 .previewSliderThumbs2 swiper-slide {
 	height: 100%;
