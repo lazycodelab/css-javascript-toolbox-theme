@@ -22,7 +22,7 @@
         </div>
         <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
             <div class="w-full h-full md:mx-auto relative">
-                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-1.svg" />
+                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-1.svg" loading="lazy"/>
                 <div class="absolute right-0 top-1/4 md:px-0 px-3">
                     <img class="md:w-3/4 w-full ml-auto" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-1.png" />
                 </div>
@@ -69,7 +69,7 @@
             </div>
 
             <div class="w-full h-full md:mx-auto relative md:order-1 -order-1">
-                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-2.svg" />
+                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-2.svg" loading="lazy"/>
                 <div class="absolute right-0 md:top-1/4 top-5 md:px-0 px-3">
                     <img class="md:w-3/4 w-full ml-auto" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-2.png" />
                 </div>
@@ -77,7 +77,7 @@
         </div>
         <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
             <div class="w-full h-full mx-auto relative">
-                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-3.svg" />
+                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-3.svg" loading="lazy"/>
                 <div class="absolute left-0 top-1/4 md:px-0 px-3">
                     <img class="md:w-3/4 w-full ml-auto" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-2.png" />
                 </div>
@@ -123,7 +123,7 @@
                 </div>
             </div>
             <div class="w-full h-full mx-auto relative md:order-1 -order-1">
-                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-4.svg" />
+                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-4.svg" loading="lazy"/>
                 <div class="absolute right-0 md:top-1/3 top-4 md:px-0 px-3">
                     <img class="md:w-3/4 w-full mx-auto" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-2.png" />
                 </div>
@@ -131,7 +131,7 @@
         </div>
         <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
             <div class="w-full h-full mx-auto relative">
-                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-5.svg" />
+                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-5.svg" loading="lazy"/>
                 <div class="absolute right-0 top-1/3 md:px-0 px-3">
                     <img class="md:w-3/4 w-full ml-auto" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-2.png" />
                 </div>

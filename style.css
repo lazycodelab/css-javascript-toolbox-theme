@@ -3426,6 +3426,10 @@ li li {
     padding-bottom: 10rem;
   }
 
+  .md\:pb-72 {
+    padding-bottom: 18rem;
+  }
+
   .md\:pb-80 {
     padding-bottom: 20rem;
   }
@@ -3456,14 +3460,6 @@ li li {
 
   .md\:pt-60 {
     padding-top: 15rem;
-  }
-
-  .md\:pb-52 {
-    padding-bottom: 13rem;
-  }
-
-  .md\:pb-72 {
-    padding-bottom: 18rem;
   }
 
   .md\:text-start {

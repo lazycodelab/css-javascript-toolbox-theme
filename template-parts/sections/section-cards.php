@@ -13,27 +13,27 @@
 	<div class="space-y-5">
 		<h3 class="font-bold font-display text-center text-neutral-700 lg:text-xl text-sm lg:px-0 px-5">Trusted by the best</h3>
 		<div class="grid-cols-6 gap-10 place-items-center md:grid hidden mx-auto">
-			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/uom.webp" class="size-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150" />
-			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/mit.webp" class="size-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150" />
-			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/umc.webp" class="size-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150" />
-			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/nps.webp" class="size-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150 py-5" />
-			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/gsu.webp" class="size-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150 py-5" />
-			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/rock_uni.webp" class="size-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150 py-5" />
+			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/uom.webp" class="size-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150" loading="lazy"/>
+			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/mit.webp" class="size-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150" loading="lazy" />
+			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/umc.webp" class="size-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150" loading="lazy" />
+			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/nps.webp" class="size-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150 py-5" loading="lazy" />
+			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/gsu.webp" class="size-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150 py-5" loading="lazy" />
+			<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/rock_uni.webp" class="size-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150 py-5" loading="lazy" />
 		</div>
 		<div class="relative flex overflow-x-hidden md:hidden">
 			<div class="animate-marquee whitespace-nowrap flex gap-10">
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/uom.webp" class="size-16 object-contain" />
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/mit.webp" class="size-16 object-contain" />
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/umc.webp" class="size-16 object-contain" />
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/nps.webp" class="size-16 object-contain" />
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/gsu.webp" class="size-16 object-contain" />
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/rock_uni.webp" class="size-16 object-contain" />
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/mit.webp" class="size-16 object-contain" />
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/umc.webp" class="size-16 object-contain" />
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/nps.webp" class="size-16 object-contain" />
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/gsu.webp" class="size-16 object-contain" />
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/uom.png" class="size-16 object-contain" />
-				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/rock_uni.webp" class="size-16 object-contain" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/uom.webp" class="size-16 object-contain" loading="lazy" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/mit.webp" class="size-16 object-contain" loading="lazy" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/umc.webp" class="size-16 object-contain" loading="lazy" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/nps.webp" class="size-16 object-contain" loading="lazy" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/gsu.webp" class="size-16 object-contain" loading="lazy" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/rock_uni.webp" class="size-16 object-contain" loading="lazy" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/mit.webp" class="size-16 object-contain" loading="lazy" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/umc.webp" class="size-16 object-contain" loading="lazy" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/nps.webp" class="size-16 object-contain" loading="lazy" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/gsu.webp" class="size-16 object-contain" loading="lazy" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/uom.png" class="size-16 object-contain" loading="lazy" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/rock_uni.webp" class="size-16 object-contain" loading="lazy" />
 			</div>
 		</div>
 	</div>

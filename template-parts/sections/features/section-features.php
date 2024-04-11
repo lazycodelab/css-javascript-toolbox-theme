@@ -57,7 +57,7 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-5">
                 <div class="px-5">
-                    <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/features/image-1.png" />
+                    <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/features/image-1.png" loading="lazy"/>
                 </div>
                 <div class="grid md:grid-cols-2 grid-cols-1 h-fit gap-y-5 gap-x-2.5 my-auto md:px-0 px-5">
                     <div class="space-y-1">
@@ -104,7 +104,7 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-5">
                 <div class="px-5">
-                    <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/features/image-2.png" />
+                    <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/features/image-2.png" loading="lazy"/>
                 </div>
                 <div class="grid md:grid-cols-2 grid-cols-1 h-fit gap-y-5 gap-x-2.5 my-auto md:px-0 px-5">
                     <div class="space-y-1">
@@ -151,7 +151,7 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-5">
                 <div class="px-5">
-                    <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/features/image-3.png" />
+                    <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/features/image-3.png" loading="lazy"/>
                 </div>
                 <div class="grid md:grid-cols-2 grid-cols-1 h-fit gap-y-5 gap-x-2.5 my-auto md:px-0 px-5">
                     <div class="space-y-1">
@@ -198,7 +198,7 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-5">
                 <div class="px-5">
-                    <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/features/image-4.png" />
+                    <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/features/image-4.png" loading="lazy"/>
                 </div>
                 <div class="grid md:grid-cols-2 grid-cols-1 h-fit gap-y-5 gap-x-2.5 my-auto md:px-0 px-5">
                     <div class="space-y-1">
@@ -245,7 +245,7 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-5">
                 <div class="px-5">
-                    <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/features/image-5.png" />
+                    <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/features/image-5.png" loading="lazy"/>
                 </div>
                 <div class="grid md:grid-cols-2 grid-cols-1 h-fit gap-y-5 gap-x-2.5 my-auto md:px-0 px-5">
                     <div class="space-y-1">
@@ -292,7 +292,7 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-5">
                 <div class="px-5">
-                    <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/features/image-6.png" />
+                    <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/features/image-6.png" loading="lazy"/>
                 </div>
                 <div class="grid md:grid-cols-2 grid-cols-1 h-fit gap-y-5 gap-x-2.5 my-auto md:px-0 px-5">
                     <div class="space-y-1">
