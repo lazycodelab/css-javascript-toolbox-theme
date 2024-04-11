@@ -57,7 +57,7 @@
 
 						<div class="flex items-center gap-4">
 							<div class="sm:gap-4 md:flex hidden">
-								<a class="rounded-md bg-brand-blue lg:px-6 px-3 lg:text-lg text-sm lg:py-3.5 py-2 font-medium text-white" href="<?= home_url(); ?>/pricing">
+								<a class="rounded-md bg-brand-blue shadow-md lg:px-6 px-3 lg:text-lg text-sm lg:py-3.5 py-2 font-semibold text-white" href="<?= home_url(); ?>/pricing">
 									Get CJT PLUS
 								</a>
 							</div>

@@ -14,15 +14,15 @@
     <div class="mx-auto max-w-7xl md:space-y-10 space-y-14 xl:px-0 px-5">
         <div class="relative">
             <h2 class="text-2xl font-bold md:text-5xl font-display md:max-w-6xl max-w-72 mx-auto text-center">
-                Reasons Why CJT Plus Has Garnered the Love
-                <span class="text-brand-blue">& Support of Over 500,000 Users</span>
+                Reasons Why CJT Plus Has Garnered the Love & Support of
+                <span class="text-brand-blue">Over 500,000</span> Users
             </h2>
             <?php get_template_part('template-parts/components/component', 'blob', ['class' => 'top-0 md:left-[55%] left-20 bg-cyan-400/30 md:blur-3xl blur-xl md:size-[200px] size-[120px] -z-[1]']); ?>
             <?php get_template_part('template-parts/components/component', 'blob', ['class' => 'md:-top-10 top-8 md:left-[65%] left-52 bg-amber-400/40 md:blur-3xl blur-2xl md:size-[130px] size-[80px] -z-[1]']); ?>
         </div>
         <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
             <div class="w-full h-full md:mx-auto relative">
-                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-1.svg" loading="lazy"/>
+                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-1.svg" loading="lazy" />
                 <div class="absolute right-0 top-1/4 md:px-0 px-3">
                     <img class="md:w-3/4 w-full ml-auto" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-1.png" />
                 </div>
@@ -69,7 +69,7 @@
             </div>
 
             <div class="w-full h-full md:mx-auto relative md:order-1 -order-1">
-                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-2.svg" loading="lazy"/>
+                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-2.svg" loading="lazy" />
                 <div class="absolute right-0 md:top-1/4 top-5 md:px-0 px-3">
                     <img class="md:w-3/4 w-full ml-auto" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-2.png" />
                 </div>
@@ -77,7 +77,7 @@
         </div>
         <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
             <div class="w-full h-full mx-auto relative">
-                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-3.svg" loading="lazy"/>
+                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-3.svg" loading="lazy" />
                 <div class="absolute left-0 top-1/4 md:px-0 px-3">
                     <img class="md:w-3/4 w-full ml-auto" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-2.png" />
                 </div>
@@ -123,7 +123,7 @@
                 </div>
             </div>
             <div class="w-full h-full mx-auto relative md:order-1 -order-1">
-                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-4.svg" loading="lazy"/>
+                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-4.svg" loading="lazy" />
                 <div class="absolute right-0 md:top-1/3 top-4 md:px-0 px-3">
                     <img class="md:w-3/4 w-full mx-auto" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-2.png" />
                 </div>
@@ -131,7 +131,7 @@
         </div>
         <div class="grid grid-cols-1 gap-5 lg:grid-cols-2">
             <div class="w-full h-full mx-auto relative">
-                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-5.svg" loading="lazy"/>
+                <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-5.svg" loading="lazy" />
                 <div class="absolute right-0 top-1/3 md:px-0 px-3">
                     <img class="md:w-3/4 w-full ml-auto" src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-2.png" />
                 </div>
