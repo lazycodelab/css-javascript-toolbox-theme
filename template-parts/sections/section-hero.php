@@ -7,7 +7,7 @@
  *
  * @package cjt
  */
-
+$url = home_url() . '/pricing';
 ?>
 
 <section class="relative overflow-hidden">
@@ -24,7 +24,7 @@
 			<p class="max-w-2xl font-medium lg:text-start text-center lg:text-lg text-sm text-neutral-600">Transform your WordPress site effortlessly with the CSS & JavaScript Toolbox (CJT) – your go-to solution for seamlessly adding custom code snippets without the clutter of extra plugins. Unlock boundless possibilities while ensuring safety and simplicity for your website's enhancement!</p>
 
 			<div class="xl:block hidden">
-				<?php get_template_part('template-parts/components/component', 'button', ['content' => 'Get CJT PLUS NOW', 'url' => '/']); ?>
+				<?php get_template_part('template-parts/components/component', 'button', ['content' => 'Get CJT PLUS NOW', 'url' => $url]); ?>
 			</div>
 		</div>
 		<div class="relative xl:col-span-6 xl:block hidden flex-col items-center lg:pt-0 pt-10 h-full">
@@ -124,7 +124,7 @@
 					</div>
 				</div>
 			</div>
-			<?php get_template_part('template-parts/components/component', 'button', ['content' => 'Get CJT PLUS NOW', 'url' => '/']); ?>
+			<?php get_template_part('template-parts/components/component', 'button', ['content' => 'Get CJT PLUS NOW', 'url' => $url]); ?>
 			<a href="https://youtu.be/vYAKePVgJqE?si=JQzZGE0zsG5MBmrq" class="flex items-center gap-2.5 text-sm text-brand-blue font-medium">
 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="size-6">
 					<path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" fill="#0A0A0A" stroke="#0A0A0A" />

@@ -37,7 +37,7 @@
                 Enhance functionality, boost performance, and elevate user experience with our premium plugins. Discover a world of possibilities for your website today.
             </p>
         </div>
-        <a class="rounded bg-black inline-flex px-6 py-3.5 md:text-lg text-base font-bold text-white uppercase" href="/">
+        <a class="rounded bg-black inline-flex px-6 py-3.5 md:text-lg text-base font-bold text-white uppercase" href="<?= home_url(); ?>/features">
             Explore Plugins Now
         </a>
     </div>

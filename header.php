@@ -44,32 +44,6 @@
 							<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/logo-mobile.png" class="object-cover w-16" />
 						</a>
 					</div>
-					<!-- <div>
-						<div class="group/main inline-block relative">
-							<button class="bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center">
-								<span class="mr-1">Dropdown</span>
-								<svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-									<path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
-								</svg>
-							</button>
-							<ul class="absolute inset-x-0 hidden text-gray-700 pt-1 group-hover/main:block">
-								<li class="group/item">
-									<a class="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">1</a>
-									<ul class="absolute hidden l-10 text-gray-700 bg-red-200 pt-1 group-hover/item:block top-0 left-14">
-										<li>1.1</li>
-										<li>1.2</li>
-										<li>1.3</li>
-									</ul>
-								</li>
-								<li class="">
-									<a class="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">2</a>
-								</li>
-								<li class="">
-									<a class="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">3</a>
-								</li>
-							</ul>
-						</div>
-					</div> -->
 
 					<div class="md:flex md:items-center gap-5">
 						<nav aria-label="Global" class="hidden md:block">
@@ -83,7 +57,7 @@
 
 						<div class="flex items-center gap-4">
 							<div class="sm:gap-4 md:flex hidden">
-								<a class="rounded-md bg-brand-blue lg:px-6 px-3 lg:text-lg text-sm lg:py-3.5 py-2 font-medium text-white" href="#">
+								<a class="rounded-md bg-brand-blue lg:px-6 px-3 lg:text-lg text-sm lg:py-3.5 py-2 font-medium text-white" href="<?= home_url(); ?>/pricing">
 									Get CJT PLUS
 								</a>
 							</div>
