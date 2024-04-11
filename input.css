@@ -49,9 +49,9 @@ Text Domain: cjt
 
 .cjt-submit-btn {
 	background-color: #171717;
-	border-radius: 18px;
+	border-radius: 4px;
 	color: #ffffff;
-	padding: 24px 12px;
+	padding: 12px 24px;
 	cursor: pointer;
 }
 
