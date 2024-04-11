@@ -37,10 +37,10 @@
 			<div class="mx-auto max-w-7xl md:p-5 py-2.5 px-5">
 				<div class="flex items-center justify-between">
 					<div class="flex-1 md:flex md:items-center md:gap-12">
-						<a class="md:block hidden" href="/">
+						<a class="md:block hidden" href="<?= home_url(); ?>">
 							<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/logo.png" class="object-cover w-60" />
 						</a>
-						<a class="block md:hidden" href="/">
+						<a class="block md:hidden" href="<?= home_url(); ?>">
 							<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/logo-mobile.png" class="object-cover w-16" />
 						</a>
 					</div>
