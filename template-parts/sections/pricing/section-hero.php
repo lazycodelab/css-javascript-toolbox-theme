@@ -55,7 +55,13 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 							</div>
 
 							<p class="text-4xl relative <?php echo $headingClasses; ?> sm:text-4xl lg:text-7xl font-display tracking-wide">
-								<?php echo '<sup class="text-2xl font-normal font-body relative lg:-top-8 -top-4">$</sup>' . $plan['price'] . '<sub class="text-neutral-400 text-xs font-normal font-body tracking-normal absolute bottom-1">/year</sub>'; ?>
+								<?php
+								if ($plan['name'] === 'Lifetime') {
+									echo '<sup class="text-2xl font-normal font-body relative lg:-top-8 -top-4">$</sup>' . $plan['price'] . '<sub class="text-neutral-400 text-xs font-normal font-body tracking-normal absolute bottom-1">/one-time</sub>';
+								} else {
+									echo '<sup class="text-2xl font-normal font-body relative lg:-top-8 -top-4">$</sup>' . $plan['price'] . '<sub class="text-neutral-400 text-xs font-normal font-body tracking-normal absolute bottom-1">/year</sub>';
+								}
+								?>
 							</p>
 						</div>
 						<p class="<?php echo $textClasses; ?>">
