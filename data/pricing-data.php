@@ -9,8 +9,8 @@ return [
 		"features"    => [
 			"Unlimited website installations",
 			"Lifetime of automatic updates",
-			"2 years of forum access",
-			"2 years of support",
+			"Lifetime of forum access",
+			"1 year of support",
 			"Unlimited Code Blocks",
 			"Unlimited Revisions",
 			"Unlimited Users",
@@ -26,8 +26,8 @@ return [
 		"features"    => [
 			"100 website installations",
 			"2 years of automatic updates",
-			"1 year of forum access",
-			"1 year of support",
+			"2 years of forum access",
+			"2 years of support",
 			"Unlimited Code Blocks",
 			"Unlimited Revisions",
 			"Unlimited Users",
