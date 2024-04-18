@@ -83,45 +83,17 @@
 
 			<div class="grid gap-5 grid-cols-2 lg:col-span-2 lg:grid-cols-4">
 				<div class="md:space-y-5 space-y-2.5">
-					<p class="text-brand-blue font-bold uppercase text-sm">Services</p>
-
-					<ul class="md:space-y-5 space-y-2.5 text-sm">
-						<li>
-							<a href="#" class="text-gray-700 transition hover:opacity-75"> 1on1 Coaching </a>
-						</li>
-
-						<li>
-							<a href="#" class="text-gray-700 transition hover:opacity-75"> Company Review </a>
-						</li>
-
-						<li>
-							<a href="#" class="text-gray-700 transition hover:opacity-75"> Accounts Review </a>
-						</li>
-
-						<li>
-							<a href="#" class="text-gray-700 transition hover:opacity-75"> HR Consulting </a>
-						</li>
-
-						<li>
-							<a href="#" class="text-gray-700 transition hover:opacity-75"> SEO Optimisation </a>
-						</li>
-					</ul>
-				</div>
-
-				<div class="md:space-y-5 space-y-2.5">
 					<p class="text-brand-blue font-bold uppercase text-sm">Company</p>
 
 					<ul class="md:space-y-5 space-y-2.5 text-sm">
 						<li>
-							<a href="#" class="text-gray-700 transition hover:opacity-75"> About </a>
+							<a href="<?php echo site_url('/testimonials'); ?>" class="text-neutral-600 transition hover:opacity-75">Testimonials</a>
 						</li>
-
 						<li>
-							<a href="#" class="text-gray-700 transition hover:opacity-75"> Meet the Team </a>
+							<a href="<?php echo site_url('/blog'); ?>" class="text-neutral-600 transition hover:opacity-75">Blog</a>
 						</li>
-
 						<li>
-							<a href="#" class="text-gray-700 transition hover:opacity-75"> Accounts Review </a>
+							<a href="<?php echo site_url('/contact'); ?>" class="text-neutral-600 transition hover:opacity-75">Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -130,16 +102,15 @@
 					<p class="text-brand-blue font-bold uppercase text-sm">Helpful Links</p>
 
 					<ul class="md:space-y-5 space-y-2.5 text-sm">
-						<li>
-							<a href="#" class="text-gray-700 transition hover:opacity-75"> Contact </a>
-						</li>
 
 						<li>
-							<a href="#" class="text-gray-700 transition hover:opacity-75"> FAQs </a>
+							<a href="<?php echo site_url('/support'); ?>" class="text-neutral-600 transition hover:opacity-75">Support</a>
 						</li>
-
 						<li>
-							<a href="#" class="text-gray-700 transition hover:opacity-75"> Live Chat </a>
+							<a href="<?php echo site_url('/documentation'); ?>" class="text-neutral-600 transition hover:opacity-75">Documentation</a>
+						</li>
+						<li>
+							<a href="<?php echo site_url('/pricing'); ?>" class="text-neutral-600 transition hover:opacity-75">Plans &amp; Pricing</a>
 						</li>
 					</ul>
 				</div>
@@ -190,7 +161,7 @@
 					</ul>
 				</div>
 
-				<div class="space-y-5 col-span-2 lg:col-span-1">
+				<div class="space-y-5 col-span-2 lg:col-span-2">
 					<p class="font-bold text-sm text-brand-blue uppercase">Subscribe our NewsLetter</p>
 
 					<form class="md:space-y-5 space-y-2.5">
