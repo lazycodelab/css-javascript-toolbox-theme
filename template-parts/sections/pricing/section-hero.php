@@ -16,28 +16,28 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 <section class="py-24 relative overflow-hidden">
 	<div class="mx-auto max-w-7xl text-center">
 		<div class="md:space-y-5 space-y-2.5 md:px-0 px-5">
-			<?php get_template_part('template-parts/components/component', 'section-heading', ['content' => 'Unbelievably Easy WordPress Customization <br />At Unbeatable Price']); ?>
-			<?php get_template_part('template-parts/components/component', 'section-paragraph', ['content' => 'Join the thriving community of thousands of websites already benefiting from CJT\'s powerful features.']); ?>
+			<?php get_template_part('template-parts/components/component', 'section-heading', ['content' => 'Unleash the Power of Effortless WordPress Customization at an Unbeatable Price']); ?>
+			<?php get_template_part('template-parts/components/component', 'section-paragraph', ['content' => 'Elevate Your Online Presence - Join the Thriving Community of Thousands Fueled by CJT\'s Powerful Features']); ?>
 		</div>
 
 		<div class="grid grid-cols-1 sm:grid-cols-2 sm:items-stretch lg:grid-cols-4 rounded-lg sm:bg-white lg:mt-40 mt-5 sm:gap-0 gap-5 sm:mx-0 mx-5">
 			<?php
 			foreach ($plans as $plan) :
 				$containerClasses = 'px-5 py-5 space-y-8';
-				$headingClasses      = 'text-neutral-700';
+				$headingClasses   = 'text-neutral-700';
 				$textClasses      = 'text-neutral-500';
 				$ctaClasses       = 'group rounded px-6 text-base inline-flex items-center font-semibold py-3 gap-x-1 shadow-md';
 
 				if ($plan["highlight"] === true) {
 					$containerClasses .= ' lg:rounded-3xl rounded lg:shadow-[0px_40px_30px_0px] sm:shadow-[0px_10px_30px_0px] lg:shadow-brand-blue/25 sm:shadow-brand-blue/25 shadow-md relative lg:-top-24 bg-brand-blue';
 					$textClasses      = 'text-white';
-					$headingClasses = 'text-white';
+					$headingClasses   = 'text-white';
 					$ctaClasses .= ' text-brand-blue bg-white';
 				} else {
 					$containerClasses .= ' bg-white sm:shadow-none shadow-md';
 					$ctaClasses .= ' bg-brand-blue text-white';
 				}
-			?>
+				?>
 
 				<div class="<?php echo $containerClasses; ?>">
 					<div class="space-y-2.5 text-center">
