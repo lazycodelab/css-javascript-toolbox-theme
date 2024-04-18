@@ -1311,6 +1311,16 @@ html {
   height: 80px;
 }
 
+.size-20 {
+  width: 5rem;
+  height: 5rem;
+}
+
+.size-36 {
+  width: 9rem;
+  height: 9rem;
+}
+
 .h-14 {
   height: 3.5rem;
 }
@@ -2191,6 +2201,15 @@ html {
   background-color: rgb(253 224 71 / 0.4);
 }
 
+.bg-brand-blue\/5 {
+  background-color: rgb(0 93 164 / 0.05);
+}
+
+.bg-sky-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 249 255 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -2425,6 +2444,22 @@ html {
   padding-top: 2rem;
 }
 
+.pt-64 {
+  padding-top: 16rem;
+}
+
+.pt-60 {
+  padding-top: 15rem;
+}
+
+.pt-56 {
+  padding-top: 14rem;
+}
+
+.pt-44 {
+  padding-top: 11rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2624,6 +2659,12 @@ html {
 .shadow-xl {
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -2903,6 +2944,15 @@ li li {
   background-color: rgb(229 229 229 / var(--tw-bg-opacity));
 }
 
+.visited\:bg-pink-300:visited {
+  background-color: rgb(249 168 212 );
+}
+
+.target\:bg-red-500:target {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
 .hover\:border-neutral-900:hover {
   --tw-border-opacity: 1;
   border-color: rgb(23 23 23 / var(--tw-border-opacity));
@@ -2937,6 +2987,16 @@ li li {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.focus\:bg-red-400:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+
+.active\:bg-red-400:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+
 .disabled\:pointer-events-none:disabled {
   pointer-events: none;
 }
@@ -2958,6 +3018,21 @@ li li {
 .group:hover .group-hover\:translate-x-0\.5 {
   --tw-translate-x: 0.125rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.has-\[\:target\]\:bg-green-400:has(:target) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+}
+
+.group:has(:target) .group-has-\[\:target\]\:bg-green-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+}
+
+.aria-\[current\]\:border-brand-blue[aria-current] {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 93 164 / var(--tw-border-opacity));
 }
 
 @media (min-width: 640px) {
@@ -3311,6 +3386,18 @@ li li {
     row-gap: 2.5rem;
   }
 
+  .md\:gap-y-36 {
+    row-gap: 9rem;
+  }
+
+  .md\:gap-y-64 {
+    row-gap: 16rem;
+  }
+
+  .md\:gap-y-0 {
+    row-gap: 0px;
+  }
+
   .md\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -3357,6 +3444,12 @@ li li {
     --tw-space-y-reverse: 0;
     margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+  }
+
+  .md\:space-y-36 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(9rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(9rem * var(--tw-space-y-reverse));
   }
 
   .md\:p-10 {
@@ -3448,6 +3541,11 @@ li li {
   .md\:py-5 {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
+  }
+
+  .md\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
   .md\:pb-24 {
