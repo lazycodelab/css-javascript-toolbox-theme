@@ -47,17 +47,19 @@ $navLinks = [
 
 <section class="relative group">
 	<div class="bg-sky-50 w-full transition-transform duration-200 shadow sticky top-0">
-		<div class="flex md:gap-10 gap-5 max-w-6xl mx-auto justify-center overflow-x-auto md:py-5 py-2.5 md:px-0 px-5" data-nav>
+		<div class="flex md:gap-10 gap-5 max-w-6xl mx-auto justify-start md:justify-center overflow-x-auto md:py-5 py-2.5 md:px-0 px-5" data-nav>
 			<?php foreach ($navLinks as $k => $navLink) : ?>
-				<a href="#<?php echo $navLink['id']; ?>" class="flex flex-col size-36 justify-between items-center gap-2 md:py-3 md:px-2.5 p-2 bg-white border rounded aria-[current]:border-brand-blue" <?php echo $k === 0 ? 'aria-current="step"' : ''; ?>>
+				<a href="#<?php echo $navLink['id']; ?>" class="flex flex-col shrink-0 size-24 md:size-36 justify-center gap-y-0.5 md:justify-between items-center md:gap-2 md:p-3 p-1 bg-white border rounded aria-[current]:border-brand-blue" <?php echo $k === 0 ? 'aria-current="step"' : ''; ?>>
+				<div class="shrink-0">
 					<?php echo $navLink['icon']; ?>
-					<p class="text-sm text-neutral-900 font-semibold text-center"><?php echo $navLink['content']; ?></p>
+				</div>
+					<p class="md:text-sm text-xs text-neutral-900 font-semibold text-center"><?php echo $navLink['content']; ?></p>
 				</a>
 			<?php endforeach; ?>
 		</div>
 	</div>
 	<div class="max-w-7xl mx-auto md:py-24 grid py-10 md:gap-y-10">
-		<div class="space-y-10 pt-44" id="global-code-blocks">
+		<div class="space-y-10 pt-20 md:pt-44" id="global-code-blocks">
 			<div class="md:space-y-5 space-y-2.5 mx-auto text-center px-5">
 				<div class="space-y-2.5">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#005DA4" class="md:size-16 size-10 mx-auto">
@@ -92,7 +94,7 @@ $navLinks = [
 				</div>
 			</div>
 		</div>
-		<div class="space-y-10 pt-44" id="shortcode-metabox">
+		<div class="space-y-10 pt-20 md:pt-44" id="shortcode-metabox">
 			<div class="md:space-y-5 space-y-2.5 mx-auto text-center px-5">
 				<div class="space-y-2.5">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#005DA4" class="md:size-16 size-10 mx-auto">
@@ -127,7 +129,7 @@ $navLinks = [
 				</div>
 			</div>
 		</div>
-		<div class="space-y-10 pt-44" id="code-files">
+		<div class="space-y-10 pt-20 md:pt-44" id="code-files">
 			<div class="md:space-y-5 space-y-2.5 mx-auto text-center px-5">
 				<div class="space-y-2.5">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#005DA4" class="md:size-16 size-10 mx-auto">
@@ -170,7 +172,7 @@ $navLinks = [
 				</div>
 			</div>
 		</div>
-		<div class="space-y-10 pt-44" id="code-blocks-tools">
+		<div class="space-y-10 pt-20 md:pt-44" id="code-blocks-tools">
 			<div class="md:space-y-5 space-y-2.5 mx-auto text-center px-5">
 				<div class="space-y-2.5">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#005DA4" class="md:size-16 size-10 mx-auto">
@@ -225,7 +227,7 @@ $navLinks = [
 				</div>
 			</div>
 		</div>
-		<div class="space-y-10 pt-44" id="editor-tools">
+		<div class="space-y-10 pt-20 md:pt-44" id="editor-tools">
 			<div class="md:space-y-5 space-y-2.5 mx-auto text-center px-5">
 				<div class="space-y-2.5">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#005DA4" class="md:size-16 size-10 mx-auto">
@@ -287,7 +289,7 @@ $navLinks = [
 				</div>
 			</div>
 		</div>
-		<div class="space-y-10 pt-44" id="templates-packages">
+		<div class="space-y-10 pt-20 md:pt-44" id="templates-packages">
 			<div class="md:space-y-5 space-y-2.5 mx-auto text-center px-5">
 				<div class="space-y-2.5">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#005DA4" class="md:size-16 size-10 mx-auto">

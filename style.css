@@ -1321,6 +1321,11 @@ html {
   height: 9rem;
 }
 
+.size-24 {
+  width: 6rem;
+  height: 6rem;
+}
+
 .h-14 {
   height: 3.5rem;
 }
@@ -1761,6 +1766,14 @@ html {
 
 .gap-y-5 {
   row-gap: 1.25rem;
+}
+
+.gap-y-0 {
+  row-gap: 0px;
+}
+
+.gap-y-0\.5 {
+  row-gap: 0.125rem;
 }
 
 .space-y-1 > :not([hidden]) ~ :not([hidden]) {
@@ -3286,6 +3299,11 @@ li li {
     height: 400px;
   }
 
+  .md\:size-36 {
+    width: 9rem;
+    height: 9rem;
+  }
+
   .md\:h-\[1400px\] {
     height: 1400px;
   }
@@ -3357,6 +3375,10 @@ li li {
     justify-content: flex-start;
   }
 
+  .md\:justify-center {
+    justify-content: center;
+  }
+
   .md\:justify-between {
     justify-content: space-between;
   }
@@ -3375,6 +3397,10 @@ li li {
 
   .md\:gap-6 {
     gap: 1.5rem;
+  }
+
+  .md\:gap-2 {
+    gap: 0.5rem;
   }
 
   .md\:gap-x-10 {
@@ -3592,6 +3618,10 @@ li li {
     padding-top: 15rem;
   }
 
+  .md\:pt-44 {
+    padding-top: 11rem;
+  }
+
   .md\:text-start {
     text-align: start;
   }
@@ -3634,6 +3664,11 @@ li li {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 
   .md\:shadow-xl {
