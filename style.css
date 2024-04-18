@@ -1080,6 +1080,14 @@ html {
   top: 100%;
 }
 
+.-top-20 {
+  top: -5rem;
+}
+
+.-top-16 {
+  top: -4rem;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -1106,6 +1114,18 @@ html {
 
 .z-\[1\] {
   z-index: 1;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.z-\[51\] {
+  z-index: 51;
+}
+
+.z-\[100\] {
+  z-index: 100;
 }
 
 .-order-1 {
@@ -1444,6 +1464,10 @@ html {
   width: 100%;
 }
 
+.w-\[calc\(100\%-50px\)\] {
+  width: calc(100% - 50px);
+}
+
 .min-w-32 {
   min-width: 8rem;
 }
@@ -1503,6 +1527,11 @@ html {
 
 .-translate-y-1\/2 {
   --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-x-full {
+  --tw-translate-x: 100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2223,6 +2252,11 @@ html {
   background-color: rgb(240 249 255 / var(--tw-bg-opacity));
 }
 
+.bg-pink-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 168 212 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -2243,6 +2277,10 @@ html {
 
 .stroke-red-600 {
   stroke: #dc2626;
+}
+
+.stroke-current {
+  stroke: currentColor;
 }
 
 .object-contain {
@@ -2381,6 +2419,11 @@ html {
   padding-bottom: 1.25rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -2477,8 +2520,16 @@ html {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .text-start {
   text-align: start;
+}
+
+.text-end {
+  text-align: end;
 }
 
 .font-body {
@@ -2653,6 +2704,11 @@ html {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-neutral-800 {
+  --tw-text-opacity: 1;
+  color: rgb(38 38 38 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -2729,6 +2785,12 @@ html {
 
 .transition-transform {
   transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-all {
+  transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -3046,6 +3108,27 @@ li li {
 .aria-\[current\]\:border-brand-blue[aria-current] {
   --tw-border-opacity: 1;
   border-color: rgb(0 93 164 / var(--tw-border-opacity));
+}
+
+.peer[aria-hidden="true"] ~ .peer-aria-hidden\:z-\[100\] {
+  z-index: 100;
+}
+
+.peer[aria-hidden="true"] ~ .peer-aria-hidden\:block {
+  display: block;
+}
+
+.peer[aria-hidden="true"] ~ .peer-aria-hidden\:hidden {
+  display: none;
+}
+
+.peer[aria-hidden="true"] ~ .peer-aria-hidden\:bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+
+.peer[aria-hidden="true"] ~ .peer-aria-hidden\:stroke-red-500 {
+  stroke: #ef4444;
 }
 
 @media (min-width: 640px) {
