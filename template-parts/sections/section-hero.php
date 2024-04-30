@@ -15,13 +15,13 @@ $url = home_url() . '/pricing';
 		<div class="lg:space-y-10 space-y-2.5 xl:col-span-6">
 			<div class="space-y-5 md:pt-24 pt-10">
 				<h1 class="lg:text-6xl text-4xl font-display lg:text-left text-center">
-					The Perfect WordPress Code Snippet Plugin for Effortless Code Integration
+					WordPress Plugin for adding Code Snippets and Scripts
 				</h1>
 				<h2 class="lg:text-3xl text-xl font-display leading-none lg:block hidden">
 					Configurable. Versatile. Streamlined
 				</h2>
 			</div>
-			<p class="max-w-2xl font-medium lg:text-start text-center lg:text-lg text-sm text-neutral-600">Transform your WordPress site effortlessly with the CSS & JavaScript Toolbox (CJT) – your go-to solution for seamlessly adding custom code snippets without the clutter of extra plugins. Unlock boundless possibilities while ensuring safety and simplicity for your website's enhancement!</p>
+			<p class="max-w-2xl font-medium lg:text-start text-center lg:text-lg text-sm text-neutral-600">Thank you for checking out our code snippet plugin. Your time is valuable so we've kept the writeups short and concise.</p>
 
 			<div class="xl:block hidden">
 				<?php get_template_part('template-parts/components/component', 'button', ['content' => 'Get CJT PLUS NOW', 'url' => $url]); ?>
