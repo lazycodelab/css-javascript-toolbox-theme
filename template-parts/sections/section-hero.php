@@ -14,18 +14,18 @@ $url = home_url() . '/pricing';
 	<div class="max-w-7xl mx-auto grid grid-cols-1 xl:grid-cols-12 items-center md:pb-[10rem] lg:pb-[30rem] pb-20 px-5">
 		<div class="lg:space-y-10 space-y-2.5 xl:col-span-6">
 			<div class="space-y-5 md:pt-24 pt-10">
-				<h1 class="lg:text-6xl text-4xl font-display lg:text-left text-center">
+				<h1 class="lg:text-5xl text-4xl font-display lg:text-left text-center">
 					WordPress Plugin for adding Code Snippets and Scripts
 				</h1>
-				<h2 class="lg:text-3xl text-xl font-display leading-none lg:block hidden">
+				<!--<h2 class="lg:text-2xl text-xl font-display leading-none lg:block hidden">
 					Configurable. Versatile. Streamlined
-				</h2>
+				</h2>-->
 			</div>
-			<p class="max-w-2xl font-medium lg:text-start text-center lg:text-lg text-sm text-neutral-600">Thank you for checking out our code snippet plugin. Your time is valuable so we've kept the writeups short and concise.</p>
+			<p class="max-w-2xl font-medium lg:text-start text-center lg:text-lg text-sm text-neutral-600">Thank you for checking out our code snippet plugin. Your time is valuable so we've kept the writeups short and concise. &#128522;</p>
 
-			<div class="xl:block hidden">
+			<!--<div class="xl:block hidden">
 				<?php get_template_part('template-parts/components/component', 'button', ['content' => 'Get CJT PLUS NOW', 'url' => $url]); ?>
-			</div>
+			</div>-->
 		</div>
 		<div class="relative xl:col-span-6 xl:block hidden flex-col items-center lg:pt-0 pt-10 h-full">
 			<div class="lg:grid hidden place-items-end md:pt-24 pt-10 gap-5 grid-cols-2 relative">

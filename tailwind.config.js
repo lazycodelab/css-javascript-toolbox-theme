@@ -17,6 +17,7 @@ module.exports = {
 			},
 			animation: {
 				marquee: 'marquee 15s linear infinite',
+				"marquee-follow": 'marquee-follow 15s linear 5s infinite',
 				"small-blob": 'small-blob 2s linear infinite alternate',
 				"small-blob-2": 'small-blob-2 2s linear infinite alternate',
 				"small-blob-3": 'small-blob-3 2s linear infinite alternate',
@@ -25,8 +26,12 @@ module.exports = {
 			},
 			keyframes: {
 				marquee: {
-					'0%': { transform: 'translateX(0%)' },
+					'0%': { transform: 'translateX(100%)' },
 					'100%': { transform: 'translateX(-100%)' },
+				},
+				"marquee-follow": {
+					'0%': { transform: 'translateX(100%)' },
+					'100%': { transform: 'translateX(-200%)' },
 				},
 				"small-blob": {
 					'0%': { transform: 'translateX(0%)' },
