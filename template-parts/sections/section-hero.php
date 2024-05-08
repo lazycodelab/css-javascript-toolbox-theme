@@ -11,17 +11,14 @@ $url = home_url() . '/pricing';
 ?>
 
 <section class="relative overflow-hidden">
-	<div class="max-w-7xl mx-auto grid grid-cols-1 xl:grid-cols-12 items-center md:pb-[10rem] lg:pb-[30rem] pb-20 px-5">
+	<div class="max-w-7xl mx-auto grid grid-cols-1 xl:grid-cols-12 items-start md:pb-[10rem] lg:pb-[30rem] pb-20 px-5 lg:px-0 lg:gap-x-10 md:gap-x-5">
 		<div class="lg:space-y-10 space-y-2.5 xl:col-span-6">
 			<div class="space-y-5 md:pt-24 pt-10">
 				<h1 class="lg:text-5xl text-4xl font-display lg:text-left text-center">
 					WordPress Plugin for adding Code Snippets and Scripts
 				</h1>
-				<!--<h2 class="lg:text-2xl text-xl font-display leading-none lg:block hidden">
-					Configurable. Versatile. Streamlined
-				</h2>-->
 			</div>
-			<p class="max-w-2xl font-medium lg:text-start text-center lg:text-lg text-sm text-neutral-600">Thank you for checking out our code snippet plugin. Your time is valuable so we've kept the writeups short and concise. &#128522;</p>
+			<p class="max-w-2xl font-medium lg:text-start text-center lg:text-lg text-sm text-neutral-600">CSS & JavaScript Toolbox PLUS (or CJT PLUS) is a powerful WordPress plugin for adding CSS, JavaScript, PHP or HTML to unique code blocks that can be run anywhere on your website.</p>
 
 			<!--<div class="xl:block hidden">
 				<?php get_template_part('template-parts/components/component', 'button', ['content' => 'Get CJT PLUS NOW', 'url' => $url]); ?>
@@ -132,6 +129,17 @@ $url = home_url() . '/pricing';
 				</svg>
 				Watch Video
 			</a>
+		</div>
+
+		<div class="col-span-6 col-start-4 text-center mt-20 relative">
+			<img src="<?php echo get_template_directory_uri() . '/assets/images/arrows.png'; ?>" class="w-full max-w-3xl absolute inset-x-0 -top-24" />
+			<h2 class="lg:text-3xl text-xl font-display leading-none">
+				Simple two-step process
+			</h2>
+			<ul class="lg:mt-5 lg:space-y-3">
+				<li class="text-xl">&bull; ADD your code in the Code Editor</li>
+				<li class="text-xl">&bull; SELECT where it runs in the Location Editor</li>
+			</ul>
 		</div>
 	</div>
 
