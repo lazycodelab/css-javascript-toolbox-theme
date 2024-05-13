@@ -11,7 +11,7 @@ $url = home_url() . '/pricing';
 ?>
 
 <section class="relative overflow-hidden">
-	<div class="max-w-7xl mx-auto grid grid-cols-1 xl:grid-cols-12 items-start md:pb-[10rem] lg:pb-[30rem] pb-20 px-5 lg:px-0 lg:gap-x-10 md:gap-x-5">
+	<div class="max-w-7xl mx-auto block lg:grid grid-cols-1 auto-rows-auto xl:grid-cols-12 items-start md:pb-[10rem] lg:pb-[30rem] pb-20 px-5 lg:px-0 lg:gap-x-10 md:gap-x-5">
 		<div class="lg:space-y-10 space-y-2.5 xl:col-span-6">
 			<div class="space-y-5 md:pt-24 pt-10">
 				<h1 class="lg:text-5xl text-4xl font-display lg:text-left text-center">
@@ -78,10 +78,13 @@ $url = home_url() . '/pricing';
 				</div>
 			</div>
 		</div>
-		<div class="w-full h-full xl:hidden flex flex-col items-center mt-5 space-y-5">
+		<div class="size-full xl:hidden flex flex-col items-center mt-5 space-y-5 col-span-full">
 			<div class="grid grid-cols-3 place-items-center rounded bg-white shadow-md py-3 px-1.5">
-				<div class="w-full">
+				<div class="w-full flex flex-col h-full justify-around">
 					<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/10-years.png" class="w-3/4 mx-auto" />
+
+					<p class="text-xs text-center text-neutral-900 tracking-wide">Reliable & robust since 2012</p>
+
 				</div>
 				<div class="border-l border-r border-neutral-100">
 					<div class="flex flex-col items-center justify-center space-y-1.5">
@@ -116,7 +119,7 @@ $url = home_url() . '/pricing';
 						<svg width="30" height="30" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M40 32.5V55M40 55L30 45M40 55L50 45M22.5 65C18.9314 65.0039 15.4784 63.7354 12.7609 61.4223C10.0435 59.1092 8.2398 55.9031 7.67365 52.3797C7.1075 48.8564 7.81604 45.2466 9.67202 42.1986C11.528 39.1507 14.4098 36.8643 17.8 35.75C16.929 31.2872 17.8291 26.6607 20.3099 22.8501C22.7907 19.0394 26.6572 16.344 31.0907 15.3345C35.5242 14.325 40.1765 15.0808 44.0625 17.4417C47.9485 19.8027 50.763 23.5834 51.91 27.9833C53.6833 27.4066 55.5826 27.3372 57.3934 27.783C59.2041 28.2288 60.8541 29.172 62.157 30.5061C63.4599 31.8403 64.3638 33.5121 64.7667 35.3329C65.1695 37.1536 65.0552 39.0508 64.4366 40.81C67.1655 41.8523 69.4434 43.817 70.8752 46.3632C72.307 48.9093 72.8024 51.8764 72.2754 54.7496C71.7484 57.6228 70.2323 60.2209 67.9901 62.0932C65.7479 63.9655 62.9211 64.9939 60 65H22.5Z" stroke="#005DA4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
 						</svg>
-						<p class="text-xl font-bold font-display">10,000+</p>
+						<p class="text-xl font-bold font-display">468,000+</p>
 						<span class="text-xs tracking-wide">Downloads</span>
 					</div>
 				</div>
@@ -131,8 +134,8 @@ $url = home_url() . '/pricing';
 			</a>
 		</div>
 
-		<div class="col-span-6 col-start-4 text-center mt-20 relative">
-			<img src="<?php echo get_template_directory_uri() . '/assets/images/arrows.png'; ?>" class="w-full max-w-3xl absolute inset-x-0 -top-24" />
+		<div class="lg:col-span-6 col-span-full col-start-4 text-center mt-20 relative">
+			<img src="<?php echo get_template_directory_uri() . '/assets/images/arrows.png'; ?>" class="w-full max-w-3xl absolute inset-x-0 -top-14 lg:-top-24" />
 			<h2 class="lg:text-3xl text-xl font-display leading-none">
 				Simple two-step process
 			</h2>
