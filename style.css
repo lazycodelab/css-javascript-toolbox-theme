@@ -3214,6 +3214,14 @@ li li {
     order: 1;
   }
 
+  .md\:col-span-6 {
+    grid-column: span 6 / span 6;
+  }
+
+  .md\:col-start-4 {
+    grid-column-start: 4;
+  }
+
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -3250,6 +3258,10 @@ li li {
 
   .md\:flex {
     display: flex;
+  }
+
+  .md\:grid {
+    display: grid;
   }
 
   .md\:hidden {

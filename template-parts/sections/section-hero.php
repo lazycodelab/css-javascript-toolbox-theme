@@ -11,7 +11,7 @@ $url = home_url() . '/pricing';
 ?>
 
 <section class="relative overflow-hidden">
-	<div class="max-w-7xl mx-auto block lg:grid grid-cols-1 auto-rows-auto xl:grid-cols-12 items-start md:pb-[10rem] lg:pb-[30rem] pb-20 px-5 lg:px-0 lg:gap-x-10 md:gap-x-5">
+	<div class="max-w-7xl mx-auto block md:grid grid-cols-1 auto-rows-auto xl:grid-cols-12 items-start md:pb-[10rem] lg:pb-[30rem] pb-20 px-5 lg:px-0 lg:gap-x-10 md:gap-x-5">
 		<div class="lg:space-y-10 space-y-2.5 xl:col-span-6">
 			<div class="space-y-5 md:pt-24 pt-10">
 				<h1 class="lg:text-5xl text-4xl font-display lg:text-left text-center">
@@ -134,7 +134,7 @@ $url = home_url() . '/pricing';
 			</a>
 		</div>
 
-		<div class="lg:col-span-6 col-span-full col-start-4 text-center mt-20 relative">
+		<div class="md:col-span-6 col-span-full md:col-start-4 text-center mt-20 relative">
 			<img src="<?php echo get_template_directory_uri() . '/assets/images/arrows.png'; ?>" class="w-full max-w-3xl absolute inset-x-0 -top-14 lg:-top-24" />
 			<h2 class="lg:text-3xl text-xl font-display leading-none">
 				Simple two-step process
