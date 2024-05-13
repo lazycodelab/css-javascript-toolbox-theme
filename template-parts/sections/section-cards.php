@@ -9,7 +9,7 @@
  */
 ?>
 
-<section class="relative mx-auto max-w-7xl pt-10 pb-10 lg:pb-14">
+<section class="relative mx-auto max-w-7xl pt-10 pb-10 lg:pb-14 px-4">
 	<h2 class="text-2xl max-w-4xl mx-auto font-bold md:text-5xl font-display text-center md:leading-tight">
 		Why <span class="text-brand-blue">half a million</span> people are using CSS & JavaScript Toolbox PLUS?
 	</h2>
@@ -98,7 +98,7 @@
 	</div>
 
 	<div class="space-y-5 mt-10 lg:mt-24 overflow-hidden">
-		<h2 class="font-bold font-display text-center text-neutral-700 lg:text-4xl text-sm lg:px-0 px-5">Organisations who trust CSS & JavaScript Toolbox PLUS</h2>
+		<h2 class="font-bold font-display text-center text-neutral-700 lg:text-4xl text-xl lg:px-0 px-4">Organisations who trust CSS & JavaScript Toolbox <span class="text-brand-blue">PLUS</span></h2>
 		<div data-trusted-brands class="overflow-hidden mx-auto whitespace-nowrap">
 			<div class="w-fit will-change-transform justify-start inline-flex gap-10">
 				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/uom.webp" class="size-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150" loading="lazy" />
