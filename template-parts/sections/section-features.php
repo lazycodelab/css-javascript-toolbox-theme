@@ -147,7 +147,22 @@
 			</div>
 		</div>
 	</div>
-	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-300/50 absolute rotate-6 left-[8%] bottom-20 animate-small-blob']); ?>
+
+		<div class="space-y-5 my-10 lg:my-24 overflow-hidden">
+		<h2 class="font-bold font-display text-center text-neutral-700 lg:text-4xl text-xl lg:px-0 px-4">Organisations who trust CSS & JavaScript Toolbox <span class="text-brand-blue">PLUS</span></h2>
+		<div data-trusted-brands class="overflow-hidden mx-auto whitespace-nowrap">
+			<div class="w-fit will-change-transform justify-start inline-flex gap-10">
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/uom.webp" class="size-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150" loading="lazy" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/mit.webp" class="size-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150" loading="lazy" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/umc.webp" class="size-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150" loading="lazy" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/nps.webp" class="size-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150 py-5" loading="lazy" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/gsu.webp" class="size-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150 py-5" loading="lazy" />
+				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/brands/rock_uni.webp" class="size-40 aspect-[2/3] object-contain hover:grayscale-0 grayscale duration-150 py-5" loading="lazy" />
+			</div>
+		</div>
+	</div>
+
+	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-blue-300/50 absolute rotate-6 left-[8%] bottom-0 animate-small-blob']); ?>
 	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-amber-200/50 absolute -rotate-6 right-[8%] top-[40%] animate-small-blob-2']); ?>
 	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-lime-200/50 absolute rotate-3 right-40 bottom-[10%] animate-small-blob-3']); ?>
 	<?php get_template_part('template-parts/components/component', 'small-blob', ['class' => 'bg-green-300/50 absolute left-40 top-1/4 animate-small-blob-4']); ?>

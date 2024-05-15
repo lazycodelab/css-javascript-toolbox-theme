@@ -58,11 +58,11 @@
     <div class="mx-auto max-w-7xl text-center md:mb-64 mb-28 relative">
         <div class="md:space-y-5 space-y-2.5 max-w-4xl mx-auto md:px-0 px-5">
             <h2 class="text-2xl font-bold md:text-5xl font-display">
-                What Our Client <br />Say About CJT PLUS
+               What our customers say about CSS & JavaScript Toolbox <span class="text-brand-blue">PLUS</span>
             </h2>
 
             <p class="md:text-base text-sm font-medium text-neutral-600">
-                We are incredibly humbled to have so many happy CJT PLUS customers, so we decided to let them speak for us. This is a small selection of the emails, reviews, and feedback we often receive.
+                We are incredibly humbled to have so many happy CSS & JavaScript Toolbox PLUS customers, we decided to let them speak for us. This is a small selection of the emails, reviews, and feedback we receive.  <br /><a class="text-brand-blue/70 underline-offset-2 hover:underline-offset-4 duration-300 underline hover:text-brand-blue" href="<?php echo site_url('/testimonials'); ?>">Click for more real customer testimonials</a>.
             </p>
         </div>
         <swiper-container class="testimonialSwiper select-none mx-5 relative h-fit" loop="true" grab-cursor="true" centered-slides="true" space-between="0" breakpoints='
