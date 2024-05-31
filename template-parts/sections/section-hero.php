@@ -15,7 +15,7 @@ $url = home_url() . '/pricing';
 		<div class="lg:space-y-10 space-y-2.5 xl:col-span-6">
 			<div class="space-y-5 md:pt-24 pt-10">
 				<h1 class="lg:text-5xl text-4xl font-display lg:text-left lg:leading-tight text-center">
-					The safe WordPress plugin for adding code snippets and scripts to your website
+					The <span class="text-brand-blue">safe</span> WordPress plugin for <span class="text-brand-blue">adding</span> code snippets and scripts to your <span class="text-brand-blue">website</span>
 				</h1>
 			</div>
 			<p class="max-w-2xl font-medium lg:text-start text-center lg:text-lg text-sm text-neutral-600">CSS & JavaScript Toolbox is a WordPress plugin that allows you to safely add CSS, JavaScript, PHP or HTML to unique code blocks that can be run anywhere on your website.</p>
