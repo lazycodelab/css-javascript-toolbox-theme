@@ -21,14 +21,14 @@
 		</div>
 </section>-->
 
-<section class="relative mx-auto max-w-7xl pt-10 pb-10 lg:pb-14 px-4">
+<section class="relative mx-auto md:max-w-7xl lg:pb-14 p-4">
 	<h2
 		class="text-2xl md:max-w-2xl mx-auto font-bold md:text-5xl font-display text-center md:leading-tight">
 		CSS & JavaScript Toolbox is <span class="text-brand-blue">used</span>
 		for
 	</h2>
 	<div
-		class="grid grid-cols-1 gap-5 lg:grid-cols-3 lg:gap-x-10 lg:gap-y-14 lg:px-0 px-5 items-start mt-10 lg:mt-24">
+		class="grid grid-cols-1 gap-5 lg:grid-cols-3 lg:gap-x-10 lg:gap-y-14 items-start mt-8 lg:mt-24">
 		<div
 			class="grid justify-items-center justify-center md:text-start text-center items-center lg:space-y-5 space-y-2.5">
 			<div class="space-y-5 flex flex-col items-center">

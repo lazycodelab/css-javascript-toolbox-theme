@@ -9,17 +9,17 @@
  */
 ?>
 
-<section class="md:pt-24 py-10 relative overflow-hidden">
-	<div class="mx-auto max-w-5xl space-y-5 md:space-y-8 xl:px-0 px-5">
+<section class="md:pt-24 p-4 relative overflow-hidden">
+	<div class="mx-auto md:max-w-5xl space-y-5 md:space-y-8">
 		<h2
-		class="text-2xl mb-10 font-bold md:text-5xl font-display md:max-w-4xl max-w-72 mx-auto text-center">
+		class="text-2xl mb-8 font-bold md:text-5xl font-display md:max-w-4xl mx-auto text-center">
 			<span class="text-brand-blue">Top reasons</span> why people choose CSS & JavaScript Toolbox
 		</h2>
 		<div class="grid grid-cols-1 gap-2 lg:grid-cols-2">
 			<div class="size-full md:mx-auto relative">
 				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-1.svg"
 					loading="lazy" />
-				<div class="absolute right-0 top-1/4 md:px-0 px-3">
+				<div class="absolute right-0 top-1/4">
 					<img class="md:w-3/4 w-full ml-auto"
 						src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-1.png" />
 				</div>
@@ -42,7 +42,7 @@
 			<div class="w-full h-full md:mx-auto relative md:order-1 -order-1">
 				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-2.svg"
 					loading="lazy" />
-				<div class="absolute right-0 md:top-1/4 top-5 md:px-0 px-3">
+				<div class="absolute right-0 md:top-1/4 top-5">
 					<img class="md:w-3/4 w-full ml-auto"
 						src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-2.png" />
 				</div>
@@ -52,7 +52,7 @@
 			<div class="w-full h-full mx-auto relative">
 				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-3.svg"
 					loading="lazy" />
-				<div class="absolute left-0 top-1/4 md:px-0 px-3">
+				<div class="absolute left-0 top-1/4">
 					<img class="md:w-3/4 w-full ml-auto"
 						src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-2.png" />
 				</div>
@@ -74,7 +74,7 @@
 			<div class="w-full h-full mx-auto relative md:order-1 -order-1">
 				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-4.svg"
 					loading="lazy" />
-				<div class="absolute right-0 md:top-1/3 top-4 md:px-0 px-3">
+				<div class="absolute right-0 md:top-1/3 top-4">
 					<img class="md:w-3/4 w-full mx-auto"
 						src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-2.png" />
 				</div>
@@ -84,7 +84,7 @@
 			<div class="w-full h-full mx-auto relative">
 				<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-3.svg"
 					loading="lazy" />
-				<div class="absolute left-0 top-1/4 md:px-0 px-3">
+				<div class="absolute left-0 top-1/4">
 					<img class="md:w-3/4 w-full ml-auto"
 						src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/background/vector-2.png" />
 				</div>

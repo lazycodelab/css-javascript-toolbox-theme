@@ -54,7 +54,7 @@ $data = [
 ?>
 
 <section
-	class="md:pt-24 md:pb-40 pb-1 pt-10 bg-blue-50 relative overflow-hidden">
+	class="md:pt-24 md:pb-40 p-4 bg-blue-50 relative overflow-hidden">
 	<style>
 		@media only screen and (min-width: 768px) {
 			.testimonialSwiper swiper-slide.swiper-slide-active {
@@ -91,8 +91,8 @@ $data = [
 		}
 
 	</style>
-	<div class="mx-auto max-w-7xl text-center md:mb-64 mb-28 relative z-20">
-		<div class="md:space-y-5 space-y-2.5 max-w-4xl mx-auto md:px-0 px-5">
+	<div class="mx-auto md:max-w-7xl text-center md:mb-64 mb-28 relative z-20">
+		<div class="md:space-y-5 space-y-2.5 md:max-w-4xl mx-auto">
 			<h2 class="text-2xl font-bold md:text-5xl font-display">
 				What our customers say about CSS & JavaScript Toolbox <span
 					class="text-brand-blue">PLUS</span>

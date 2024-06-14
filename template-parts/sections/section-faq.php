@@ -11,9 +11,9 @@
 $faqData = include get_template_directory() . '/data/faq-data.php';
 ?>
 
-<section class="md:py-24 py-10 relative overflow-hidden">
-	<div class="mx-auto max-w-7xl text-center space-y-10 md:px-0 px-5">
-		<div class="md:space-y-5 space-y-2.5 max-w-3xl mx-auto">
+<section class="md:py-24 p-4 relative overflow-hidden">
+	<div class="mx-auto md:max-w-7xl text-center space-y-10">
+		<div class="md:space-y-5 space-y-2.5 md:max-w-3xl mx-auto">
 			<h2 class="text-2xl font-bold md:text-5xl font-display">
 				Frequently Asked Queries
 			</h2>

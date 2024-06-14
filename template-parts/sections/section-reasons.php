@@ -11,7 +11,7 @@
 ?>
 
 <section class="md:pt-24 lg:px-12 px-6 py-10 relative overflow-hidden">
-	<div class="mx-auto md:max-w-7xl space-y-8 md:space-y-24 xl:px-0 px-5">
+	<div class="mx-auto md:max-w-7xl space-y-8 md:space-y-24">
 		<div class="relative md:mb-24">
 			<h2
 				class="text-2xl font-bold md:text-5xl font-display md:max-w-4xl mx-auto text-center">

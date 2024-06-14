@@ -1192,6 +1192,14 @@ html {
   margin-top: 1.25rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -3033,6 +3041,20 @@ li li {
 
 .peer[aria-hidden="true"] ~ .peer-aria-hidden\:hidden {
   display: none;
+}
+
+@media not all and (min-width: 768px) {
+  .max-md\:order-1 {
+    order: 1;
+  }
+
+  .max-md\:order-last {
+    order: 9999;
+  }
+
+  .max-md\:hidden {
+    display: none;
+  }
 }
 
 @media (min-width: 640px) {

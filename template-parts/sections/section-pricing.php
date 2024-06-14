@@ -12,7 +12,7 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 ?>
 
 
-<section class="md:py-24 py-10 bg-slate-50 relative">
+<section class="md:py-24 p-4 bg-slate-50 relative">
 	<div class="mx-auto max-w-7xl text-center">
 		<div class="space-y-5 max-w-3xl mx-auto">
 			<h2 class="text-2xl font-bold md:text-5xl font-display">
@@ -27,8 +27,8 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 
 		<div class="grid grid-cols-1 sm:grid-cols-2 sm:items-stretch lg:grid-cols-4 rounded-lg sm:bg-white lg:mt-36 mt-5 sm:gap-0 gap-5 sm:mx-0 mx-5">
 			<?php
-			foreach ($plans as $plan) :
-				$containerClasses = 'px-5 py-5 space-y-8';
+			foreach ($plans as $key => $plan) :
+				$containerClasses = 'p-5 space-y-8';
 				$headingClasses      = 'text-neutral-700';
 				$textClasses      = 'text-neutral-500';
 				$ctaClasses       = 'group rounded px-6 text-base inline-flex items-center font-semibold py-3 gap-x-1 shadow-md';
@@ -41,6 +41,15 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 				} else {
 					$containerClasses .= ' bg-white sm:shadow-none shadow-md';
 					$ctaClasses .= ' bg-brand-blue text-white';
+					}
+
+				if ($key == '100-sites') {
+					$containerClasses .= ' max-md:order-1';
+				} elseif ($key == 'lifetime') {
+					$containerClasses .= ' max-md:hidden';
+				} else {
+					$containerClasses .= ' max-md:order-last';
+
 				}
 				?>
 
@@ -60,7 +69,7 @@ $plans = include get_template_directory() . '/data/pricing-data.php';
 							</div>
 
 							<p class="text-4xl relative <?php echo $headingClasses; ?> sm:text-4xl lg:text-7xl font-display tracking-wide">
-								<?php 
+								<?php
 									if($plan['name'] === 'Lifetime') {
 										echo '<sup class="text-2xl font-normal font-body relative lg:-top-8 -top-4">$</sup>' . $plan['price'] . '<sub class="text-neutral-400 text-xs font-normal font-body tracking-normal absolute bottom-1">/one-time</sub>';
 									} else {
