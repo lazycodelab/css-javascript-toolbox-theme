@@ -14,7 +14,7 @@ $url = home_url() . '/pricing';
 	<div class="max-w-7xl mx-auto block md:grid grid-cols-1 auto-rows-auto xl:grid-cols-12 items-start md:pb-[10rem] lg:pb-[15rem] pb-20 px-5 lg:px-0 lg:gap-x-10 md:gap-x-5">
 		<div class="lg:space-y-10 space-y-2.5 xl:col-span-7">
 			<div class="space-y-5 md:pt-24 pt-5">
-				<h1 class="lg:text-5xl text-3xl font-display font-semibold lg:text-left lg:leading-tight text-center">
+				<h1 class="lg:text-5xl text-2xl font-display font-semibold lg:text-left lg:leading-tight text-center">
 					The <span class="text-brand-blue">safe</span> WordPress plugin for <span class="text-brand-blue">adding</span> code snippets and scripts to your <span class="text-brand-blue">website</span>
 				</h1>
 			</div>
