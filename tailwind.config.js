@@ -3,8 +3,8 @@ module.exports = {
 	content: ['./*.php', './template-parts/**/*.php'],
 	theme: {
 		fontFamily: {
-			display: ['"Grifter Bold", sans-serif'],
-			body: ['"Poppins", sans-serif'],
+			display: ['"General Sans", sans-serif'],
+			body: ['"General Sans", sans-serif'],
 		},
 		extend: {
 			colors: {

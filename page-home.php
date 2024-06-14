@@ -19,7 +19,7 @@ get_header();
 	get_template_part('template-parts/sections/section', 'hero');
 	get_template_part('template-parts/sections/section', 'cards');
 	get_template_part('template-parts/sections/section', 'reasons');
-	get_template_part('template-parts/sections/section', 'features');
+	//get_template_part('template-parts/sections/section', 'features');
 	get_template_part('template-parts/sections/section', 'free-reasons');
 	get_template_part('template-parts/sections/section', 'social-proof');
 	get_template_part('template-parts/sections/section', 'testimonials');
