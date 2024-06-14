@@ -12,15 +12,15 @@ $faqData = include get_template_directory() . '/data/faq-data.php';
 ?>
 
 <section class="md:py-24 p-4 relative overflow-hidden">
-	<div class="mx-auto md:max-w-7xl text-center space-y-10">
+	<div class="mx-auto md:max-w-7xl space-y-3 md:space-y-10">
 		<div class="md:space-y-5 space-y-2.5 md:max-w-3xl mx-auto">
-			<h2 class="text-2xl font-bold md:text-5xl font-display">
-				Frequently Asked Queries
+			<h2 class="text-2xl text-center font-bold md:text-5xl font-display">
+				FAQs
 			</h2>
 
-			<p class="md:text-base text-sm font-normal sm:block text-neutral-500">
+			<!--<p class="md:text-base text-sm font-normal text-center sm:block text-neutral-500">
 				Efficiently productivate reliable paradigms before ubiquitous models. Continually utilize frictionless expertise whereas tactical relationships. Still have questions? Contact us
-			</p>
+			</p>-->
 		</div>
 
 		<div class="md:space-y-3 space-y-2.5 max-w-2xl mx-auto divide-y divide-neutral-100">
@@ -28,7 +28,7 @@ $faqData = include get_template_directory() . '/data/faq-data.php';
 			foreach ($faqData as $data) :
 				?>
 				<details class="group flex space-y-2.5 md:pt-3 pt-2.5">
-					<summary class="flex cursor-pointer items-center justify-between gap-1.5">
+					<summary class="flex cursor-pointer items-start justify-between gap-1.5 [&::-webkit-details-marker]:hidden">
 						<h2 class="md:text-base text-sm font-semibold text-gray-900">
 							<?= $data['question']; ?>
 						</h2>
@@ -40,7 +40,7 @@ $faqData = include get_template_directory() . '/data/faq-data.php';
 						</span>
 					</summary>
 
-					<p class="text-start text-base leading-relaxed text-neutral-500">
+					<p class="text-start text-sm md:text-base md:leading-relaxed text-neutral-500">
 						<?= $data['answer']; ?>
 					</p>
 				</details>
