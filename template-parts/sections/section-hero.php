@@ -12,7 +12,7 @@ $url = home_url() . '/pricing';
 
 <section class="relative overflow-hidden">
 	<div class="max-w-7xl mx-auto block md:grid grid-cols-1 auto-rows-auto xl:grid-cols-12 items-start md:pb-[10rem] lg:pb-[15rem] pb-20 px-5 lg:px-0 lg:gap-x-10 md:gap-x-5">
-		<div class="lg:space-y-10 space-y-2.5 xl:col-span-6">
+		<div class="lg:space-y-10 space-y-2.5 xl:col-span-7">
 			<div class="space-y-5 md:pt-24 pt-10">
 				<h1 class="lg:text-5xl text-4xl font-display lg:text-left lg:leading-tight text-center">
 					The <span class="text-brand-blue">safe</span> WordPress plugin for <span class="text-brand-blue">adding</span> code snippets and scripts to your <span class="text-brand-blue">website</span>
@@ -24,21 +24,21 @@ $url = home_url() . '/pricing';
 				<?php get_template_part('template-parts/components/component', 'button', ['content' => 'Get CJT PLUS NOW', 'url' => $url]); ?>
 			</div>-->
 		</div>
-		<div class="relative xl:col-span-6 xl:block hidden flex-col items-center lg:pt-0 pt-10 h-full">
-			<div class="lg:grid hidden place-items-end md:pt-24 pt-10 gap-5 grid-cols-2 relative">
+		<div class="relative xl:col-span-5 xl:block hidden flex-col items-center lg:pt-0 pt-10 h-full">
+			<div class="lg:grid hidden place-items-end md:pt-24 pt-10 gap-4 grid-cols-2 relative">
 				<?php get_template_part('template-parts/components/component', 'blob', ['class' => 'inset-0 top-20 bg-cyan-400/20 blur-3xl size-[400px]']); ?>
 				<?php get_template_part('template-parts/components/component', 'blob', ['class' => 'bottom-0 right-0 bg-cyan-400/20 blur-3xl size-[400px]']); ?>
-				<div class="rounded-2xl shadow-lg px-10 py-5 h-fit backdrop-blur-sm bg-white/60">
-					<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/10-years.png" class="w-[80%] mx-auto" />
+				<div class="rounded-2xl shadow-lg px-5 py-5 h-fit backdrop-blur-sm bg-white/60">
+					<img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/10-years.png" class="w-36 mx-auto" />
 					<p class="text-sm text-center font-medium text-neutral-900 tracking-wide">Reliable & robust since 2012</p>
 				</div>
-				<div class="rounded-2xl shadow-lg backdrop-blur-sm bg-white/60">
-					<div class="flex flex-col items-center justify-center p-8 space-y-2.5">
-						<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<div class="rounded-2xl shadow-lg backdrop-blur-sm bg-white/60 justify-self-start">
+					<div class="flex flex-col items-center justify-center p-6 space-y-2.5">
+						<svg class="size-10" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M40 32.5V55M40 55L30 45M40 55L50 45M22.5 65C18.9314 65.0039 15.4784 63.7354 12.7609 61.4223C10.0435 59.1092 8.2398 55.9031 7.67365 52.3797C7.1075 48.8564 7.81604 45.2466 9.67202 42.1986C11.528 39.1507 14.4098 36.8643 17.8 35.75C16.929 31.2872 17.8291 26.6607 20.3099 22.8501C22.7907 19.0394 26.6572 16.344 31.0907 15.3345C35.5242 14.325 40.1765 15.0808 44.0625 17.4417C47.9485 19.8027 50.763 23.5834 51.91 27.9833C53.6833 27.4066 55.5826 27.3372 57.3934 27.783C59.2041 28.2288 60.8541 29.172 62.157 30.5061C63.4599 31.8403 64.3638 33.5121 64.7667 35.3329C65.1695 37.1536 65.0552 39.0508 64.4366 40.81C67.1655 41.8523 69.4434 43.817 70.8752 46.3632C72.307 48.9093 72.8024 51.8764 72.2754 54.7496C71.7484 57.6228 70.2323 60.2209 67.9901 62.0932C65.7479 63.9655 62.9211 64.9939 60 65H22.5Z" stroke="#005DA4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
 						</svg>
-						<p class="text-5xl font-bold font-display">468,000+</p>
-						<p class="text-base tracking-wide">Downloads and counting</p>
+						<p class="text-4xl font-bold font-display">468,000+</p>
+						<p class="text-sm tracking-wide text-center">Downloads and counting</p>
 					</div>
 				</div>
 				<div class="relative w-full h-full">
