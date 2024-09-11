@@ -10,7 +10,7 @@
 
 ?>
 <section class="relative bg-gradient-to-b from-white to-sky-50">
-    <div class="max-w-7xl mx-auto md:pb-96 pb-32">
+    <div class="max-w-7xl mx-auto md:pb-96 pb-32 z-[9999px] relative">
         <div class="space-y-5 max-w-4xl mx-auto text-center mt-24 md:px-0 px-5">
             <h1 class="md:text-5xl text-2xl text-neutral-900 font-display">
                 Hello, how can we help?
@@ -29,7 +29,7 @@
                     </p>
                 </div>
                 <form class="space-y-10 xl:w-2/3 w-full">
-                    <?php echo do_shortcode( '[contact-form-7 id="b2289c7" title="Contact form 1"]'); ?>
+                    <?php echo do_shortcode( '[contact-form-7 id="04be99f" title="Contact form 1"]'); ?>
                 </form>
                 <div class="absolute bottom-20 right-0 xl:block hidden">
                     <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/contact.svg" />
