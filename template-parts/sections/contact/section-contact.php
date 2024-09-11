@@ -28,9 +28,9 @@
                         <span class="font-semibold">Please don't hesitate to contact us,</span> and we will do our very best to get back to you as soon as possible. Thank You.
                     </p>
                 </div>
-                <form class="space-y-10 xl:w-2/3 w-full">
+                <div class="space-y-10 xl:w-2/3 w-full">
                     <?php echo do_shortcode( '[contact-form-7 id="04be99f" title="Contact form 1"]'); ?>
-                </form>
+                </div>
                 <div class="absolute bottom-20 right-0 xl:block hidden">
                     <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/contact.svg" />
                 </div>
