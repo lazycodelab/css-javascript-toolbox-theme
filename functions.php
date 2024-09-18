@@ -188,3 +188,39 @@ function add_additional_class_on_li($classes, $item, $args)
 	return $classes;
 }
 add_filter('nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
+
+// Add this function to your theme's functions.php file
+function cjt_widget_classes($params) {
+    // Add classes to the widget container
+    $params[0]['before_widget'] = str_replace('class="', 'class="mb-8 last:mb-0 ', $params[0]['before_widget']);
+
+    // Add classes to the widget title
+    $params[0]['before_title'] = '<h2 class="text-xl font-bold mb-4 pb-2 border-b border-gray-200">';
+    $params[0]['after_title'] = '</h2>';
+
+    return $params;
+}
+add_filter('dynamic_sidebar_params', 'cjt_widget_classes');
+
+// Add this function to your theme's functions.php file
+function cjt_widget_list_classes($output) {
+    $output = str_replace('<ul', '<ul class="space-y-2"', $output);
+    $output = str_replace('<li', '<li class="text-gray-700"', $output);
+    $output = str_replace('<a', '<a class="text-blue-600 hover:text-blue-800 transition-colors duration-200"', $output);
+    return $output;
+}
+add_filter('widget_output', 'cjt_widget_list_classes', 10, 3);
+
+// Add this function to your theme's functions.php file
+function cjt_search_form( $form ) {
+    $form = '<form role="search" method="get" class="search-form flex" action="' . home_url( '/' ) . '">
+        <label class="sr-only">
+            <span class="screen-reader-text">' . _x( 'Search for:', 'label' ) . '</span>
+        </label>
+        <input type="search" class="flex-grow border border-gray-300 rounded-l-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="' . esc_attr_x( 'Search …', 'placeholder' ) . '" value="' . get_search_query() . '" name="s" />
+        <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-r-md hover:bg-blue-600 transition-colors duration-200">' . esc_attr_x( 'Search', 'submit button' ) . '</button>
+    </form>';
+
+    return $form;
+}
+add_filter( 'get_search_form', 'cjt_search_form' );

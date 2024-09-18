@@ -2,50 +2,48 @@
 /**
  * Template part for displaying a message that posts cannot be found
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
  * @package cjt
  */
-
 ?>
 
-<section class="no-results not-found">
-	<header class="page-header">
-		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'cjt' ); ?></h1>
-	</header><!-- .page-header -->
+<section class="no-results not-found text-center py-16 px-4">
+    <header class="page-header">
+        <h1 class="page-title text-4xl font-display font-semibold tracking-wide mb-6"><?php esc_html_e( 'Nothing Found', 'cjt' ); ?></h1>
+    </header><!-- .page-header -->
 
-	<div class="page-content">
-		<?php
-		if ( is_home() && current_user_can( 'publish_posts' ) ) :
+    <div class="page-content text-lg text-gray-700 max-w-2xl mx-auto">
+        <?php
+        if ( is_home() && current_user_can( 'publish_posts' ) ) :
 
-			printf(
-				'<p>' . wp_kses(
-					/* translators: 1: link to WP admin new post page. */
-					__( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'cjt' ),
-					array(
-						'a' => array(
-							'href' => array(),
-						),
-					)
-				) . '</p>',
-				esc_url( admin_url( 'post-new.php' ) )
-			);
+            printf(
+                '<p class="mb-8">' . wp_kses(
+                    /* translators: 1: link to WP admin new post page. */
+                    __( 'Ready to publish your first post? <a href="%1$s" class="text-blue-600 hover:text-blue-800 underline">Get started here</a>.', 'cjt' ),
+                    array(
+                        'a' => array(
+                            'href' => array(),
+                            'class' => array(),
+                        ),
+                    )
+                ) . '</p>',
+                esc_url( admin_url( 'post-new.php' ) )
+            );
 
-		elseif ( is_search() ) :
-			?>
+        elseif ( is_search() ) :
+            ?>
 
-			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'cjt' ); ?></p>
-			<?php
-			get_search_form();
+            <p class="mb-8"><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with different keywords.', 'cjt' ); ?></p>
+            <div class="max-w-md mx-auto">
+                <?php get_search_form(); ?>
+            </div>
 
-		else :
-			?>
+        <?php else : ?>
 
-			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'cjt' ); ?></p>
-			<?php
-			get_search_form();
+            <p class="mb-8"><?php esc_html_e( 'It seems we can’t find what you’re looking for. Perhaps searching can help.', 'cjt' ); ?></p>
+            <div class="max-w-md mx-auto">
+                <?php get_search_form(); ?>
+            </div>
 
-		endif;
-		?>
-	</div><!-- .page-content -->
+        <?php endif; ?>
+    </div><!-- .page-content -->
 </section><!-- .no-results -->
