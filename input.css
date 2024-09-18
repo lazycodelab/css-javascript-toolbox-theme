@@ -67,32 +67,32 @@ Text Domain: cjt
 }
 
 /* Dropdown CSS */
-#nav-menu li ul {
+ul#nav-menu li ul {
 	display: none;
 }
 
-#nav-menu ul li:hover  > ul {
+ul#nav-menu li:hover  > ul {
 	display: block;
 	background-color: #005DA4;
 	border-radius: 4px;
 	color: white;
 }
 
-#nav-menu li ul {
+ul#nav-menu li ul {
     position: absolute;
     width: 166px;
 	z-index: 99;
 	margin-top: 10px;
 }
 
-#nav-menu li li ul {
+ul#nav-menu li li ul {
     position: absolute;
     margin-left: 155px;
     margin-top: -20px;
 	z-index: 99;
 }
 
-#nav-menu li li {
+ul#nav-menu li li {
     display: block;
 }
 
