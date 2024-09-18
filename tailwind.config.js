@@ -4,7 +4,7 @@ module.exports = {
 	theme: {
 		fontFamily: {
 			display: ['"General Sans", sans-serif'],
-			body: ['"General Sans", sans-serif'],
+			body: ['Quicksand, sans-serif'],
 		},
 		extend: {
 			colors: {

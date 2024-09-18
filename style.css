@@ -1112,10 +1112,6 @@ html {
   z-index: 1;
 }
 
-.z-\[9999px\] {
-  z-index: 9999px;
-}
-
 .z-\[9999\] {
   z-index: 9999;
 }
@@ -1543,12 +1539,6 @@ html {
 
 .rotate-6 {
   --tw-rotate: 6deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.scale-50 {
-  --tw-scale-x: .5;
-  --tw-scale-y: .5;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2467,7 +2457,7 @@ html {
 }
 
 .font-body {
-  font-family: "General Sans", sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 .font-display {
@@ -2812,32 +2802,32 @@ html {
 
 /* Dropdown CSS */
 
-li ul {
+#nav-menu li ul {
   display: none;
 }
 
-ul li:hover  > ul {
+#nav-menu ul li:hover  > ul {
   display: block;
   background-color: #005DA4;
   border-radius: 4px;
   color: white;
 }
 
-li ul {
+#nav-menu li ul {
   position: absolute;
   width: 166px;
   z-index: 99;
   margin-top: 10px;
 }
 
-li li ul {
+#nav-menu li li ul {
   position: absolute;
   margin-left: 155px;
   margin-top: -20px;
   z-index: 99;
 }
 
-li li {
+#nav-menu li li {
   display: block;
 }
 
@@ -3351,12 +3341,6 @@ li li {
 
   .md\:max-w-screen-sm {
     max-width: 640px;
-  }
-
-  .md\:scale-100 {
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
   .md\:grid-cols-2 {
