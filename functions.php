@@ -151,7 +151,7 @@ function cjt_scripts()
 		wp_enqueue_script('comment-reply');
 	}
 }
-add_action('wp_enqueue_scripts', 'cjt_scripts', 1);
+add_action('wp_enqueue_scripts', 'cjt_scripts', 9999);
 
 /**
  * Implement the Custom Header feature.
