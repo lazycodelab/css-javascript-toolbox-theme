@@ -11,37 +11,21 @@
     </div>
     <div class="max-w-7xl mx-auto space-y-24 md:px-0 px-5">
         <div class="space-y-5 text-center">
-            <h1 class="md:text-5xl text-2xl text-center font-display text-neutral-900 leading-tight">
+            <h2 class="md:text-4xl text-2xl text-center font-display font-semibold text-neutral-900">
                 Upgrading from Previous Versions
-            </h1>
+            </h2>
             <p class="md:text-xl text-base text-neutral-900 font-medium">CJT Free/Core and CJT PLUS must be running on the same version.</p>
             <p class="md:text-xl text-base md:max-w-4xl mx-auto">
-                If you are running the latest
-                <a class="text-brand-blue font-normal underline" href="https://wordpress.org/plugins/css-javascript-toolbox/">CJT Free/Core version 11.3 from WordPress.org</a>
-                and CJT PLUS version 11.2 or under, then you will see an incompatibility notice in the header. It is highly recommended to be running the latest CJT PLUS premium plugin 11.3 alongside CJT Free/Core 11.3 to ensure 100% compatibility, security and stability. If your CJT PLUS license has expired,
+				If you are using the latest version of
+				<a class="text-brand-blue font-normal underline" href="https://wordpress.org/plugins/css-javascript-toolbox/">CJT Free/Core from WordPress.org</a>
+				and your CJT PLUS version is outdated, you will encounter an incompatibility notice in the header. It is strongly recommended to use the latest CJT PLUS premium plugin alongside CJT Free/Core to ensure full compatibility, security, and stability. If your CJT PLUS license has expired,
                 <a class="text-brand-blue font-normal underline" href="https://wordpress.org/plugins/css-javascript-toolbox/">please purchase a new premium CJT PLUS license here.</a>
             </p>
         </div>
         <div class="space-y-5 text-center relative">
-            <div class="absolute -top-4 md:scale-100 scale-50 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                <svg width="430" height="153" viewBox="0 0 430 153" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M11.1711 149.525L59.4085 144.694L10 137.831L11.1711 149.525Z" fill="#E0FAFF" />
-                    <path d="M4.92917 99.0662L50.0033 130.511L9.39453 84L4.92917 99.0662Z" fill="#FAECC9" />
-                    <path d="M46.5815 77.3685C49.6108 80.6823 55.8469 87.4595 56.5572 88.0585L48.6917 75.0461L46.5815 77.3685Z" fill="#4667DE" />
-                    <path d="M78.6406 52.8697L88.4233 72.6729L84.0223 50.2657L78.6406 52.8697Z" fill="#C6F4A1" />
-                    <path d="M145.096 29.6908L149.97 68.2953L154.627 26.5835L145.096 29.6908Z" fill="#FBFF32" />
-                    <path d="M197 48L198.469 75.1775L203.243 48H197Z" fill="#FF1919" />
-                    <path d="M244.555 0L241.617 29.0138L248.595 1.83632L244.555 0Z" fill="#E0FAFF" />
-                    <path d="M270.259 40.7679L262.547 63.9055L278.339 39.2988L270.259 40.7679Z" fill="#FAECC9" />
-                    <path d="M329.76 54.7226L316.906 76.7584L336.738 50.3154L329.76 54.7226Z" fill="#4667DE" />
-                    <path d="M369.053 82.6353L356.566 94.7549L372.359 87.4097L369.053 82.6353Z" fill="#C6F4A1" />
-                    <path d="M415.95 119.107L368 122.922L428.904 124.616L415.95 119.107Z" fill="#FBFF32" />
-                    <path d="M398.292 149.427L363.867 147.349L397.917 144.667L398.292 149.427Z" fill="#5DD1A7" />
-                </svg>
-            </div>
-            <h1 class="md:text-5xl text-2xl text-center font-display text-neutral-900 leading-tight">
+            <p class="md:text-5xl text-2xl text-center font-display font-bold text-neutral-900 leading-tight">
                 Thank You
-            </h1>
+            </p>
             <p class="md:text-xl text-base md:max-w-4xl mx-auto text-neutral-600">We would like to thank everyone who have supported us with a purchase of a CJT PLUS license. We are also immensely grateful for those who have continued to support us with a renewal of their licenses.</p>
             <p class="md:text-xl text-base md:max-w-4xl mx-auto text-neutral-600">
                 In the coming updates, we have a number of super-cool new features we are planning to work on and we will keep you posted on what these features will be real soon.

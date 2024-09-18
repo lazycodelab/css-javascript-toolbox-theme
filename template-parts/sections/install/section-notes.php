@@ -1,7 +1,7 @@
 <section class="relative bg-brand-light-blue md:py-24 pt-24 pb-10">
     <div class="mx-auto max-w-7xl">
         <div class="text-center md:space-y-10 space-y-5 absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 container md:px-0 px-5">
-            <h2 class="text-2xl text-neutral-900 font-bold md:text-5xl font-display">
+           <h2 class="md:text-4xl text-2xl text-center font-display font-semibold text-neutral-900">
                 NOTES
             </h2>
             <div class="border bg-white border-neutral-900 rounded-lg p-10 relative overflow-hidden">
@@ -25,13 +25,13 @@
     </div>
     <div class="pt-52 space-y-24 md:px-0 px-5">
         <div class="text-center space-y-5">
-            <h2 class="md:text-5xl text-2xl font-bold font-display">Clear Your Browser Cache</h2>
+            <h3 class="md:text-3xl text-xl text-center font-display font-medium text-neutral-900">Clear Your Browser Cache</h3>
             <p class="md:text-xl text-base font-medium max-w-5xl text-center mx-auto text-neutral-900">
                 Once you have installed and activated the core CSS & JavaScript Toolbox and the premium CSS & JavaScript Toolbox PLUS extension, you will need to fully clear your browser cache to pull in any new scripts, stylesheets, icons, etc.  This includes, clearing out and purging any caches made by third-party cache plugins.
             </p>
         </div>
         <div class="text-center space-y-5">
-            <h2 class="md:text-5xl text-2xl font-bold font-display">Your Account</h2>
+             <h3 class="md:text-3xl text-xl text-center font-display font-medium text-neutral-900">Your Account</h3>
             <p class="md:text-xl text-base font-medium max-w-5xl text-center mx-auto text-neutral-600">
                 We have created an account for you on our CSS & JavaScript Toolbox website so you can access the support forums here: <a class="text-brand-blue font-normal underline" href="https://css-javascript-toolbox.com/support">https://css-javascript-toolbox.com/support</a>
             </p>
@@ -40,7 +40,7 @@
             </p>
         </div>
         <div class="text-center space-y-5">
-            <h2 class="md:text-5xl text-2xl font-bold font-display">Lost Password</h2>
+           <h3 class="md:text-3xl text-xl text-center font-display font-medium text-neutral-900">Lost Password</h3>
             <p class="md:text-xl text-base font-medium max-w-5xl text-center mx-auto text-neutral-600">
                 If you didn’t receive, or you lost your login details, you can restore it using your email here: <a class="text-brand-blue font-normal underline" href="https://css-javascript-toolbox.com/lostpassword">https://css-javascript-toolbox.com/lostpassword</a>
             </p>

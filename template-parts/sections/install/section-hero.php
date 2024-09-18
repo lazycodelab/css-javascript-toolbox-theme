@@ -11,14 +11,9 @@
 
 <section class="relative md:py-24 py-10 overflow-hidden">
     <div class="max-w-7xl mx-auto md:px-0 px-5">
-        <div class="space-y-5 md:max-w-4xl mx-auto text-center md:mb-24 mb-10">
-            <h1 class="md:text-6xl text-2xl font-display leading-tight">
-                Install CJT / CJT PLUS
-            </h1>
-            <p class="font-medium md:text-xl text-base text-neutral-600">
-                CJT PLUS is an extension plugin that requires the core CJT plugin from WordPress.org to work.
-            </p>
-        </div>
+		<h1 class="md:text-5xl text-center text-2xl font-display font-medium">
+			Install CJT / CJT PLUS
+		</h1>
         <div class="flex justify-center md:mb-24 mb-10">
             <img src="<?= esc_url(get_template_directory_uri()); ?>/assets/images/vector/install.svg" />
         </div>
