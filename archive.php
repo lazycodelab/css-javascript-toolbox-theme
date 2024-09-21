@@ -10,14 +10,16 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
-
+<main id="primary"class="bg-gray-100 min-h-screen py-8">
+<div class="container mx-auto px-4">
+	<div class="flex flex-col lg:flex-row gap-x-4 md:gap-x-6">
+			<div class="w-full">
 		<?php if ( have_posts() ) : ?>
 
-			<header class="page-header">
+			<header class="page-header mb-5 md:mb-10">
 				<?php
-				the_archive_title( '<h1 class="page-title">', '</h1>' );
-				the_archive_description( '<div class="archive-description">', '</div>' );
+				the_archive_title( '<h1 class="font-display text-3xl md:text-4xl font-semibold text-gray-800 mb-4">', '</h1>' );
+				the_archive_description( '<div class="text-sm text-gray-600 flex items-center space-x-2">', '</div>' );
 				?>
 			</header><!-- .page-header -->
 
@@ -43,9 +45,12 @@ get_header();
 
 		endif;
 		?>
+</div>
+<?php get_sidebar(); ?>
+</div>
 
-	</main><!-- #main -->
+	</div>
+</main>
 
 <?php
-get_sidebar();
 get_footer();
